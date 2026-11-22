@@ -1,0 +1,49 @@
+---
+import { getAllBriefings } from '../lib/briefings';
+import { norwegianShortWeekday, norwegianWeekday, weekOf } from '../lib/dates';
+import { withBase } from '../lib/data';
+
+interface Props {
+  date: string;
+}
+
+const { date } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const published = new Set(getAllBriefings().map((b) => b.date));
+const week = weekOf(date).map((iso) => ({
+  iso,
+  name: norwegianShortWeekday(iso),
+  label: norwegianWeekday(iso),
+  state: iso === date ? 'today' : published.has(iso) ? 'linked' : 'plain',
+  // Faded: a day after this one that has no briefing yet.
+  future: iso > date && !published.has(iso),
+}));
+---
+
+<!-- Wide screens only: the day name turned on its side in the left margin, with the week beside it. -->
+<div class="pointer-events-none absolute bottom-0 right-[calc(100%+1rem)] top-9 hidden w-[9.5rem] wide:block">
+  <div class="pointer-events-auto sticky top-7 flex items-start justify-end gap-[1.1rem]">
+    <nav aria-label="This week" lang="nb" class="flex flex-col gap-0.5 pt-2.5 text-[0.9375rem]">
+      {
+        week.map((d) =>
+          d.state === 'today' ? (
+            <span aria-current="date" class="block py-[0.2rem] font-extrabold"><span aria-hidden="true">{d.name}</span><span class="sr-only">{d.label}</span></span>
+          ) : d.state === 'linked' ? (
+            <a href={withBase(`/day/${d.iso}/`, base)} class="block py-[0.2rem] font-medium text-muted hover:text-ink hover:underline hover:underline-offset-[3px]">
+              <span aria-hidden="true">{d.name}</span><span class="sr-only">{d.label}</span>
+            </a>
+          ) : (
+            <span class:list={['block py-[0.2rem] font-medium text-muted', d.future && 'opacity-45']}><span aria-hidden="true">{d.name}</span><span class="sr-only">{d.label}</span></span>
+          ),
+        )
+      }
+    </nav>
+    <span
+      aria-hidden="true"
+      lang="nb"
+      class="day-mark rotate-180 select-none text-[6.25rem] font-black leading-[0.8] tracking-[-0.045em] [writing-mode:vertical-rl]"
+    >
+      {norwegianWeekday(date)}
+    </span>
+  </div>
+</div>
