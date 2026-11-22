@@ -4,7 +4,7 @@
     "big-news": [
       {
         "emoji": "💰",
-        "text": "Budget talks still stuck; must reach Stortinget by Nov 30. Rødt looks set to win on dental care for older people.",
+        "text": "The budget talks are still stuck. Ap, SV, Rødt, MDG and Sp were far apart on Saturday, and the hardest fight is Sp's demand for lower fuel taxes versus the climate cuts MDG and SV want. The budget has to reach Stortinget by Nov 30. Rødt looks set to win on dental care, with the next expansion starting with older people.",
         "sources": [
           {
             "label": "VG",
@@ -16,7 +16,7 @@
     "whats-changing": [
       {
         "emoji": "✈️",
-        "text": "Air passenger tax within Europe up to 126 kr per trip from 61 kr. SAS drops direct Trondheim–Bodø–Tromsø from mid-December.",
+        "text": "The budget proposal raises the air passenger tax on flights within Europe to 126 kr per trip, up from 61 kr. SAS also drops its direct Trondheim–Bodø–Tromsø routes from mid-December.",
         "sources": [
           {
             "label": "NRK",
@@ -26,7 +26,7 @@
       },
       {
         "emoji": "🍺",
-        "text": "Beer in the park still illegal; no proposal date.",
+        "text": "A beer in the park is still illegal. The health authorities advise against allowing it, and the government hasn't said when it will put forward a proposal. Høyre wants it in place by next summer.",
         "sources": [
           {
             "label": "NRK",
@@ -38,7 +38,7 @@
     "oslo": [
       {
         "emoji": "🚇",
-        "text": "Last day of the T-bane shutdown; normal service Monday.",
+        "text": "Today is the last day of the T-bane shutdown. Normal service is back from the first departure on Monday.",
         "sources": [
           {
             "label": "Ruter",
@@ -48,7 +48,7 @@
       },
       {
         "emoji": "🔥",
-        "text": "Car fires at Galgeberg and Rodeløkka; man in his 40s charged.",
+        "text": "Several cars burned overnight at Galgeberg and Rodeløkka, and police have arrested and charged a man in his 40s.",
         "sources": [
           {
             "label": "NRK",
@@ -58,7 +58,7 @@
       },
       {
         "emoji": "🎄",
-        "text": "Oslo's Christmas tree for London cut in Sørkedalen; lit on Trafalgar Square Dec 3.",
+        "text": "Oslo's Christmas tree for London, a 21 m spruce from Sørkedalen nicknamed \"Jolly Cheery,\" has been cut down. It will be lit on Trafalgar Square on Dec 3.",
         "sources": [
           {
             "label": "NRK",
@@ -70,7 +70,7 @@
     "be-aware": [
       {
         "emoji": "🧊",
-        "text": "Vegvesen black ice warning.",
+        "text": "Statens vegvesen warns that roads can look bare but still have a thin layer of ice, especially in the morning, evening and night. Take care on the roads.",
         "sources": [
           {
             "label": "Vegvesen",
@@ -80,7 +80,7 @@
       },
       {
         "emoji": "🚆",
-        "text": "Vy Østlandet trains crowded/cancelled after brake problems.",
+        "text": "Vy trains on Østlandet have been crowded and cancelled after brake problems, with no fix date as of Thursday. Travel outside rush hour if you can.",
         "sources": [
           {
             "label": "NRK",
@@ -92,7 +92,7 @@
     "fun-and-free": [
       {
         "emoji": "⭐",
-        "text": "Top pick: Jul i Vinterland, today 10–20, free entry (rides 199 kr).",
+        "text": "Top pick: Jul i Vinterland at Spikersuppa is free to enter and open today 10:00–20:00. The all-rides ticket is 199 kr, so the rides aren't free.",
         "sources": [
           {
             "label": "Jul i Vinterland",
@@ -102,7 +102,7 @@
       },
       {
         "emoji": "🧁",
-        "text": "Christmas market Vestre Aker menighetshus, 12:00–15:30, free.",
+        "text": "The Christmas market at Vestre Aker menighetshus (Ullevålsveien 117B) is free, today 12:00–15:30, with crafts, baking, a café and a raffle.",
         "sources": [
           {
             "label": "VisitOSLO",
@@ -112,7 +112,7 @@
       },
       {
         "emoji": "🎶",
-        "text": "Christmas tree lighting Universitetsplassen, Sun Nov 29 17–19, free.",
+        "text": "Next Sunday, Nov 29, the Christmas tree on Universitetsplassen is lit from 17:00 to 19:00, with a choir. It's free.",
         "sources": [
           {
             "label": "VisitOSLO",
