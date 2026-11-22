@@ -73,7 +73,7 @@ Rules for anything that writes these files:
 ## Other files you might edit
 
 - `data/key-dates.json` holds upcoming deadlines for the "Coming up" panel. Each briefing shows up to six, counting from its own date, so an old briefing still lists the deadlines that were ahead of it then.
-- `data/glossary.json` holds Norwegian terms. The first mention in each story gets a dotted underline, and hovering over it shows the meaning (a native tooltip, so most phones won't show it on tap).
+- `data/glossary.json` holds Norwegian terms. The first mention in each story gets a dotted underline. Tap or click it (or hover with a mouse) to see the meaning in a small box under the word.
 - `nytt.config.ts` sets the site name, tagline, URLs, the "Report an error" link and optional analytics (off by default).
 
 ## Deploying

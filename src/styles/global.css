@@ -69,6 +69,37 @@ input,
 .glossary-term {
   @apply cursor-help underline decoration-muted decoration-dotted decoration-1 underline-offset-[3px];
   text-decoration-line: underline;
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: inherit;
+}
+
+.glossary-term[aria-expanded='true'] {
+  @apply decoration-ink decoration-solid;
+}
+
+/* The meaning of a glossary term, shown under it on tap, click or hover. */
+.glossary-pop {
+  position: fixed;
+  inset: auto;
+  margin: 0;
+  max-width: min(20rem, calc(100vw - 1.5rem));
+  padding: 0.625rem 0.75rem;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  box-shadow: 0 6px 20px -8px rgb(18 35 58 / 0.35);
+}
+
+.glossary-pop strong {
+  font-weight: 700;
 }
 
 /* One orchestrated moment: the day name settles in on load. */
