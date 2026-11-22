@@ -9,8 +9,12 @@
     sync();
     button.addEventListener('click', () => {
       const dark = root.classList.toggle('dark');
-      localStorage.setItem(storageKey, dark ? 'dark' : 'light');
       sync();
+      try {
+        localStorage.setItem(storageKey, dark ? 'dark' : 'light');
+      } catch {
+        // Storage blocked: the choice lasts for this page only.
+      }
     });
   }
 
@@ -34,20 +38,20 @@
     const terms = Object.keys(glossary).sort((a, b) => b.length - a.length);
     if (!terms.length) return;
 
+    // One pass over the escaped text, so a term is never matched inside a tooltip added earlier.
+    const pattern = new RegExp(`\\b(${terms.map(escapeRegExp).join('|')})\\b`, 'gi');
+    const byLower = new Map(terms.map((t) => [t.toLowerCase(), t]));
+
     document.querySelectorAll('[data-glossary-text]').forEach((host) => {
-      let html = host.textContent || '';
       const used = new Set();
-      for (const term of terms) {
-        if (used.has(term.toLowerCase())) continue;
-        const re = new RegExp(`\\b(${escapeRegExp(term)})\\b`, 'i');
-        if (!re.test(html)) continue;
-        used.add(term.toLowerCase());
-        const def = glossary[term];
-        html = html.replace(re, (_, m) => {
-          return `<abbr class="glossary-term" tabindex="0" title="${def.replace(/"/g, '&quot;')}" data-term="${term}">${m}</abbr>`;
-        });
-      }
-      if (html !== host.textContent) host.innerHTML = html;
+      const html = escapeHtml(host.textContent || '').replace(pattern, (m) => {
+        const key = m.toLowerCase();
+        if (used.has(key)) return m;
+        used.add(key);
+        const term = byLower.get(key);
+        return `<abbr class="glossary-term" tabindex="0" title="${escapeHtml(glossary[term])}">${m}</abbr>`;
+      });
+      if (used.size) host.innerHTML = html;
     });
   }
 
@@ -79,7 +83,7 @@
       for (const row of matches) {
         const li = document.createElement('li');
         li.className = 'grid grid-cols-[1.75rem_minmax(0,1fr)] gap-x-3 py-5';
-        const dayUrl = `${base}day/${row.date}/`.replace(/\/+/g, '/');
+        const dayUrl = escapeHtml(`${base}day/${encodeURIComponent(row.date)}/`.replace(/\/+/g, '/'));
         const label = new Date(`${row.date}T12:00:00Z`).toLocaleDateString('en-GB', {
           weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC',
         }).replace(',', '');

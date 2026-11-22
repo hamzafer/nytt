@@ -38,7 +38,10 @@ const searchIndexUrl = withBase('/search-index.json', base);
     <script is:inline>
       // Set the theme before first paint so dark mode never flashes light.
       (function () {
-        var saved = localStorage.getItem('nytt-theme');
+        var saved = null;
+        try {
+          saved = localStorage.getItem('nytt-theme');
+        } catch (e) {}
         var dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
         if (dark) document.documentElement.classList.add('dark');
       })();
