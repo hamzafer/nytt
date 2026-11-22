@@ -31,6 +31,18 @@ export function shortMonth(iso: string): string {
   return toUtcNoon(iso).toLocaleDateString('en-GB', { month: 'short', timeZone: 'UTC' });
 }
 
+/** Short Norwegian weekday: "søn" */
+export function norwegianShortWeekday(iso: string): string {
+  return norwegianWeekday(iso).slice(0, 3);
+}
+
+/** The seven ISO dates of the Monday-to-Sunday week that contains `iso`. */
+export function weekOf(iso: string): string[] {
+  const d = toUtcNoon(iso);
+  const monday = d.getTime() - ((d.getUTCDay() + 6) % 7) * DAY;
+  return Array.from({ length: 7 }, (_, i) => new Date(monday + i * DAY).toISOString().slice(0, 10));
+}
+
 /** "November 2026" */
 export function monthYear(iso: string): string {
   return toUtcNoon(iso).toLocaleDateString('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' });

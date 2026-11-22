@@ -4,6 +4,7 @@ import { getFilledSections } from '../lib/briefings';
 import { formatLongDate, norwegianWeekday } from '../lib/dates';
 import SectionBlock from './SectionBlock.astro';
 import KeyDatesPanel from './KeyDatesPanel.astro';
+import DaySpine from './DaySpine.astro';
 
 interface Props {
   briefing: Briefing;
@@ -14,22 +15,26 @@ const sections = getFilledSections(briefing);
 const itemCount = sections.reduce((n, s) => n + s.items.length, 0);
 ---
 
-<article class="mx-auto max-w-5xl px-5">
-  <header class="pb-10 pt-10 sm:pt-14">
+<article class="relative mx-auto max-w-5xl px-5">
+  <DaySpine date={briefing.date} />
+  <header class="pb-10 pt-10 sm:pt-14 wide:pb-8 wide:pt-9">
     <h1>
       <span
         lang="nb"
-        class="day-mark block text-[clamp(4rem,17vw,9.5rem)] font-black leading-[0.82] tracking-[-0.055em]"
+        class="day-mark block wide:sr-only text-[clamp(4rem,17vw,9.5rem)] font-black leading-[0.82] tracking-[-0.055em]"
       >
         {norwegianWeekday(briefing.date)}
       </span>
-      <time datetime={briefing.date} class="mt-4 block text-lg font-medium text-muted sm:text-xl">
+      <time
+        datetime={briefing.date}
+        class="mt-4 block text-lg font-medium text-muted sm:text-xl wide:mt-0 wide:text-[1.75rem] wide:font-extrabold wide:tracking-[-0.025em] wide:text-ink"
+      >
         {formatLongDate(briefing.date)}
       </time>
     </h1>
     {briefing.title && <p class="mt-6 max-w-[30ch] text-2xl font-bold leading-tight tracking-[-0.02em]">{briefing.title}</p>}
     {briefing.intro && <p class="mt-4 max-w-[58ch] text-lg leading-relaxed">{briefing.intro}</p>}
-    <nav aria-label="Sections in this briefing" class="mt-8 text-[0.9375rem]">
+    <nav aria-label="Sections in this briefing" class="mt-8 text-[0.9375rem] wide:mt-4">
       <p class="text-muted">{itemCount} {itemCount === 1 ? 'story' : 'stories'} this morning</p>
       <ul class="mt-2 flex flex-wrap gap-x-5 gap-y-1.5">
         {

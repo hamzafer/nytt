@@ -22,6 +22,11 @@ html.dark {
   --focus: #8ab4ff;
 }
 
+@theme {
+  /* Wide enough for the day spine in the left margin. */
+  --breakpoint-wide: 87.5rem;
+}
+
 @theme inline {
   --font-sans: 'Schibsted Grotesk', system-ui, sans-serif;
   --color-bg: var(--bg);
