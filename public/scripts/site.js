@@ -38,20 +38,31 @@
     const terms = Object.keys(glossary).sort((a, b) => b.length - a.length);
     if (!terms.length) return;
 
-    // One pass over the escaped text, so a term is never matched inside a tooltip added earlier.
+    // One pass over the raw text, escaping each piece as it is joined back, so story
+    // text can't inject HTML and a term never matches inside an earlier tooltip.
     const pattern = new RegExp(`\\b(${terms.map(escapeRegExp).join('|')})\\b`, 'gi');
     const byLower = new Map(terms.map((t) => [t.toLowerCase(), t]));
 
     document.querySelectorAll('[data-glossary-text]').forEach((host) => {
+      const raw = host.textContent || '';
       const used = new Set();
-      const html = escapeHtml(host.textContent || '').replace(pattern, (m) => {
-        const key = m.toLowerCase();
-        if (used.has(key)) return m;
-        used.add(key);
-        const term = byLower.get(key);
-        return `<abbr class="glossary-term" tabindex="0" title="${escapeHtml(glossary[term])}">${m}</abbr>`;
-      });
-      if (used.size) host.innerHTML = html;
+      let html = '';
+      let last = 0;
+      for (const match of raw.matchAll(pattern)) {
+        const text = match[0];
+        const key = text.toLowerCase();
+        html += escapeHtml(raw.slice(last, match.index));
+        if (used.has(key)) {
+          html += escapeHtml(text);
+        } else {
+          used.add(key);
+          const def = glossary[byLower.get(key)];
+          html += `<abbr class="glossary-term" tabindex="0" title="${escapeHtml(def)}">${escapeHtml(text)}</abbr>`;
+        }
+        last = match.index + text.length;
+      }
+      if (!used.size) return;
+      host.innerHTML = html + escapeHtml(raw.slice(last));
     });
   }
 
