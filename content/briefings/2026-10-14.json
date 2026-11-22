@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-14",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "👑",
+        "text": "King Haakon made his first official trip as monarch, to Narvik, where he teared up and said he misses talking to his father. He then went on to visit the soldiers guarding the Russian border in Finnmark.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/norge/i-dag-er-kong-haakon-ute-i-landet-for-forste-gang-som-konge-1.18052716"
+          },
+          {
+            "label": "NRK Finnmark",
+            "url": "https://www.nrk.no/tromsogfinnmark/kong-haakon-besoker-finnmarksbrigaden-1.18053682"
+          }
+        ]
+      },
+      {
+        "emoji": "👸",
+        "text": "Now that mourning is over, Queen Sonja is no longer part of the official Royal House (Kongehuset), which is now King Haakon, Queen Mette-Marit and Crown Princess Ingrid Alexandra. Sonja is already back at work.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/slottet_-dronning-sonja-fjernet-fra-kongehuset-1.18052755"
+          },
+          {
+            "label": "News in English",
+            "url": "https://www.newsinenglish.no/2026/10/13/queen-sonja-gets-back-to-work/"
+          }
+        ]
+      },
+      {
+        "emoji": "🗳️",
+        "text": "A new poll on who people want as prime minister has Høyre leader Ine Eriksen Søreide falling sharply. Only 33% prefer her, and Jonas Gahr Støre now leads by ten points.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/4Or0v9/statsministermaaling-ine-eriksen-soereide-synker-som-en-stein"
+          }
+        ]
+      },
+      {
+        "emoji": "⚽",
+        "text": "Viking gave Bayern Munich a real scare in the Champions League with two first-half goals, and captain Zlatko Tripic wound up the Bayern players enough to provoke a red card.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/rogaland/viking-med-bragd-i-utrolig-drama_-_-star-opp-fra-de-dode-1.18052813"
+          },
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/sport/i/1oxjmJ/champions-league-bayern-munchens-max-eberl-om-zlatko-tripic"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🎫",
+        "text": "From Nov 1, a monthly pass for travel inside Oslo drops to 495 kr, the first time it's been under 500 kr since 1999. Akershus prices are set to rise again next year, but Oslo says it'll pay to keep its own price down.",
+        "sources": [
+          {
+            "label": "NRK Stor-Oslo",
+            "url": "https://www.nrk.no/stor-oslo/billigere-manedskort-i-statsbudsjettet-1.18046623"
+          }
+        ]
+      },
+      {
+        "emoji": "🍦",
+        "text": "Isbilen, the ice-cream truck that plays Grieg, is shutting dow... turns at Kringsjå.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/det-store-t-baneloftet"
+          }
+        ]
+      },
+      {
+        "emoji": "📅",
+        "text": "Save the dates: almost the entire T-bane shuts down Nov 19–22.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/det-store-t-baneloftet"
+          }
+        ]
+      },
+      {
+        "emoji": "🐻",
+        "text": "Restaurant Schrøder has put bear meat on the menu, and protesters outside are calling for a boycott.",
+        "sources": [
+          {
+            "label": "NRK Stor-Oslo",
+            "url": "https://www.nrk.no/stor-oslo/oslo-restauranten-serverer-bjornekjott-_-demonstranter-oppfordrer-til-boikott-1.18053868"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🚆",
+        "text": "The train drivers' strike is now more than three weeks old. Forced mediation starts Friday, so expect more cancellations around Østlandet until then.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/tvungen-mekling-i-togstreiken-fredag-1.18052702"
+          }
+        ]
+      },
+      {
+        "emoji": "❄️",
+        "text": "The first snow has reached the hills around Oslo, including Tryvann. Police say that if there's snow where you're driving and you're still on summer tyres, leave the car at home.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/sno-pa-austlandet-kvitt-gull-1529946"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "📚",
+        "text": "Every Wednesday in October, including today, a group meets at a bookshop near Grønland and rides a full T-bane loop together, reading. Anyone can join.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/loggar-av-og-les-i-fellesskap-1529713"
+          }
+        ]
+      },
+      {
+        "emoji": "🎷",
+        "text": "There's free jazz tonight from 19:00 to 22:00 at Brødrene Bergh on Karl Johan.",
+        "sources": [
+          {
+            "label": "Somo",
+            "url": "https://somo.social/e/onsdager-med-simple-jonnys-jazz-2026-10-14"
+          }
+        ]
+      },
+      {
+        "emoji": "🎶",
+        "text": "Also tonight, The Ubrukelige play Norwegian visesang at Josefine Visescene at 19:30. It's listed as free.",
+        "sources": [
+          {
+            "label": "Somo",
+            "url": "https://somo.social/e/the-ubrukelige-14-oktober-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "🎤",
+        "text": "Seinabo Sey plays Sentrum Scene on Friday at 19:00. It's listed as free and 18+, so double-check before you go.",
+        "sources": [
+          {
+            "label": "Ckord",
+            "url": "https://app.ckord.com/performances/52c71f86-5724-4a62-a857-626e9c8d1ca9"
+          }
+        ]
+      },
+      {
+        "emoji": "🎸",
+        "text": "Oslo Jazzforum has a free gig on Saturday from 16:00 to 18:00 at Herr Nilsen.",
+        "sources": [
+          {
+            "label": "Somo",
+            "url": "https://somo.social/e/oslo-jazzforum-hejlesen-kronborg-wibell-17-oktober-2026"
+          }
+        ]
+      }
+    ]
+  }
+}

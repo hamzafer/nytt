@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-28",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🕊️",
+        "text": "Støre and Finland's President Stubb had a phone call with Putin. Putin had set aside 20 minutes, but it ran for an hour and a half. Støre says Zelensky wanted the call and that Europe needs its own line to Russia, though Denmark's PM has criticised it.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/zlpVK1/stoere-zelenskyj-oensket-putin-samtale"
+          }
+        ]
+      },
+      {
+        "emoji": "🛡️",
+        "text": "The National Security Authority (NSM) has published Norway's cyber risk level for the first time and set it to \"high\", the second-highest level. It's telling organisations to put protective measures in place now.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/nsm-hever-cyberrisikonivaet-til-nest-hoyeste-niva-1531111"
+          }
+        ]
+      },
+      {
+        "emoji": "✈️",
+        "text": "The Civil Aviation Authority never told the ministry about an internal report from 2023. The report found inspectors handling cases without valid authorisation.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/zlpjMb/luftfartstilsynet-fortalte-ikke-departementet-om-kriserapport"
+          }
+        ]
+      },
+      {
+        "emoji": "🏛️",
+        "text": "The budget offers municipalities at least NOK 40 million each if they merge voluntarily. The Centre Party (Sp) is pushing back hard.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nordland/regjeringen-foreslar-a-belonne-kommuner-som-slar-seg-sammen-1.18055543"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🏠",
+        "text": "Equinor posted another huge quarter. Economists say strong oil activity pushes wages up, but it also makes it likely that Norges Bank keeps interest rates high for longer, so mortgage rate cuts may come later than hoped.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/rogaland/slik-pavirker-equinors-kvartalsresultat-deg_-oker-lonna_-men-utsetter-rentekuttet-pa-boliglanet-1.18064839"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🏗️",
+        "text": "The leaning crane is fully down, and traffic around Jernbanetorget is back to normal.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/2V6b7q/krandramaet-i-oslo-ser-svaert-alvorlig-paa-hendelsen"
+          }
+        ]
+      },
+      {
+        "emoji": "🏊",
+        "text": "In the Røabadet pool fight, the city attorney has now answered the city council committee, and Ap and FrP say their trust in councillor Anita Leirvik North (H) is wearing thin.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/mistillitsforslag-mot-hoyre-byrad_-kommuneadvokaten-svarer-i-bystyrets-byutviklingsutvalg-1.18065198"
+          }
+        ]
+      },
+      {
+        "emoji": "⚽",
+        "text": "Vålerenga has banned supporters for up to 50 matches after the trouble at Åråsen stadium.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sport/harde-sanksjonar-fra-valerenga-etter-arasen-braket_-supporterar-utestengde-i-opptil-50-kampar-1.18064167"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "✈️",
+        "text": "The SAS Link cabin crew strike starts today with 24 crew members. SAS expects limited disruption and will contact affected passengers directly.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/sas-streik-i-gang-1.18066664"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: RO is a free, calm hour of piano music by Andreas Ihlebæk at Gamle Aker kirke tonight from 18:30 to 19:30.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/konsert-ro-en-musikkopplevelse-for-en-urolig-tid-2026-10-28"
+          }
+        ]
+      },
+      {
+        "emoji": "⛪",
+        "text": "There's a free 30-minute organ concert at 12:00 today in the castle church at Akershus Fortress.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/free-lunch-concert-at-the-slottskirken"
+          }
+        ]
+      },
+      {
+        "emoji": "🎻",
+        "text": "Barratt Due has a free chamber music concert called Epilogue on Friday at 19:00, and you need to pick up a free ticket.",
+        "sources": [
+          {
+            "label": "Teaterfabrikken",
+            "url": "https://teaterfabrikken.no/musikk/gratis-konserter-i-oslo/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎶",
+        "text": "This one isn't free, but Pakistani Sufi singer Sanam Marvi plays Cosmopolite tonight as part of Oslo World.",
+        "sources": [
+          {
+            "label": "Oslo World guide",
+            "url": "https://www.oslo.com/blog/2026/10/23/oslo-world-2026-27-oct1-nov-a-first-timers-guide-to-oslos-global-music-festival/"
+          }
+        ]
+      }
+    ]
+  }
+}

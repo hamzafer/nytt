@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-12",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "⛏️",
+        "text": "The Nussir copper mine in Finnmark has been sold to ACG Metals, whose CEO used to work for sanctioned Russian billionaires who backed Putin. Listhaug says \"all alarm bells should ring,\" MDG wants an urgent vote to pause the sale, and trade minister Myrseth won't say what the security checks covered.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tromsogfinnmark/listhaug-om-nussir-kjop_-_-alle-varselklokker-bor-ringe-1.18078826"
+          },
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/8PwrGA/myrseth-vil-ikke-si-hvem-som-er-sikkerhetssjekket"
+          }
+        ]
+      },
+      {
+        "emoji": "🎓",
+        "text": "Three teacher and academic unions have joined forces against Udir's plan for the biggest change to videregående (upper secondary school) in 30 years, planned from 2030. They worry students will learn less.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/felles-front-mot-storste-endring-av-videregaende-pa-30-ar-1532701"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌨️",
+        "text": "A yellow snow warning is in place until 21:00 today, with 5–15 cm in Oslo and Akershus and slippery roads. There have already been crashes in Lier and Jevnaker. Take it slow if you drive.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/pM6JEX/venter-opptil-15-centimeter-snoe-politiet-frykter-flere-trafikkhendelser"
+          },
+          {
+            "label": "Varsom",
+            "url": "https://www.varsom.no/vaervarsling/varsel/169890"
+          }
+        ]
+      },
+      {
+        "emoji": "🚌",
+        "text": "Transit was running on time early this morning, but the E6 already had queues by 06:45. Ruter says to allow extra time and check the app before you leave.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://www.mynewsdesk.com/no/ruter/pressreleases/gult-farevarsel-for-snoe-torsdag-beregn-ekstra-tid-i-kollektivtrafikken-3477773"
+          }
+        ]
+      },
+      {
+        "emoji": "🔓",
+        "text": "Hackers got into Front Systems, the checkout system about 450 shops use, including Bergans, Brando and Floyd. Names, emails, order history and gift card info may have leaked, but card numbers weren't affected. If you've shopped at any of them, watch for phishing emails.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/omfattende-innbrudd-i-datasystemene-til-norske-kleskjeder-1532671"
+          }
+        ]
+      },
+      {
+        "emoji": "☀️",
+        "text": "It won't last: Friday should bring sun and up to 6°C.",
+        "sources": [
+          {
+            "label": "Nordstrands Blad",
+            "url": "https://www.noblad.no/god-morgen-nordstrand-i-dag-snor-det/s/80-56-31809"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: There's a free Roller Disco at Sentralen on Saturday, Nov 14 at 15:00.",
+        "sources": [
+          {
+            "label": "Locl",
+            "url": "https://locl.no/en/oslo/free/this-weekend"
+          }
+        ]
+      },
+      {
+        "emoji": "🎻",
+        "text": "\"Tragediar\" is free experimental music and performance at the Norwegian Academy of Music on Friday at 18:00.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/tragediar-2026-11-13"
+          }
+        ]
+      },
+      {
+        "emoji": "🪕",
+        "text": "Sunday World has a free night of folk, classical and jazz fusion with Naturhistorisk at Juret on Sunday from 19:00.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/sunday-world-naturhistorisk-2026-11-15"
+          }
+        ]
+      },
+      {
+        "emoji": "🥕",
+        "text": "The farmers' market in Birkelunden starts Saturday at 11:00. It's free to wander, but bring cash or Vipps for snacks.",
+        "sources": [
+          {
+            "label": "Locl",
+            "url": "https://locl.no/en/oslo/free/this-weekend"
+          }
+        ]
+      }
+    ]
+  }
+}

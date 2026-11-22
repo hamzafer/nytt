@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-09",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🇵🇱",
+        "text": "The gunman behind Saturday's mass shooting on Krakow's main square has died. Nine people were killed, including three found at his home, and Poland is treating it as terrorism. Two young Norwegians, Solveig (20) and Hedda (21), were shot at during the attack.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/verden/i/dJd1rA/gjerningsmannen-bak-masseskytingen-i-krakow-er-doed"
+          }
+        ]
+      },
+      {
+        "emoji": "🌳",
+        "text": "Norway is giving Brazil NOK 600 million for record-low deforestation. Climate minister Sigrun Aasland announces it at the opening of the climate summit in Turkey today.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/norge-gir-600-regnskogmillioner-til-brasil-1.18077109"
+          }
+        ]
+      },
+      {
+        "emoji": "👑",
+        "text": "King Haakon finished the French Riviera Marathon in Nice in 4:43:01, and Crown Princess Ingrid Alexandra ran too.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/kongen-fullforte-maraton-pa-tiden-4.43.01-1.18076803"
+          }
+        ]
+      },
+      {
+        "emoji": "🚔",
+        "text": "Police changed their minds and opened a criminal case against the man who forced his way into Marius Borg Høiby's home. He's suspected of assault and unlawful entry.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/politiet-oppretter-straffesak-mot-mann-som-trengte-seg-inn-hos-hoiby-1.18076838"
+          }
+        ]
+      },
+      {
+        "emoji": "⚽",
+        "text": "Several fans fell through the away stand at Tromsø vs Bodø/Glimt, and one went to hospital. Police are investigating, and the club says it checked the stand a few days before.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sport/nff-ba-om-gjennomgang_-tromso-kontrollerte-tribunen-dager-for-kollaps-1.18077071"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🚘",
+        "text": "VIP cars will have to follow the same rules as regular taxis, with roof lights, taximeters and markings.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/i/eGbr4R"
+          }
+        ]
+      },
+      {
+        "emoji": "✈️",
+        "text": "Complaints against airlines have more than doubled. The flight complaints board has had over 5,000 cases so far this year, up from about 2,400 at this point last year, so it's worth knowing about if one of your flights goes wrong.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/okonomi/i/ez1Lay/kraftig-oekning-i-klager-mot-flyselskapene"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "💉",
+        "text": "Teachers in Oslo schools no longer get a free flu vaccine, and staff worry that more people will be off sick.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/laerere-i-oslo-skolen-frykter-okt-sykefravaer-etter-kutt-i-gratis-influensavaksine-1.18072996"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🧊",
+        "text": "It'll be slippery again today. Gjensidige got 513 reports of traffic damage over the weekend, so take care on the bike or on the road.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/Oyn7mq/over-500-skademeldinger-i-helgen-mandag-blir-ogsaa-glatt"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: There's a free DjangoJam (gypsy jazz jam session) at Vespa & Humla tonight at 18:00.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/whats-on/events/concerts"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "The Jul i Vinterland Christmas market in Spikersuppa is open and free to wander.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/whats-on/events"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "The \"Sprayboksen 100 år\" exhibition at Teknisk Museum closes Sunday, Nov 15. It's about the spray can, which was invented in Oslo in 1926. The museum charges entry, so it's not free.",
+        "sources": [
+          {
+            "label": "Street Art Oslo",
+            "url": "https://streetartoslo.no/projects/sprayboksen-100-ar/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎤",
+        "text": "Ticketed gigs this week: Kneecap on Tuesday, J. Cole at Unity Arena on Thursday, and The Prodigy on Saturday.",
+        "sources": [
+          {
+            "label": "VIBE",
+            "url": "https://vibe-swipe.app/events/oslo/this-week/"
+          }
+        ]
+      }
+    ]
+  }
+}

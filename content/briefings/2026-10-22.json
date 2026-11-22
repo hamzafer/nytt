@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-22",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🕊️",
+        "text": "After the Ukraine talks in Oslo, Støre says Russia, the US and Ukraine have agreed to a new high-level meeting between the three countries, probably in mid-November.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/ukraina-samtaler-i-oslo-1.18059352"
+          }
+        ]
+      },
+      {
+        "emoji": "💧",
+        "text": "A huge water main burst in Sør-Varanger has left about 6,000 subscribers without water. Kirkenes hospital, which serves all of East Finnmark, is on red alert and is sending emergency patients to other hospitals.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tromsogfinnmark/enormt-vannbrudd-i-sor-varanger-1.18061410"
+          }
+        ]
+      },
+      {
+        "emoji": "🇺🇦",
+        "text": "Norway has now given NOK 52 billion in civilian support to Ukraine since 2022.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/verden/i/9kAGL5/norge-har-gitt-52-milliarder-kroner-i-sivil-stoette-til-ukraina"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🎓",
+        "text": "Eight universities have applied to reserve places for men on 19 study programmes starting with next year's admissions.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/qyBebm/aatte-universiteter-soeker-om-kjoennskvoter-for-menn"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🏙️",
+        "text": "It's official: the city council has approved Oslo's eight new district names.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/oslos-nye-bydelsnavn-vedtatt-1.18061231"
+          }
+        ]
+      },
+      {
+        "emoji": "🏛️",
+        "text": "An investigation into the city's culture agency (Kulturetaten) found several breaches of the law and a risk of corruption. The city government says it will act on the findings.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/gransking-av-kulturetaten-i-oslo-avdekker-en-rekke-lovbrudd-1.18060575"
+          }
+        ]
+      },
+      {
+        "emoji": "🏥",
+        "text": "A new report found serious problems at two Oslo nursing homes, Uranienborghjemmet and Kantarellenhjemmet.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/vlpKvL/alvorlige-avvik-ved-uranienborghjemmet-og-kantarellenhjemmet-i-oslo"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🪙",
+        "text": "Banks are warning about three new scams, including one where people are told to leave gold out in the forest.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/xljddj/ny-svindelmetode-folk-bes-om-aa-legge-gull-i-skogen"
+          }
+        ]
+      },
+      {
+        "emoji": "🎮",
+        "text": "A new report from the Norwegian Media Authority says Roblox uses gambling-like features and pressure tactics on kids.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/kvj15j/rapport-bruk-av-gambling-aktige-mekanismer-i-barnas-favoritt-roblox"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Sondre Lerche and his band play Parkteatret on Grünerløkka at 20:00. The listing says it's free, but bring ID.",
+        "sources": [
+          {
+            "label": "Somo",
+            "url": "https://somo.social/e/sondre-lerche-23-oktober-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "🎶",
+        "text": "Asbjørn Ribe plays with his band at Oslo Konserthus on Saturday at 20:00, and the listing says it's free.",
+        "sources": [
+          {
+            "label": "Somo",
+            "url": "https://somo.social/e/asbjorn-ribe-with-band-24-oktober-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "🪩",
+        "text": "Oslofønk spins vinyl at Parksalongen on Friday from 22:00 to 03:00. It's free and 20+.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/oslofonk-2026-10-23"
+          }
+        ]
+      }
+    ]
+  }
+}

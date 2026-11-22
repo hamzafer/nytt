@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-29",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "👑",
+        "text": "Crown Princess Ingrid Alexandra held her first audience on her own yesterday, in her new office at the Palace.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/norge/her-holder-kronprinsesse-ingrid-alexandra-sin-forste-audiens-alene-som-kronprinsesse-1.18061833"
+          }
+        ]
+      },
+      {
+        "emoji": "🇺🇦",
+        "text": "The government wants Ukrainians to earn at least NOK 400,000 a year to get permanent residence, and income from self-employment wouldn't count. Only about 19,000 qualify today, and the public consultation runs until Nov 5.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/trondelag/67.000-ukrainere-kan-fa-nei-til-opphold-i-norge_-_-mange-er-bekymret-1.18058626"
+          }
+        ]
+      },
+      {
+        "emoji": "⚖️",
+        "text": "Oslo District Court has temporarily stopped Meta from bringing in new terms for Norwegian media companies' business accounts until a court decides whether they're legal.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/midlertidig-stans-av-omstridte-meta-endringer-for-norske-mediehus-1.18067443"
+          }
+        ]
+      },
+      {
+        "emoji": "⛽",
+        "text": "Equinor doubled its estimate for a gas find near the Kvitebjørn field in the North Sea.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/boers-og-finans/i/L3Vol1/equinor-dobler-anslaget-stort-gassfunn-i-nordsjoeen"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "⚡",
+        "text": "Analysts expect winter power prices to be almost double last winter's, maybe around NOK 1.70 per kWh in southern Norway early next year. If you're not on the fixed Norgespris, it's worth checking your power deal.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/vestfoldogtelemark/stromprisene-vinteren-2026-kan-bli-dobbelt-sa-hoye-som-i-fjor-1.18066882"
+          }
+        ]
+      },
+      {
+        "emoji": "🏨",
+        "text": "Tromsø, Vågan and Stranda can start charging tourists a visitor fee from the new year. Separately, the local government minister wants councils to be able to ban Airbnb-style short-term rentals, and Høyre has called him in to explain.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tromsogfinnmark/tromso_-vagan-og-stranda-far-innfore-besoksbidrag-fra-nyttar-1.18066872"
+          },
+          {
+            "label": "E24",
+            "url": "https://e24.no/naeringsliv/i/778XQ3/hoeyre-kaller-statsraaden-inn-paa-teppet-om-airbnb-utleie"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Oslo World has a free show at Parkteatret tonight at 17:00 with Kaoroo, SwagTV, Pen Gutt and DJs Banjee and Ubachiii, and you'll still make your 19:15 Norwegian class.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/whats-on/events"
+          }
+        ]
+      },
+      {
+        "emoji": "💡",
+        "text": "Fjord Oslo is a free light event along the harbour promenade from Nov 5 to 8, 18:00 to 23:00.",
+        "sources": [
+          {
+            "label": "Listings",
+            "url": "https://norskekalendere.no/hva-skjer/oslo/i-helgen/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "There's a free watercolour workshop at Serieteket today at 15:30.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/whats-on/events"
+          }
+        ]
+      },
+      {
+        "emoji": "🎃",
+        "text": "This weekend, Norsk Folkemuseum does Halloween on Saturday and Sunday from 11:00 to 20:00, and Oslo Cathedral has an All Saints' requiem on Sunday at 18:00. Check the listings for whether they cost anything.",
+        "sources": [
+          {
+            "label": "Listings",
+            "url": "https://norskekalendere.no/hva-skjer/oslo/i-helgen/"
+          }
+        ]
+      }
+    ]
+  }
+}

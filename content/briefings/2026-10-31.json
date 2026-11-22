@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-31",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🏥",
+        "text": "Health Minister Jan Christian Vestre wants the biggest hospital reform in 25 years. An expert committee delivers its recommendations on Monday, and the aim is to link hospitals better with GPs and municipal care.",
+        "sources": [
+          {
+            "label": "The Local",
+            "url": "https://www.thelocal.no/20261030/today-in-norway-a-roundup-of-the-latest-news-on-friday-255"
+          }
+        ]
+      },
+      {
+        "emoji": "🇺🇦",
+        "text": "Norway is giving another NOK 500 million to Ukraine's energy support fund to help repair power infrastructure damaged by Russian attacks before winter.",
+        "sources": [
+          {
+            "label": "EU Neighbours East",
+            "url": "https://euneighbourseast.eu/news/latest-news/norway-announces-new-grant-of-over-e48-million-to-the-ukraine-energy-support-fund-ahead-of-winter/"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "⚡",
+        "text": "Norgespris, the fixed-price power deal, does not renew automatically. Current agreements end Dec 31, so you have to sign up again if you want it in 2027. The government also wants to raise the price from 40 to 45 øre/kWh before VAT, which is about 56 øre with VAT.",
+        "sources": [
+          {
+            "label": "The Local",
+            "url": "https://www.thelocal.no/20261030/today-in-norway-a-roundup-of-the-latest-news-on-friday-255"
+          }
+        ]
+      },
+      {
+        "emoji": "🔌",
+        "text": "NVE, the national energy regulator, warns that data centres could leave Norway short of power by 2035. In one of its scenarios, prices end up 35 to 55% higher than it previously estimated.",
+        "sources": [
+          {
+            "label": "Ringerikes Blad",
+            "url": "https://byringerike.no/kort-fortalt-30-10-2026/"
+          }
+        ]
+      },
+      {
+        "emoji": "🚗",
+        "text": "The 2027 budget would make EVs pay the same road tolls as petrol cars around Stavanger. The EV association worries this could spread to other cities.",
+        "sources": [
+          {
+            "label": "Ringerikes Blad",
+            "url": "https://byringerike.no/kort-fortalt-30-10-2026/"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🏛️",
+        "text": "Anita Leirvik North (H) resigned as Oslo's urban development councillor on Friday, effective immediately, after the row over Røa Bad. West Oslo has been without a public pool since May. Health councillor Oluf Ulseth is covering her job for now.",
+        "sources": [
+          {
+            "label": "NRK Stor-Oslo",
+            "url": "https://www.nrk.no/stor-oslo/anita-leirvik-north-trekker-seg-som-byrad-1.18062032"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌤️",
+        "text": "It looks calm and dry all weekend, 4 to 9°C today and up to about 10°C on Sunday. (Yr?i=0))",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/nb/v%C3%A6rvarsel/timetabell/5-18700/Norge/Oslo/Oslo/Oslo%20(Blindern"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: On Sunday from 11:00 to 16:00 there are free guided visits to James Turrell's underground light installations, Ganzfeld and Skyspace, in Ekebergparken. They start every half hour.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/sondagsvisninger-i-ganzfeld-skyspace-2026-11-01"
+          }
+        ]
+      },
+      {
+        "emoji": "🌿",
+        "text": "The Great Halloween Hunt is a free outdoor quiz trail with prizes around Lilleaker, today and Sunday.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/the-great-halloween-hunt"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "MUNCH has free drop-in drawing with artists from 10:00 to 12:00 and 13:00 to 15:30. My sources disagree on whether it's today or Sunday, so check before you go.",
+        "sources": [
+          {
+            "label": "Settle in Norway",
+            "url": "https://settleinnorway.com/oslo-this-weekend/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎃",
+        "text": "Norsk Folkemuseum on Bygdøy does Halloween today and Sunday from 11:00 to 20:00, with Day of the Dead during the day and spooky trails for ages 12 and up from 17:00. It's ticketed at 200 kr for adults, so it's not free.",
+        "sources": [
+          {
+            "label": "Norsk Folkemuseum",
+            "url": "https://norskfolkemuseum.no/halloween-norsk-folkemuseum"
+          }
+        ]
+      }
+    ]
+  }
+}

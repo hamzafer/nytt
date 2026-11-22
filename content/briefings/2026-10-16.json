@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-16",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "👑",
+        "text": "King Haakon VIII goes door to door collecting for NRK's TV-aksjon fundraiser this Sunday, Oct 18. This year's money goes to the Norwegian Refugee Council, so expect collectors at your door too.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tvaksjonen/kong-haakon-viii-blir-bosseberar-for-tv-aksjonen-2026-1.18042171"
+          }
+        ]
+      },
+      {
+        "emoji": "💰",
+        "text": "A government committee says the oil fund should be allowed to invest in nuclear weapons, and that returns should count for more than ethics in some decisions. Critics call it a shocking shift.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/aOqEGd/aapner-for-at-oljefondet-kan-investere-i-atomvaapen-og-hemmeligholde-etiske-vurderinger"
+          }
+        ]
+      },
+      {
+        "emoji": "⚽",
+        "text": "Viking's win over Bayern and Glimt's win over Dortmund have German media calling it an embarrassment. Glimt's win alone earned nearly 23 million kroner.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/sport/i/lKbJLL/millionregn-over-glimt-og-viking-etter-europa-suksess-se-utbetalingene"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🏦",
+        "text": "Banks raised mortgage rates fast, but savings rates are now lower than the last time the key rate was this high. The Consumer Council says it's worth moving your money to a better account.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/norsk-oekonomi/i/lKeX0M/daarligere-sparerente-du-faar-mindre-igjen-bankene-tjener-mer"
+          }
+        ]
+      },
+      {
+        "emoji": "🛂",
+        "text": "The new passport and ID booking system arrives in November, with clearer open slots and self-service cancelling.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sorlandet/bestilling-av-pass_-nytt-system-kan-fa-ned-ventetiden-1.18054718"
+          }
+        ]
+      },
+      {
+        "emoji": "🚰",
+        "text": "Mayors around the Oslofjord warn that stricter EU wastewater rules could push local water and sewer fees up by as much as 300% in some places.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/politikk/i/d7pMPo/ordfoerere-ved-oslofjorden-danner-felles-front-vil-at-staten-betaler-sin-del-av-rensingen"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚇",
+        "text": "The evening T-bane changes (21:00–02:00) last until Sunday morning. Line 1 only runs Frognerseteren–Helsfyr, line 2 only runs Østerås–Tveita, and bus 2B covers the rest. The full shutdown is Nov 19–22.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/det-store-t-baneloftet"
+          }
+        ]
+      },
+      {
+        "emoji": "🏙️",
+        "text": "From 2028, Oslo's 15 districts become 8, and the new names are Vestre Aker, Gamle Aker, Gamle Oslo, Frysja, Hovin, Øvre Groruddalen, Østensjø and Nordstrand.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/flertall-i-bystyret_-oslos-nye-bydelsnavn-klare.-1.18055742"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🚆",
+        "text": "The train strike is a month old, and state-led mediation starts today, but the two sides are far apart. Check Vy before you travel.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/oKlw7m/tvungen-mekling-i-togstreiken-i-dag-paa-hoey-tid-aa-faa-slutt-paa-streiken"
+          }
+        ]
+      },
+      {
+        "emoji": "🌤️",
+        "text": "The weekend looks dry and mostly sunny, around 10°C during the day and down to about 4°C on Sunday morning.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/en/forecast/daily-table/1-72837/Norway/Oslo/Oslo/Oslo"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: The Kampen skole flea market is on Saturday 10–16 and Sunday 11–16, with an auction on Sunday at 14:00. There's Tim Wendelboe coffee and sveler (Norwegian griddle cakes), and entry is free.",
+        "sources": [
+          {
+            "label": "Aktiv i Oslo",
+            "url": "https://aktivioslo.no/hva-skjer-i-oslo/loppemarked-26/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎹",
+        "text": "There's a free organ concert at Voksen kirke on Saturday at 12:00, and the Oslo Organ Festival's closing concert is on Sunday at 18:00 in Oslo Cathedral.",
+        "sources": [
+          {
+            "label": "Kirken i Oslo",
+            "url": "https://www.kirken.no/nb-NO/fellesrad/kirkeneioslo/menigheter/voksen/aktuelt/oslo%20orgelfestival%202026/"
+          }
+        ]
+      },
+      {
+        "emoji": "🌍",
+        "text": "Barnas verdensdager is a free world-culture festival at Grønland on Saturday and Sunday, 11:30–16:30.",
+        "sources": [
+          {
+            "label": "Oslo World",
+            "url": "https://osloworld.no/festival/arrangement/barnas-verdensdager-oslo-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "🍺",
+        "text": "For something paid, Oktoberfest is at Youngstorget through Saturday, and Bob Dylan plays Oslo Spektrum on Saturday at 20:00.",
+        "sources": [
+          {
+            "label": "Weekend listings",
+            "url": "https://norskekalendere.no/hva-skjer/oslo/i-helgen/"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-18",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🛡️",
+        "text": "PST says a terror attempt in Norway next year is \"likely.\" The threat level stays at 3 of 5, and PST has added a new category, \"nihilistic extremism,\" for violent online networks.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/politikk/i/EbWv6G/pst-ser-negativ-utvikling-sannsynlig-med-terrorforsoek-i-norge"
+          }
+        ]
+      },
+      {
+        "emoji": "💻",
+        "text": "Equinor is dealing with an ongoing cyberattack that has disrupted some IT systems. It says oil and gas production isn't affected and there's no sign data was stolen.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/equinor-pagaende-cyberangrep-mot-it-systemer-1533278"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "⚡",
+        "text": "Experts say southern Norway could see its priciest winter ever for power, close to 2 kr/kWh on average before grid fees. Norgespris shields you from that.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/energi-og-klima/i/1vnP5e/stroemstoette-til-bedrifter-skal-ikke-tjene-paa-dette"
+          }
+        ]
+      },
+      {
+        "emoji": "🍺",
+        "text": "Helsedirektoratet (the health directorate) and FHI say to keep the ban on drinking in public parks. Stortinget could still let cities set up drinking zones if Ap backs the idea.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/okonomi/i/r8A50l/politikerne-vil-ha-pils-i-parken-helsedirektoratet-sier-klart-nei"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚨",
+        "text": "The T-bane shutdown starts TOMORROW and runs Thursday to Sunday. No metro runs through the city centre, lines 4 and 5 are fully closed, and lines 1 to 3 only run short stretches in the west. Use tram 19x (Majorstuen to Stortorvet) or buses 2B, 3B or 25B.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/na-skjer-det-storste-t-banestenging-noensinne-1533111"
+          },
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/det-store-t-baneloftet"
+          }
+        ]
+      },
+      {
+        "emoji": "💸",
+        "text": "A new analysis says Fornebubanen could cost up to 34.8 billion kr, 7.3 billion over the original target, and the opposition is already warning of higher tolls.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/gigantsprekk-for-fornebubanen-kan-bli-7-3-milliarder-dyrere-enn-ventet-1533250"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🚕",
+        "text": "Taxis and Bolt will be swamped during the shutdown. Oslo Taxi may run out of cars and Bolt uses surge pricing, so book early. Car sharing or a bike is a good backup.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/Jno7z6/oslo-drosjer-forbereder-seg-paa-t-banestenging-uten-sidestykke-i-omfang"
+          }
+        ]
+      },
+      {
+        "emoji": "🅿️",
+        "text": "Asker found fake EasyPark QR stickers on parking machines that lead to a fake payment page. Always pay in the app, never through a sticker.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/slar-alarm-om-p-plass-svindel-1533218"
+          }
+        ]
+      },
+      {
+        "emoji": "🥶",
+        "text": "It'll be cold and dry, from about −5° to +3° through the weekend, so watch for icy patches in the mornings.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/nb/innhold/1-72837/table.html"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: The free Christmas light-up at Sommerro is tonight at 16:45.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/hva-skjer/jul/julearrangementer"
+          }
+        ]
+      },
+      {
+        "emoji": "🎶",
+        "text": "Åges Danseband plays a free show at Proud Mary tonight at 21:30 (age 20+).",
+        "sources": [
+          {
+            "label": "Oslo Nå",
+            "url": "https://oslonaa.no/kategori/konsert/2026/11"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "Jul i Vinterland in Spikersuppa is free, with gløgg, a Ferris wheel and concerts. It's within walking distance of most places this weekend.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/jul-i-vinterland"
+          }
+        ]
+      },
+      {
+        "emoji": "🌲",
+        "text": "The Botanisk hage Christmas market is on Saturday from 11:00 to 16:00, with crafts, waffles and a choir at 12:00. There's no T-bane to Tøyen that day.",
+        "sources": [
+          {
+            "label": "Botanisk hages Venner",
+            "url": "https://foreninger.uio.no/botaniskhagesvenner/arrangementer/2026/julemarked-2026.html"
+          }
+        ]
+      }
+    ]
+  }
+}

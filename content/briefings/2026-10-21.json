@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-21",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🕊️",
+        "text": "Zelensky met US envoy Steve Witkoff at the PM's residence in Oslo yesterday. Støre and Finland's President Stubb hosted, and the UK, France, Germany, Poland, the EU and NATO joined online. The aim was a peace proposal to put to Russia, and Støre called the talks \"good and constructive.\"",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/moter-pressen-etter-viktige-ukraina-samtaler-1530606"
+          }
+        ]
+      },
+      {
+        "emoji": "🇺🇸",
+        "text": "US Secretary of State Marco Rubio says his impression of the meeting is \"positive,\" though nothing surprising came out of it. Witkoff is reportedly heading to St. Petersburg next to meet Putin.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/rubio-kaller-motet-mellom-zelenskyj-og-witkoff-i-oslo-_positivt_-1.18060335"
+          }
+        ]
+      },
+      {
+        "emoji": "🏦",
+        "text": "DNB, Norway's biggest bank, reported a Q3 profit of NOK 9.8 billion this morning, down 7.9% from a year ago. It also started a new share buyback that runs until Dec 18.",
+        "sources": [
+          {
+            "label": "DNB",
+            "url": "https://ir.dnb.no/press-and-reports/press-releases"
+          }
+        ]
+      },
+      {
+        "emoji": "📚",
+        "text": "Norway won all five Nordic Council prizes. Sigbjørn Skåden took the literature prize, the first win for a Sámi-language novel in 35 years.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tromsogfinnmark/sigbjorn-skaden-tildeles-nordisk-rads-litteraturpris-2026-1.18059299"
+          }
+        ]
+      },
+      {
+        "emoji": "📢",
+        "text": "Folk high school (folkehøgskole) students protested outside the Storting yesterday against the government's cuts to their student support.",
+        "sources": [
+          {
+            "label": "Vårt Land",
+            "url": "https://www.vl.no/nyheter/folkehogskuleelevar-protesterer-mot-kutta-til-regjeringa/10591308"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🎫",
+        "text": "From Nov 1, Ruter's 30-day pass for zone 1 gets 160 kr cheaper, dropping to 495 kr, and that price holds through April 2027. A yearly pass now costs about the same as 15 monthly ones, so if you have one, Ruter says you can ask customer service for a refund.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/aktuelt/produkter/billigere-maanedskort-november"
+          }
+        ]
+      },
+      {
+        "emoji": "💸",
+        "text": "There's a catch: the government's budget proposes dropping that cut next year, so the price could go back up after April 2027.",
+        "sources": [
+          {
+            "label": "Vårt Oslo",
+            "url": "https://www.vartoslo.no/billettpriser-hakon-snortheim-kamzy-gunaratnam/na-blir-manedskort-sa-billig-at-ruter-rykker-ut/1321283"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚋",
+        "text": "A tram and a bus collided between Nationaltheatret and Solli plass this morning. Nobody was hurt, but for now no trams are running past Nationaltheatret, and lines 13 and 15 are going via Aker brygge.",
+        "sources": [
+          {
+            "label": "NRK Stor-Oslo",
+            "url": "https://www.nrk.no/stor-oslo/ingen-trikker-kjorer-ved-nationaltheatret-1.18060371"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌧️",
+        "text": "Bring an umbrella. Yr expects about 12 mm of rain in Oslo today and around 28 mm tomorrow, with highs around 10–12°C, though there are no weather warnings on land.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/en/forecast/daily-table/1-2256530/Norway/Oslo/Oslo/Meteorologisk%20institutt"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: The We Do Festival opens tonight with Bad Ritual at Factory Tøyen (19:30–21:30). It ends Sunday with Sw@da x Niczos at Høymagasinet, which you need to register for.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/bad-ritual-we-do-festival-opening-concert"
+          }
+        ]
+      },
+      {
+        "emoji": "🌠",
+        "text": "Look up over the next few nights for a meteor shower made of dust from Halley's Comet. The rain might get in the way, though.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/vestland/no-kan-du-sja-stovet-fra-halleys-komet-1.18060344"
+          }
+        ]
+      },
+      {
+        "emoji": "🎻",
+        "text": "The Oslo Philharmonic has a chamber concert with Catherine Bullock and Simon Lane tonight at 18:00. Listings say it's free, but check the page to be sure.",
+        "sources": [
+          {
+            "label": "Oslo Philharmonic",
+            "url": "https://ofo.no/no/konserter/2026-10-21/fra-bratsjgruppen-til-hovedrollen"
+          }
+        ]
+      }
+    ]
+  }
+}

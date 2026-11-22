@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-03",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "⚖️",
+        "text": "On Monday, Oslo District Court ruled that Marius Borg Høiby can be released from custody at Skaugum, with a duty to report to police and drug and alcohol testing. Police appealed and want him kept in custody until the appeal court decides, so he isn't out yet.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/tingretten-vil-loslate-hoiby-1531481"
+          }
+        ]
+      },
+      {
+        "emoji": "🪖",
+        "text": "About 2,800 troops from ten European countries will hold the first exercise of a new multinational force for Ukraine in southeast Poland, from Nov 9 to 22. The force is meant to deploy only after a ceasefire.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/europeisk-styrke-for-ukraina-skal-ove-i-polen-1.18071789"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🏢",
+        "text": "A new high-security psychiatric unit with 64 beds has opened at Nedre Ila in Bærum.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/ny-sikkerhetsavdeling-for-psykiatriske-pasienter-apnet-pa-ila-1.18071517"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🐈",
+        "text": "Police are investigating a sixth dead cat, found at Holmen in west Oslo, and checking whether it's linked to the earlier killings in west Oslo and Bærum.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/politiet-etterforsker-funn-av-en-ny-dod-katt-pa-holmen-i-oslo-1.18071268"
+          }
+        ]
+      },
+      {
+        "emoji": "🌤️",
+        "text": "There are no weather warnings, but clear, cold nights this week could bring morning frost and slippery patches. That's worth knowing when you're back on the bike.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/en/weather-warnings"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Fjord Oslo runs from 18:00 to 23:00 until Sunday, along the waterfront from Tjuvholmen and Aker Brygge to Rådhusplassen and Akershusstranda.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/fjord-oslo-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "🥁",
+        "text": "Saturday's free percussion concert at 15:00 at the Norwegian Academy of Music is still on.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/chamber-music-week-2026"
+          }
+        ]
+      }
+    ]
+  }
+}

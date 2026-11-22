@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-23",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "👑",
+        "text": "King Haakon gave his first speech as king last night at the annual dinner for Storting members at the Palace, mixing jokes with a serious message. It was a big gala night for Crown Princess Ingrid Alexandra too.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/X97wJm/kong-haakon-holdt-sin-foerste-tale-under-en-stortingsmiddag"
+          },
+          {
+            "label": "the gala night",
+            "url": "https://www.aftenposten.no/norge/i/oKbvpg/historisk-gallamiddag-for-kronprinsesse-ingrid-alexandra-stoedig-og-verdig"
+          }
+        ]
+      },
+      {
+        "emoji": "📉",
+        "text": "The Oil Fund returned −0.5% in Q3, and its value fell by NOK 670 billion over the quarter.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/negativ-avkastning-for-oljefondet-i-tredje-kvartal-1.18061503"
+          }
+        ]
+      },
+      {
+        "emoji": "🔥",
+        "text": "A man died in a house fire in Haugesund overnight, and the other residents were evacuated.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/norge/mann-omkom-i-boligbrann-i-haugesund-1.18062396"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "💉",
+        "text": "This year's flu vaccines are delayed in several places, so check with your pharmacy before you go.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tromsogfinnmark/legens-bonn_-ta-vaksinen_-sa-skjermer-vi-de-mest-sarbare-1.18062298"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚫",
+        "text": "There are new details on the T-bane shutdown Nov 19–22. Of 101 stations, 63 will close, lines 4 and 5 shut completely, and trams will replace the T-bane between Majorstuen and Jernbanetorget. It's also the first of seven closures running into 2027.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/t-banen_-stenges-fire-dager-i-november-1.18062411"
+          }
+        ]
+      },
+      {
+        "emoji": "🚗",
+        "text": "Heavy rain has pushed back this weekend's asphalt work at the Fornebu junction, so there should be less traffic out of Oslo than expected.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/regnvaer-utsetter-asfaltarbeid-_-forventer-mindre-ko-ut-av-oslo-enn-varslet-1.18061374"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌧️",
+        "text": "It's a wet weekend at about 9–10°C, with rain on Saturday and around 16–17 mm on Sunday, though there are no warnings.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/1-72837/Norge/Oslo/Oslo/Oslo"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Oslo Skaperfestival is a free maker festival at Deichman Bjørvika on Saturday and Sunday from 11:00, which makes it perfect for the rain.",
+        "sources": [
+          {
+            "label": "Oslo Skaperfestival",
+            "url": "https://www.visitoslo.com/no/hva-skjer/festivaler/festivalkalender"
+          }
+        ]
+      },
+      {
+        "emoji": "🍺",
+        "text": "Odysseas Kousoulas Sharp plays a free sing-along pub set at Amundsen Bryggeri tonight at 22:00.",
+        "sources": [
+          {
+            "label": "Odysseas Kousoulas Sharp",
+            "url": "https://www.amundsenspiseri.no/events/odysseas-kousoulas-sharp-live-free"
+          }
+        ]
+      }
+    ]
+  }
+}

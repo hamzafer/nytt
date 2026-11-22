@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-27",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "⛏️",
+        "text": "Nordic Mining is pausing its controversial Engebø mine in Førdefjorden indefinitely because talks with its creditors have stalled. It warns that a rescue isn't guaranteed and bankruptcy is possible, and about 100–130 people work on the project.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/4OayeE/nordic-mining-stanser-gruvedriften-midlertidig"
+          }
+        ]
+      },
+      {
+        "emoji": "🇺🇳",
+        "text": "A UN-backed commission led by former Norwegian judge Erik Møse found that Russia's attacks on Ukraine's energy supply are war crimes and crimes against humanity.",
+        "sources": [
+          {
+            "label": "ABC Nyheter",
+            "url": "https://www.abcnyheter.no/nyheter/nattens-viktigste-nyheter/1712123"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "📜",
+        "text": "New rules take effect on Sunday, Nov 1, covering unemployment benefits (dagpenger), the blue prescription scheme (blåresept) and customs. If you claim benefits or get medicine on blåresept, check NAV or Helsenorge.",
+        "sources": [
+          {
+            "label": "Lov Norge",
+            "url": "https://www.lovnorge.no/lovendringer"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🏗️",
+        "text": "An 80 m tower crane by Strandgata started leaning on Monday, which led to evacuations and closures on Prinsens gate, Fred. Olsens gate and Strandgata. It was taken down by 22:15, and police expected to lift the cordons this morning. Buses come back first, and trams return once the tracks have been checked, so expect some disruption there today.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/sperrer-av-omrade-i-oslo-sentrum-_-frykter-krankollaps-1.18064975"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "⛴️",
+        "text": "Monday's Copenhagen–Oslo ferry (Go Nordic's Nordic Crown) turned back near Skagen because of the storm, and Monday's departure from Oslo was cancelled. The next sailing from Oslo is today at 16:30 on Nordic Pearl.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/AbajjE/danskebaaten-maatte-snu-i-uvaeret-mange-er-frustrerte"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: The Great Halloween Hunt at Lilleaker is free from Oct 27 to 31. Find seven hidden \"carnivorous plants\" outdoors, answer the questions, and claim a prize at CC Vest or the cafés nearby.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/the-great-halloween-hunt"
+          }
+        ]
+      },
+      {
+        "emoji": "🎻",
+        "text": "A free All Saints' concert with violin, organ and piano is at Ullern kirke on Saturday at 12:00.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/allehelgenskonsert-2026-10-31"
+          }
+        ]
+      },
+      {
+        "emoji": "🌍",
+        "text": "The Oslo World music festival runs from tonight until Nov 1. It opens at Chateau Neuf with Lebanese legend Marcel Khalife and closes with Jovanotti at Sentrum Scene. It's ticketed, not free, but worth knowing about.",
+        "sources": [
+          {
+            "label": "Lineup",
+            "url": "https://www.bandsintown.com/f/216219-oslo-world-2026"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-20",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🇺🇦",
+        "text": "Zelensky is in Oslo today. He'll meet PM Støre and Finland's President Stubb, have an audience with King Haakon and visit the Storting, so expect security and traffic disruptions downtown. Axios reports that US envoy Steve Witkoff may also come for Ukraine talks.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/771xew/zelenskyj-til-norge-i-forbindelse-med-usa-moete"
+          },
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/verden/i/n9P9WL/axios-ukraina-moete-kan-skje-i-oslo-i-dag"
+          }
+        ]
+      },
+      {
+        "emoji": "🏭",
+        "text": "Hydro unveiled new technology that could eventually make aluminium production completely CO₂-free, and Støre called it historic.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/vestfoldogtelemark/ny-hydro-teknologi-kan-fjerne-co_-utslipp-fra-aluminium-1.18058813"
+          }
+        ]
+      },
+      {
+        "emoji": "💶",
+        "text": "The EU is giving NOK 3.3 billion to Norwegian offshore wind and carbon capture projects.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/politikk/i/9kLBll/eu-gir-33-milliarder-kroner-til-norske-havvind-og-karbonfangstprosjekter"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "💱",
+        "text": "The krone is at its strongest in over three years, and analysts think the euro could get even cheaper. That's handy for trips or for buying things priced in euros.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/internasjonal-oekonomi/i/Vgrg11/sterkeste-krone-paa-mer-enn-tre-aar"
+          }
+        ]
+      },
+      {
+        "emoji": "💉",
+        "text": "FHI, the public health institute, has published its winter vaccine advice. Flu shots are recommended for everyone 65+, risk groups and pregnant women, and pharmacies already have them.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/MA25v0/fhi-med-vaksineraad-disse-vaksinene-boer-du-ta-i-aar"
+          }
+        ]
+      },
+      {
+        "emoji": "🚗",
+        "text": "New petrol and diesel cars won't pay double tolls in Oslo for now, because the transport minister turned the proposal down.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/avviser-doble-bomtakster-for-nye-fossilbiler-1.18058222"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🏊",
+        "text": "The Røa Bad pool row is heating up. MDG is putting forward a no-confidence motion against city councillor Anita Leirvik North (H), and Ap and FrP have called an urgent meeting with the city attorney on Oct 27.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/mistillitsforslag-mot-byrad-anita-leirvik-north-1.18053442"
+          }
+        ]
+      },
+      {
+        "emoji": "🗓️",
+        "text": "The big T-bane shutdown is Nov 19–22, which is now one month away.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/det-store-t-baneloftet"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "✊",
+        "text": "Ten BPA personal assistants at the care company Human Care go on strike at 10:00 today in Bærum, Høvik and Ullensaker.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/politikk/i/Gr2xmq/bpa-assistenter-gaar-ut-i-streik-fra-tirsdag"
+          }
+        ]
+      },
+      {
+        "emoji": "🌧️",
+        "text": "There are no weather warnings for Oslo, but storm flooding has hit Sortland up north, and there's a landslide risk across much of Nordland.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nordland/floymer-over-i-sortland-1.18059148"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: The We Do Festival opens with a free Bad Ritual concert at Factory Tøyen tomorrow at 19:30, kicking off a festival of Polish contemporary art.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/bad-ritual-we-do-festival-opening-concert"
+          }
+        ]
+      },
+      {
+        "emoji": "🎺",
+        "text": "Høststorm, the free wind concert by Barratt Due students, is tonight at 18:00. You need to grab a free ticket.",
+        "sources": [
+          {
+            "label": "Barratt Due",
+            "url": "https://barrattdue.no/arrangement/hoststorm-2026/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎹",
+        "text": "Beethoven10 vol. 4 is a free concert tonight at 19:00 at the Norwegian Academy of Music.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/whats-on/events/concerts"
+          }
+        ]
+      },
+      {
+        "emoji": "🎻",
+        "text": "On Saturday at 13:00, there's a free 45-minute concert of Grieg and folk tunes for Hardanger fiddle and piano at Oslo Konserthus, with no ticket needed.",
+        "sources": [
+          {
+            "label": "Oslo Philharmonic",
+            "url": "https://ofo.no/no/konserter/2026-10-24/tradisjon-i-bevegelse"
+          }
+        ]
+      }
+    ]
+  }
+}

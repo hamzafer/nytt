@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-08",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "👑",
+        "text": "An unknown man entered Marius Borg Høiby's home at Skaugum overnight into Friday and shoved him. Høiby described the encounter as unpleasant and unsafe.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/kMazyA/hoeiby-oppsoekt-av-mann-paa-skaugum-opplevde-det-som-ubehagelig-og-utrygt"
+          }
+        ]
+      },
+      {
+        "emoji": "🚢",
+        "text": "HMS *Prince of Wales* finally reached Oslo on Saturday afternoon, about a day late because of fog.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/r8L1ER/britisk-hangarskip-har-ankommet-oslo"
+          }
+        ]
+      },
+      {
+        "emoji": "🛡️",
+        "text": "A new air defence system is in place in Norway, capable of firing three different missile types at once.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/trondelag/nytt-luftvern-pa-plass-i-norge-1.18072101"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "✈️",
+        "text": "Travel booking data has been exposed. Hackers had access through Amadeus, used by Norwegian, Widerøe, Berg-Hansen and much of the travel industry, from 2023 until Sept 23, 2026. The data can include names, passport numbers, contact details and itineraries. NSM advises changing travel-site passwords and being alert to scams that use genuine trip details. This doesn't establish whether your own bookings were affected.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tromsogfinnmark/personalia-fra-nordmenns-flyreiser-de-siste-tre-arene-pa-avveier--berg-hansen-og-norwegian-bekrefter-1.18075424"
+          },
+          {
+            "label": "NSM",
+            "url": "https://nsm.no/aktuelt/reiseopplysninger-kompromittert-hos-spansk-leverandor"
+          }
+        ]
+      },
+      {
+        "emoji": "🎆",
+        "text": "Oslo's city council rejected a total ban on private fireworks. Existing restrictions still matter; this isn't permission to set them off anywhere.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/oslo-bystyre-sier-nei-til-forbud-mot-fyrverkeri-nyttarsaften-1.18075328"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚗",
+        "text": "E18 roadwork at Fornebukrysset finished early, and the road has been open as normal since midnight.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/z0L1Qb/arbeid-ved-fornebu-gikk-raskere-enn-ventet-e18-aapen-som-normalt"
+          }
+        ]
+      },
+      {
+        "emoji": "🚆",
+        "text": "Trains are running again after an electrical fault stopped traffic at Oslo S on Friday evening.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/jordfeil-pa-oslo-s-forer-til-full-stans-i-togtrafikken-1.18076087"
+          }
+        ]
+      },
+      {
+        "emoji": "👮",
+        "text": "Oslo police union representatives warn that increasing workloads and officers leaving are putting their ability to respond under pressure.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/Qrl0gR/tillitsvalgte-i-oslo-politiet-mener-folk-ikke-kan-forvente-politihjelp"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌧️",
+        "text": "Northern Nordland and Troms have flood and landslide warnings this weekend, with up to 90 mm of rain forecast.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/GP1bPV/farevarsel-om-flom-og-skred-i-nord-kan-komme-90-millimeter-regn"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Fjord Oslo, tonight is the final night of the free waterfront light-art festival, 18:00–23:00.",
+        "sources": [
+          {
+            "label": "Fjord Oslo",
+            "url": "https://www.visitoslo.com/event/fjord-oslo-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "🌀",
+        "text": "Ganzfeld & Skyspace, free Ekebergparken tours every half hour from 11:00–16:00, with a break from 13:30–14:00.",
+        "sources": [
+          {
+            "label": "Ganzfeld & Skyspace",
+            "url": "https://utgang.no/arrangement/sondagsvisninger-i-ganzfeld-skyspace-2026-11-08"
+          }
+        ]
+      },
+      {
+        "emoji": "🎷",
+        "text": "Kampenjazz, free concert at Nordic Black Theatre at 20:00.",
+        "sources": [
+          {
+            "label": "Kampenjazz",
+            "url": "https://utgang.no/arrangement/kampenjazz-ungdommens-improorkester-og-ung-vokal-2026-11-08"
+          }
+        ]
+      }
+    ]
+  }
+}

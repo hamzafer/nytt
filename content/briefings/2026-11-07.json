@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-07",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🚢",
+        "text": "HMS *Prince of Wales* didn't reach Oslo yesterday: thick fog forced the aircraft carrier to turn around near Moss. Arrival has been pushed to this morning, but fog could delay it again.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/xlxErp/hms-prince-of-wales-stanset-av-taake-har-snudd-utenfor-moss"
+          }
+        ]
+      },
+      {
+        "emoji": "📊",
+        "text": "A new Klassekampen/Nationen poll puts Frp at 32.9%, Ap at 19.5% and Høyre at 15.1%. Frp and Høyre would have a parliamentary majority on these numbers; Venstre falls below the electoral threshold. It's one poll, not an election result.",
+        "sources": [
+          {
+            "label": "ABC Nyheter",
+            "url": "https://www.abcnyheter.no/nyheter/nattens-viktigste-nyheter/1725399"
+          }
+        ]
+      },
+      {
+        "emoji": "🏥",
+        "text": "A man in his 30s was killed at a closed adult psychiatric ward at Drammen Hospital on Friday. Another patient, a man in his 40s, is charged with murder.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/buskerud/en-person-dod-etter-voldshendelse-pa-drammen-sykehus-_-etterforskes-som-drap-1.18075804"
+          }
+        ]
+      },
+      {
+        "emoji": "🎾",
+        "text": "Casper Ruud is through to the Paris Masters semifinal after beating Nuno Borges. Next up is Alcaraz.",
+        "sources": [
+          {
+            "label": "ABC Nyheter",
+            "url": "https://www.abcnyheter.no/nyheter/nattens-viktigste-nyheter/1725399"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🧊",
+        "text": "There's a yellow ice warning across lowlands and valleys in Østlandet through Monday morning, with freezing fog and possible freezing drizzle. Take it carefully on roads and pavements.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/innlandet/farevarsel-om-is-pa-ostlandet-1.18075362"
+          }
+        ]
+      },
+      {
+        "emoji": "🚧",
+        "text": "If the carrier docks, expect extra security restrictions around the harbour.",
+        "sources": [
+          {
+            "label": "ABC Nyheter",
+            "url": "https://www.abcnyheter.no/nyheter/dette-skjer-i-dag/1725396"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Fjord Oslo, free light art along the harbour promenade tonight and Sunday, 18:00–23:00. Sunday is your last chance.",
+        "sources": [
+          {
+            "label": "Fjord Oslo",
+            "url": "https://www.visitoslo.com/no/event/fjord-oslo-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "📚",
+        "text": "Oslo Zine Fest, free zine browsing and workshops this weekend; the market runs 12:00–17:00.",
+        "sources": [
+          {
+            "label": "Oslo Zine Fest",
+            "url": "https://www.oslozinefest.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🌌",
+        "text": "Ganzfeld & Skyspace tours, free visits to James Turrell's light installations in Ekebergparken on Sunday, 11:00–16:00, every half hour with a pause from 13:30–14:00.",
+        "sources": [
+          {
+            "label": "Ganzfeld & Skyspace tours",
+            "url": "https://utgang.no/arrangement/sondagsvisninger-i-ganzfeld-skyspace-2026-11-08"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-11",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🔓",
+        "text": "Nav accidentally put sensitive user data on GitHub, including sick-leave claims, account numbers, payment history and children's ID numbers. 26 people were directly affected, and some of the data was still online after Nav promised in Dec 2025 to delete it.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/nav-la-ut-informasjon-om-jonnys-sykepenger-pa-internett-jeg-er-sjokkert-1531258"
+          }
+        ]
+      },
+      {
+        "emoji": "🎭",
+        "text": "The state is buying the old Munch museum at Tøyen for 111 million kr. Nationaltheatret will use it as its temporary main stage during renovation, and later as its permanent smaller stages. The city council still has the final say.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/vil-ha-nationaltheatret-til-toyen-1532580"
+          }
+        ]
+      },
+      {
+        "emoji": "📈",
+        "text": "Inflation was 3.6% in October, and core inflation was 2.7%. Food prices fell 0.4% from September but were up 1.6% over the year.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/prisene-steg-med-3_6-prosent-i-oktober-1.18078012"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "⚡",
+        "text": "Power was expected to set another record today after Tuesday's spike, with a sharp drop on Thursday when the wind returns. Norgespris protects you, but without it, check hourly prices before running heavy appliances today.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/vestfoldogtelemark/stromsmell-pa-arets-dyreste-dag_-_-det-er-spinnvilt.-det-er-koko-1.18078480"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚇",
+        "text": "Fornebubanen is delayed and may go over its 31.2 billion kr budget. The Fornebu end station won't be ready until 2030, so it may open in stages, with Majorstuen to Flytårnet in 2029.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/byradet-varsler-mulig-fornebubane-sprekk-pa-3_7-milliarder-1.18078256"
+          }
+        ]
+      },
+      {
+        "emoji": "🚧",
+        "text": "The T-bane shutdown on Nov 19–22 is the first of seven, and the next is Feb 25–28.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/det-store-t-baneloftet"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "❄️",
+        "text": "There's a yellow snow warning for Oslo and Akershus tomorrow (Thursday) from 06:00 to 21:00, with 5–15 cm of snow. If you drive, check for winter tyres and allow extra time, and expect transit delays.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/nb/farevarsler"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Free swing jazz at Brødrene Bergh (Karl Johans gate 35) tonight, with music from the 1920s to 40s and room to dance. Listings say 18:00 or 20:00, so check first.",
+        "sources": [
+          {
+            "label": "Brødrene Bergh",
+            "url": "https://brodrenebergh.no/hva-skjer/"
+          }
+        ]
+      },
+      {
+        "emoji": "🗣️",
+        "text": "Caritas Norsktrening, free drop-in Norwegian practice, is today at 17:00.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎸",
+        "text": "Paul-Ronney Angel has a free album release party at Revolver tonight. The show starts at 20:00 and it's 20+.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/paul-ronney-angel-album-slippfest-bursdag-2026-11-11"
+          }
+        ]
+      },
+      {
+        "emoji": "🎼",
+        "text": "KOKO is a free concert of new student compositions at the Norwegian Academy of Music, tonight at 19:00.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/koko-2026-11-11"
+          }
+        ]
+      },
+      {
+        "emoji": "🎤",
+        "text": "On Friday and Saturday there's free live music at O'Connor's on Grünerløkka from 22:00. deLillos also play Rockefeller, but that's ticketed, not free.",
+        "sources": [
+          {
+            "label": "Aktiv i Oslo",
+            "url": "https://aktivioslo.no/hva-skjer-i-oslo/tag:konserter-og-musikk"
+          }
+        ]
+      }
+    ]
+  }
+}

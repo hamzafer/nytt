@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-14",
+  "sections": {
+    "oslo": [
+      {
+        "emoji": "🗳️",
+        "text": "Marthe Scharning Lund has dropped out of the race to lead Oslo Ap, so Usman Mushtaq is set to take on Eirik Lae Solberg (H) in next year's local election. TV 2 reports that ex-Paralympian Birgit Skarstein is the pick for mayor candidate, and the final vote is Nov 22.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/marthe-scharning-lund-trekker-seg-som-toppkandidat-1532924"
+          }
+        ]
+      },
+      {
+        "emoji": "🚆",
+        "text": "The 36 new Alstom trains for the L1 (Spikkestad–Lillestrøm) and L2 (Stabekk–Ski) local lines failed voltage tests, and they're now delayed indefinitely. They had already been pushed to April 2027, so the old, packed trains stay for now.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/nye-tog-ytterligere-forsinket-en-stor-katastrofe-1532948"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌡️",
+        "text": "There are no weather warnings for Oslo. It's about −2°C this morning, so watch for icy patches early on. It warms to about 4°C today, and Sunday is milder with some rain.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/nb/farevarsler"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: The Kunstbok Oslo art book fair is at the National Library (Solli plass) today and Sunday, 11:00–18:00, with free entry.",
+        "sources": [
+          {
+            "label": "Kunstbok Oslo",
+            "url": "https://www.kunstbokoslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "⚽",
+        "text": "Norway vs Wales kicks off at 18:00. Ullevaal is sold out, but it's free to watch at pubs like Carls (Carl Berner), Lincoln (Torshov), The Highbury (Majorstuen), Sport 33 (Grünerløkka) or Bohemen (sentrum).",
+        "sources": [
+          {
+            "label": "Aftenposten Vink",
+            "url": "https://vink.aftenposten.no/artikkel/Jn19yP/dette-skjer-i-oslo-i-helgen"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "Grand Hotel's Christmas market has 70+ vendors, open today 12:00–17:00 and Sunday 11:00–16:00. Sofienberg kirke also has a Christmas market today, 12:00–17:00.",
+        "sources": [
+          {
+            "label": "Grand Christmas Market",
+            "url": "https://www.grandchristmasmarket.no/grandhoteloslo"
+          }
+        ]
+      },
+      {
+        "emoji": "🛼",
+        "text": "The free Roller Disco at Sentralen is today at 15:00.",
+        "sources": [
+          {
+            "label": "Locl",
+            "url": "https://locl.no/en/oslo/free/this-weekend"
+          }
+        ]
+      },
+      {
+        "emoji": "🎬",
+        "text": "It's the last weekend of Film fra Sør, with films from Africa, Asia and Latin America at Vega Scene, Cinemateket and Vika kino until Sunday. Tickets are 145–175 kr, so it's not free.",
+        "sources": [
+          {
+            "label": "Aftenposten Vink",
+            "url": "https://vink.aftenposten.no/artikkel/Jn19yP/dette-skjer-i-oslo-i-helgen"
+          }
+        ]
+      },
+      {
+        "emoji": "🎸",
+        "text": "The Prodigy plays Unity Arena tonight at 22:30, and it's ticketed. Take public transport, since it's a 15–20 minute walk from Lysaker.",
+        "sources": [
+          {
+            "label": "Unity Arena",
+            "url": "https://unityarena.no/en/arrangementer/the-prodigy/"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-24",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🛢️",
+        "text": "North Sea oil topped $117 a barrel on Friday, the highest in about five months, after new tension in the Middle East. Equinor shares rose on the Oslo stock exchange.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/verden/i/d7Ew7o/oljeprisen-naar-sitt-hoeyeste-nivaa-paa-fem-maaneder"
+          }
+        ]
+      },
+      {
+        "emoji": "🏖️",
+        "text": "The government wants the Oslofjord municipalities to build less along the shoreline, since only 30% of the inner Oslofjord is open to the public.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/naeringsliv/i/qyawGE/regjeringen-krever-mindre-bygging-i-strandsonen"
+          }
+        ]
+      },
+      {
+        "emoji": "📰",
+        "text": "The Norwegian Editors' Association has given Hans Rustad, editor of the website Document, a formal warning.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/norsk-redaktorforening-gir-rustad-ei-formell-atvaring-1.18063072"
+          }
+        ]
+      },
+      {
+        "emoji": "🧀",
+        "text": "Brunost is going to China. Tine, Norway's big dairy company, made its first batch for export there on Friday.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/vestland/no-startar-eksporten-av-brunost-til-kina-1.18062974"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🕒",
+        "text": "The clocks go back an hour tonight, from 03:00 to 02:00, and your phone will change by itself. Oslo bars still close at the normal time, so you don't get an extra hour out.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/ikkje-utvida-skjenketid-natt-til-sundag-1.18062671"
+          }
+        ]
+      },
+      {
+        "emoji": "🎒",
+        "text": "The city will mail every resident a brochure on preparing for war and crises in week 45, and the national preparedness week starts Monday. Oslo has its preparedness guide in English.",
+        "sources": [
+          {
+            "label": "preparedness guide in English",
+            "url": "https://www.oslo.kommune.no/beredskap/egenberedskap/egenberedskap-pa-flere-sprak/"
+          },
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/Og9Qbk/oslo-kommune-sender-ut-krigs-og-krisebrosjyre-til-alle-innbyggerne"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚆",
+        "text": "A signal fault shut the train tunnel between Nationaltheatret and Oslo S on Friday evening and messed up every line through the city. It has reopened, but check before you travel.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/stans-i-togtrafikken-gjennom-oslo-1.18063424"
+          }
+        ]
+      },
+      {
+        "emoji": "🔥",
+        "text": "Oslo firefighters went out to 22 calls in two days for pots left boiling dry, so don't walk away from the stove.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/kvV1Aj/brannvesenet-i-oslo-er-frustrert-rykket-ut-til-22-toerrkokinger-paa-to-doegn"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌧️",
+        "text": "Storm Boelo hits southern Norway tonight. There's a yellow warning for strong gusts in parts of Østlandet, and an orange flood warning for large areas west of Oslo from tonight until Sunday evening.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/oppjustert-flaumvarsel-for-delar-av-austlandet-1.18063225"
+          }
+        ]
+      },
+      {
+        "emoji": "✈️",
+        "text": "SAS Link cabin crew go on strike from Wednesday morning. Only minor disruption is expected, but check your booking if you're flying SAS next week.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/naeringsliv/i/2VJwva/streik-for-kabinansatte-i-sas"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Oslo rock band Sykkeltyvene play a free gig at Folk i Storgata tonight at 21:00.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/gratiskonsert-sykkeltyvene-2026-10-24"
+          }
+        ]
+      },
+      {
+        "emoji": "🖤",
+        "text": "Avtrykk vol. 15 brings punk, emo and electronica to Hvelvet at Sentralen tonight from 21:30. Entry is free and 18+, but space is limited, so go early.",
+        "sources": [
+          {
+            "label": "Sentralen",
+            "url": "https://www.sentralen.no/program/avtrykk-vol-15-artister-slem-an-arri-ringgirl-silent-boy-rhino-caccam-pastelljudas"
+          }
+        ]
+      },
+      {
+        "emoji": "🎺",
+        "text": "The Vålerenga Janitsjar wind band plays a radio-themed evening at Voldsløkka Scene at 18:00 today. You can get in free or buy a paid ticket.",
+        "sources": [
+          {
+            "label": "Voldsløkka Scene",
+            "url": "https://www.voldslokkascene.no/program/pariktigfrekvens"
+          }
+        ]
+      }
+    ]
+  },
+  "intro": "It's a windy, wet weekend, and you get an extra hour of sleep tonight."
+}

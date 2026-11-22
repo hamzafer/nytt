@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-19",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "📵",
+        "text": "The government wants a 16-year age limit for TikTok, Snapchat and Roblox, and possibly YouTube. The bill should reach the Storting by the end of the year and take effect next year.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/4OQ3Mo/regjeringen-roblox-tiktok-og-snapchat-skal-faa-16-aars-aldersgrense"
+          }
+        ]
+      },
+      {
+        "emoji": "💰",
+        "text": "This year's TV-aksjonen raised 251 million kroner for the Norwegian Refugee Council.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tvaksjonen/over-250-millioner-kroner-kom-inn-til-tv-aksjonen-2026-1.18047087"
+          }
+        ]
+      },
+      {
+        "emoji": "🌹",
+        "text": "AUF, Labour's youth wing, picked 28-year-old Fawzi Warsame from Oslo as its new leader and voted to keep saying no to the EU.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/auf-har-valgt-ny-leder-1.18057853"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "👶",
+        "text": "Most of the Storting wants kids born in December to get a kindergarten (barnehage) place by age one, but the government won't promise it for children born this year.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nordland/stortinget-vil-gi-desemberbarna-barnehageplass-fra-fylte-ett-ar-1.18049141"
+          }
+        ]
+      },
+      {
+        "emoji": "✈️",
+        "text": "The new airports in Bodø and Mo i Rana are set to go over budget by billions, which could mean pricier plane tickets.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/norsk-oekonomi/i/kvbGWL/avinor-varsler-milliardsprekk-i-nord"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🏛️",
+        "text": "City commissioner Anita Leirvik North, from Høyre (the Conservatives), won't run for re-election. She's the one Labour accused of lying at the Røabadet pool hearing.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/p1X9VE/oslo-byraad-gir-seg-medaljen-har-en-bakside"
+          }
+        ]
+      },
+      {
+        "emoji": "🏚️",
+        "text": "Labour is criticizing the city government's plan to sell Lokomotivverkstedet in Middelalderparken.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/QgqjEJ/ap-kritiserer-salg-av-lokomotivverkstedet-i-oslo"
+          }
+        ]
+      },
+      {
+        "emoji": "🗓️",
+        "text": "A reminder that almost the whole T-bane closes Nov 19–22.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/det-store-t-baneloftet"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🛞",
+        "text": "It's tyre-change season, and the authorities are asking people to check that their tyre shop is legit, because the busy season brings more illegal labour.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sorlandet/hoy-aktivitet-i-dekkskift-bransjen_-_-risiko-for-arbeidslivskriminalitet-1.18056473"
+          }
+        ]
+      },
+      {
+        "emoji": "🌧️",
+        "text": "There are no weather warnings for Oslo, but northern Nordland and Troms have an orange warning for heavy rain.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nordland/oransje-farevarsel-om-store-nedborsmengder-_-venter-overvann_-flom-og-krevende-forhold-1.18057824"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: We Do Festival opens with a free Bad Ritual concert at Factory Tøyen on Wednesday at 19:30.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/bad-ritual-we-do-festival-opening-concert"
+          }
+        ]
+      },
+      {
+        "emoji": "🎺",
+        "text": "Høststorm, the free wind concert by Barratt Due students, is tomorrow at 18:00. You need to grab a free ticket.",
+        "sources": [
+          {
+            "label": "Barratt Due",
+            "url": "https://barrattdue.no/arrangement/hoststorm-2026/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎸",
+        "text": "There's a free Sunday World concert with Cuerda Nova at Juret on Sunday at 19:00, with an open jam after.",
+        "sources": [
+          {
+            "label": "Samspill",
+            "url": "https://samspillmusicnetwork.no/no/news/sunday-world-hosten-2026/"
+          }
+        ]
+      }
+    ]
+  }
+}

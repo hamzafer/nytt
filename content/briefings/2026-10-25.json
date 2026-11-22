@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-25",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🌪️",
+        "text": "Boelo knocked out power for more than 8,000 households in southern Norway overnight, mostly in Agder, Telemark, Vestfold and Lunner, and brought trees down across roads in Vestfold.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/vestfoldogtelemark/stormen-pa-ostlandet_-flere-tusen-uten-strom-1.18064040"
+          }
+        ]
+      },
+      {
+        "emoji": "🛢️",
+        "text": "A rig owned by the Norwegian company Borr Drilling sank off Gabon on Saturday evening, and five people are missing.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/boers-og-finans/i/xlogpB/borr-drilling-rigg-har-sunket-fem-savnet"
+          }
+        ]
+      },
+      {
+        "emoji": "🖥️",
+        "text": "KrF, SV and Rødt want a full stop to new data centres in Norway, while Frp says it will wait for the government.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/naeringsliv/i/qyMAkg/feigt-av-frp"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🏠",
+        "text": "OBOS, the big housing cooperative, says ten years of slow planning added about NOK 482,000 to the price of an average flat in its Nydalen project. The housing minister says the building rules are under review, with the first proposals coming this autumn.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/boliger-blir-dyrere-pa-grunn-av-treg-saksbehandling_-ifolge-obos-1.18058561"
+          }
+        ]
+      },
+      {
+        "emoji": "⚡",
+        "text": "People are already worried about winter power prices even with the support schemes, so it's a good time to check your electricity deal.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/norsk-oekonomi/i/0BJXvB/nordmenn-bekymrer-seg-for-dyr-strom"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🔪",
+        "text": "Someone was stabbed in a parking garage in Bjørvika on Saturday. Police say the people involved seem to know each other.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/qylxgL/alvorlig-voldshendelse-i-oslo-sentrum-leter-etter-gjerningspersonen"
+          }
+        ]
+      },
+      {
+        "emoji": "🚆",
+        "text": "Trains between Nationaltheatret and Lysaker were stopped again on Saturday morning and got going around noon.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/gdmwLL/togtrafikken-er-i-gang-igjen-etter-en-stans"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌊",
+        "text": "There's still an orange warning for floods and landslides in parts of Østlandet, so expect a wet, windy day.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/vestfoldogtelemark/stormvarsel-pa-ostlandet-1.18063720"
+          }
+        ]
+      },
+      {
+        "emoji": "⛴️",
+        "text": "Color Line has cancelled ferry sailings because of the storm, so check before you travel.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sorlandet/_boelo_-har-konsekvenser-1.18064034"
+          }
+        ]
+      },
+      {
+        "emoji": "📞",
+        "text": "NRK found that phone scammers are calling from real Norwegian numbers, so a familiar +47 number doesn't mean a call is safe.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/dokumentar/nrk-avslorer_-telefonsvindlerne-ringer-fra-norske-nummer-1.18040432"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: The Frank Znort Quartet keep up their free Sunday tradition at Blå, starting with an acoustic outdoor set at 16:30 and moving indoors from 20:30.",
+        "sources": [
+          {
+            "label": "Hva skjer i Oslo",
+            "url": "https://www.hvaskjerioslo.net/konserter-festivaler"
+          }
+        ]
+      },
+      {
+        "emoji": "🎻",
+        "text": "Geistliches Wiegenlied is a free Brahms evening at the Norwegian Academy of Music at 18:00.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/whats-on/events/concerts"
+          }
+        ]
+      },
+      {
+        "emoji": "🎸",
+        "text": "DjangoJam is a free jam at Vespa & Humla at 18:00.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/whats-on/events/concerts"
+          }
+        ]
+      },
+      {
+        "emoji": "🎤",
+        "text": "Sw@da x Niczos play Høymagasinet at 18:00 to close out the We Do Festival, and it's free.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/whats-on/events/concerts"
+          }
+        ]
+      }
+    ]
+  },
+  "intro": "Storm Boelo hit the south overnight, so that's the big story today. The clocks went back an hour, too."
+}

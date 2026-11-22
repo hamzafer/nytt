@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-17",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🚆",
+        "text": "The train drivers' union and Spekter, the employers' group, reached a deal overnight, ending a strike that lasted almost a month. Vy expects most trains to be running normally again from this afternoon.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/okonomi/i/b8dvQe/togstreiken-over-trolig-normal-trafikk-fra-loerdag-ettermiddag"
+          }
+        ]
+      },
+      {
+        "emoji": "☢️",
+        "text": "Norway signed a deal worth billions to send 16.5 tonnes of high-level nuclear waste to Sweden for treatment. It has to come back to Norway by 2055.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/ostfold/norge-sender-atomavfall-til-sverige-i-ny-milliardavtale-1.18054484"
+          }
+        ]
+      },
+      {
+        "emoji": "🌊",
+        "text": "A big search is under way in Bodø for a person who went missing after a jet ski capsized overnight. The other rider swam about 200 meters to shore in ice-cold water.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nordland/en-person-savnet-etter-vannscooterulykke-i-bodo-1.18057325"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🛣️",
+        "text": "If you're driving west, road 52 over Hemsedalsfjellet will close for up to 13.5 hours a day from Oct 21 to Dec 17, though it stays open over weekends. The suggested detours are Rv 7 or E16.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/buskerud/ma-stenge-riksveg-52-i-opptil-13_5-timer-i-dognet-1.18056832"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚋",
+        "text": "A tram and a taxi collided near Nasjonalmuseet last night. Six people went to the emergency clinic with no serious injuries reported, and tram lines 12 and 15 were delayed.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/BMd5bE/kraftig-sammenstoet-mellom-trikk-og-taxi-i-oslo-sentrum"
+          }
+        ]
+      },
+      {
+        "emoji": "🏗️",
+        "text": "The city approved only 320 new homes in the first half of the year, against a target of 3,000 a year, which Labour warns will push prices up further.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/svake-boligtall-i-oslo_-320-nye-boliger-fikk-gront-lys-forste-halvar-1.18056594"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🛢️",
+        "text": "There's a small new offshore strike at Reach Subsea, but it won't affect daily life in Oslo.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/lonnsoppgjoret-2026-1.17724823"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Barnas verdensdager is a free world-culture festival at Grønland today and tomorrow, 11:30–16:30, with music, dance and an international food bazaar.",
+        "sources": [
+          {
+            "label": "Oslo Museum",
+            "url": "https://www.oslomuseum.no/en/whats-on/childrens-world-days/"
+          }
+        ]
+      },
+      {
+        "emoji": "🦖",
+        "text": "The Natural History Museum has free dinosaur tours and mini shows at 12:00 on both days.",
+        "sources": [
+          {
+            "label": "Barneaktiviteter",
+            "url": "https://barneaktiviteter.no/arrangementer/helgeprogram-for-barn-2026-10-17"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "Art fest at Bærums Verk is free, 12:00–18:00 daily through Wednesday.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/art-fest-2026-at-b-rums-verk"
+          }
+        ]
+      },
+      {
+        "emoji": "🍺",
+        "text": "Oktoberfest is at Youngstorget today and is back again Oct 22–24.",
+        "sources": [
+          {
+            "label": "Norske kalendere",
+            "url": "https://norskekalendere.no/hva-skjer/oslo/i-helgen/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎤",
+        "text": "For a paid night out, Bob Dylan plays Oslo Spektrum and Espen Lind plays Sentrum Scene, both tonight at 20:00.",
+        "sources": [
+          {
+            "label": "Norske kalendere",
+            "url": "https://norskekalendere.no/hva-skjer/oslo/i-helgen/"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-26",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🔎",
+        "text": "A person was found dead in a home in Ringerike just after midnight. Police are treating it as a murder, and one person has been arrested and charged.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/norge/"
+          }
+        ]
+      },
+      {
+        "emoji": "🛢️",
+        "text": "There's an update on the Borr Drilling rig that sank off Gabon. Of the 115 people on board, 110 are accounted for, and Reuters reports one dead and four still missing.",
+        "sources": [
+          {
+            "label": "Finansavisen",
+            "url": "https://www.finansavisen.no/energi/2026/10/25/8390341/borr-forliset-hundrevis-av-millioner-star-pa-spill"
+          }
+        ]
+      },
+      {
+        "emoji": "🌊",
+        "text": "34 mayors are pushing back on the cost of cleaning up the Oslofjord, and the climate minister disagrees with their criticism.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/norge/"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚆",
+        "text": "A train's brakes caught fire at Lillestrøm station on Sunday evening. Everyone got off safely, but the station was closed and trains stopped, so check Vy before you head east.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/buskerud/brann-i-togbremser-_-lillestrom-stasjon-stengt-1.18064461"
+          }
+        ]
+      },
+      {
+        "emoji": "🔪",
+        "text": "Police have put out an international wanted notice for a man in his 30s, charged over Saturday's stabbing of a woman in a Bjørvika parking garage. She is seriously hurt but not in critical condition.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/knivstikkingen-i-oslo_-mann-etterlyst-internasjonalt-1.18064118"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌧️",
+        "text": "The orange flood warning after Storm Boelo starts easing from 07:00 today, but streams and rivers may still be high.",
+        "sources": [
+          {
+            "label": "Yr warnings",
+            "url": "https://www.yr.no/nb/farevarsler"
+          }
+        ]
+      },
+      {
+        "emoji": "📻",
+        "text": "Preparedness week starts today. A survey by DSB, Norway's civil protection agency, found that over 60% of people aren't ready for a long internet and mobile outage. DSB suggests a battery-powered DAB radio, a charged power bank and a friend you agree to check on.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/9ka5rE/nattens-viktigste-nyheter"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Extra Delicious throws a Halloween dance night at Vulkan 5 on Friday, Oct 30, and it's free before 22:00.",
+        "sources": [
+          {
+            "label": "eventnorge",
+            "url": "https://www.eventnorge.no/arrangementer/extra-delicious/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "Artist Isabelle Andriessen gives a free talk at the Oslo National Academy of the Arts (KHiO) today, and on Wednesday its opera students give a free lunchtime concert.",
+        "sources": [
+          {
+            "label": "KHiO events",
+            "url": "https://khio.no/events"
+          }
+        ]
+      },
+      {
+        "emoji": "🎻",
+        "text": "There's a free All Saints' concert with violin and organ at the church at Ullernveien 28 on Saturday, Oct 31 at 12:00.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/allehelgenskonsert-2026-10-31"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-02",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "⚖️",
+        "text": "Marius Borg Høiby, the crown princess's son, has a custody hearing today at 9:15. He wants to be released, and prosecutors are asking for four more weeks. His appeal goes to Borgarting Court of Appeal in February.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/b8Ad4e/nok-et-fengslingsmoete-for-hoeiby-ber-om-loeslatelse"
+          }
+        ]
+      },
+      {
+        "emoji": "🏥",
+        "text": "The health reform committee, led by Gunnar Bovim, presents its proposals this morning. The focus is on getting ready for the wave of elderly people from 2030, which will hit the municipalities hardest.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/politikk/i/9kRWap/forslag-til-helsereform-legges-fram-i-dag-utfordrer-kommunene"
+          }
+        ]
+      },
+      {
+        "emoji": "🖥️",
+        "text": "Pushback against data centres is growing, which matters for AI. The engineers' union Tekna wants a full stop on giving power to new data centres, and SV proposes a building pause modelled on the 1999 shopping-centre stop.",
+        "sources": [
+          {
+            "label": "Aftenposten on Tekna",
+            "url": "https://www.aftenposten.no/okonomi/i/77eLBv/tekna-vil-stanse-tildeling-av-stroem-til-nye-datasentre"
+          },
+          {
+            "label": "Aftenposten on SV",
+            "url": "https://www.aftenposten.no/norge/politikk/i/oK5yLV/nytt-datasenterforslag-vil-kopiere-kjoepesenterstopp-fra-1999"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🎫",
+        "text": "One more detail on the cheaper Ruter monthly pass: if you have an annual pass, you can get the rest of it refunded for a 100 kr fee.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/sondag-blir-manedskortet-enda-billigere-_-enkeltbilletten-er-like-dyr-1.18067233"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚆",
+        "text": "Starting today, Vy has taken some Flirt trains out of service after the brake fire at Lillestrøm on Oct 25. Expect shorter trains and some cancellations on R12, R13, R14, R22, R23, R23X, R31, RE10 and RE11, and not every cancellation gets a replacement bus. Check Vy before you head home from the airport.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/tar-tog-ut-av-trafikk-etter-brann-1.18069887"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🇪🇸",
+        "text": "Since you're in Spain: 69 people died in last Wednesday's high-speed train crash near Urda, about 130 km south of Madrid, and 12 of them were foreigners. Reports say the Renfe train was cleared to run despite a signal fault.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/zlnQyw/tolv-utlendinger-omkom-i-spansk-togkatastrofe"
+          }
+        ]
+      },
+      {
+        "emoji": "💉",
+        "text": "The Norwegian Institute of Public Health (FHI) is worried about rising measles cases in children under five.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/b8pRA3/fhi-bekymret-for-oekende-mengde-meslingtilfeller-hos-smaabarn"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Fjord Oslo is a free light-art trail along Tjuvholmen and the harbour promenade from 18:00, running until Sunday, Nov 8. Saturday or Sunday evening works.",
+        "sources": [
+          {
+            "label": "Tjuvholmen",
+            "url": "https://www.tjuvholmen.no/en/events/fjord-oslo-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "📚",
+        "text": "Oslo Zine Fest has a free zine market from 12:00 to 17:00 on Saturday and Sunday at ROM for kunst og arkitektur (Maridalsveien 3), plus workshops.",
+        "sources": [
+          {
+            "label": "Oslo Zine Fest",
+            "url": "https://www.oslozinefest.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🥁",
+        "text": "The Percussion Ensemble plays a free Chamber Music Week concert on Saturday at 15:00 at the Norwegian Academy of Music (Slemdalsveien 11).",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/chamber-music-week-2026"
+          }
+        ]
+      }
+    ]
+  }
+}

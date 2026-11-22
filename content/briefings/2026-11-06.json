@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-06",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🚢",
+        "text": "The British carrier HMS *Prince of Wales* (284 m, about 700 crew) sails into the Oslofjord today for the Atlantic Future Forum, escorted by British and Norwegian ships.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/britisk-hangarskip-til-oslo-1.18075284"
+          },
+          {
+            "label": "Forsvaret",
+            "url": "https://www.forsvaret.no/aktuelt-og-presse/presse/pressemeldinger/britisk-hangarskip-med-havnebesok-i-oslo"
+          }
+        ]
+      },
+      {
+        "emoji": "🏦",
+        "text": "Norges Bank kept the policy rate at 4.5% yesterday. Inflation is still too high, and they say they may hike again if needed. The next decision is Dec 17.",
+        "sources": [
+          {
+            "label": "Norges Bank",
+            "url": "https://www.norges-bank.no/aktuelt/nyheter/Pressemeldinger/2026/2026-11-05-rente"
+          }
+        ]
+      },
+      {
+        "emoji": "⚖️",
+        "text": "A 29-year-old got nine years for three attempted murders in the Tveita centre shooting from July 2025. Two people were hit and survived.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/2VW934/tveita-skytingen-mann-doemt-til-ni-aars-fengsel"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🛴",
+        "text": "A proposal to raise the national e-scooter age limit from 12 to 16 is out for hearing, with a deadline of Feb 5, 2027, and an aim for spring 2027.",
+        "sources": [
+          {
+            "label": "Regjeringen",
+            "url": "https://www.regjeringen.no/no/aktuelt/aldersgrense-elsparkesykkel-horing/id3191712/"
+          }
+        ]
+      },
+      {
+        "emoji": "🏙️",
+        "text": "Oslo is cutting rental e-scooters from 16,000 to a max of 12,000, shifting 4,000 slots to e-bikes, and setting a 16 age floor, likely from April 1.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/8GrBqr/oslo-kutter-antall-elsparkesykler-og-hever-aldersgrensen"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚧",
+        "text": "Parts of Festningskaia at Akershus are closed for the carrier visit, with more military presence around the harbour.",
+        "sources": [
+          {
+            "label": "Forsvaret",
+            "url": "https://www.forsvaret.no/aktuelt-og-presse/presse/pressemeldinger/britisk-hangarskip-med-havnebesok-i-oslo"
+          }
+        ]
+      },
+      {
+        "emoji": "💥",
+        "text": "Blasting in Prinsdal went wrong on Thursday. Rocks hit a house, nobody was hurt, and the police are investigating.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/L38yLV/sprengningsarbeid-gikk-galt-i-oslo-boligstroek-steiner-traff-hus"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🧊",
+        "text": "Fog plus near-freezing temps this weekend in southern Norway means black-ice risk. Winter shoes help, and winter tires if you're driving.",
+        "sources": [
+          {
+            "label": "Dagbladet",
+            "url": "https://www.dagbladet.no/nyheter/meteorologen-advarer-skummel-kombo/85383228"
+          }
+        ]
+      },
+      {
+        "emoji": "🚁",
+        "text": "No drones within about 3.7 km of the military ships, and boats must keep about 1 nautical mile from the carrier.",
+        "sources": [
+          {
+            "label": "Forsvaret",
+            "url": "https://www.forsvaret.no/aktuelt-og-presse/presse/pressemeldinger/britisk-hangarskip-med-havnebesok-i-oslo"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Fjord Oslo's free light-art trail along the waterfront (Tjuvholmen to Akershusstranda) runs tonight through Sunday, 18:00 to 23:00. Saturday evening is an easy first night back.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/fjord-oslo-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "📚",
+        "text": "Oslo Zine Fest has a free market at ROM (Maridalsveien 3) from 12:00 to 17:00 on Saturday and Sunday.",
+        "sources": [
+          {
+            "label": "Oslo Zine Fest",
+            "url": "https://www.oslozinefest.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎷",
+        "text": "The Frank Znort Quartet plays a free show at BLÅ on Sunday at 15:00.",
+        "sources": [
+          {
+            "label": "Konsertbilletter",
+            "url": "https://konsertbilletter.no/oslo/i-helgen/"
+          }
+        ]
+      }
+    ]
+  }
+}

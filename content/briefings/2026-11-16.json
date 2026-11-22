@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-16",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🐔",
+        "text": "Mattilsynet's head warns the bird flu outbreak, including the farm in Akershus, could eventually mean a shortage of Norwegian eggs and chicken. About 100,000 birds have been culled or are set to be, and imports can be increased if needed.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/mattilsynet_-fugleinfluensa-kan-fore-til-mangel-pa-egg-og-kylling-1.18082498"
+          }
+        ]
+      },
+      {
+        "emoji": "👮",
+        "text": "Høyre's alternative budget, coming this week, adds 500 million kr for the police and 50 million kr for PST (the security police).",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/hoyre-lover-satsing-pa-politiet-1.18082146"
+          }
+        ]
+      },
+      {
+        "emoji": "⚖️",
+        "text": "The government wants to cut free legal aid for vulnerable groups, and critics call it \"unbelievably petty.\"",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/77WO8v/regjeringen-vil-kutte-i-rettshjelpen-til-saarbare-grupper-ufattelig-smaalig"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚨",
+        "text": "The T-bane shutdown starts Thursday and runs through Sunday (Nov 19–22). There will be no metro east of Frøen, and 63 of 101 stations will be closed, including the whole city centre. Aftenposten says there are no replacement buses on the east side, and Ruter is telling people to work from home or allow lots of extra time. Normal service is back from the first departures on Monday, Nov 23.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/ez12Vg/nesten-hele-t-banen-stenges-19-22-november"
+          }
+        ]
+      },
+      {
+        "emoji": "💎",
+        "text": "Thieves smashed the front door of Hermès in the city centre overnight. Police don't yet know what was taken.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/innbrot-i-luksusbutikk-i-oslo-1.18082483"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "💊",
+        "text": "Pharmacies across Norway couldn't reach e-prescriptions on Saturday because of a Norsk Helsenett outage, the third this year. It's stable again, but don't leave important medication until just before closing.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/ostfold/apotekene-slet-med-resepttrobbel-over-hele-landet-1.18081915"
+          }
+        ]
+      },
+      {
+        "emoji": "🌤️",
+        "text": "There are no weather warnings for Oslo right now.",
+        "sources": []
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Students play Haydn, Schubert, Liszt and Poulenc at a free piano evening at the Norwegian Academy of Music (Slemdalsveien 11) tonight at 19:00.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/klaveraftan-2026-11-16"
+          }
+        ]
+      },
+      {
+        "emoji": "🎺",
+        "text": "Christiania blåseensemble plays a free warm-up concert before the European wind band championship, at the same venue tonight at 19:30.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/for-em-konsert-med-christiania-blaseensemble-2026-11-16"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "Jul i Vinterland at Spikersuppa is open every day from 10:00 to 20:00, and it's free to wander.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/jul-i-vinterland-christmas-market-in-spikersuppa"
+          }
+        ]
+      },
+      {
+        "emoji": "🎷",
+        "text": "International master's students play their own jazz for free at NoComsert at the Norwegian Academy of Music on Saturday, Nov 21 at 18:00. Plan around the T-bane being down.",
+        "sources": [
+          {
+            "label": "Konsertbilletter",
+            "url": "https://konsertbilletter.no/konsert/2026-11-21-oslo-nocomsert/"
+          }
+        ]
+      }
+    ]
+  }
+}

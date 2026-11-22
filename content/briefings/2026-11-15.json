@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-15",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "⚽",
+        "text": "Norway beat Wales 3–1 at Ullevaal, with goals from Nusa, Schjelderup and a late Haaland penalty. That locks in a top seed for the Euro 2028 qualifying draw. Next up is Denmark in Copenhagen on Tuesday.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sport/norge-wales-pa-ullevaal-1.18081962"
+          }
+        ]
+      },
+      {
+        "emoji": "🐔",
+        "text": "Bird flu has been found on a farm in Akershus, so 13,000 laying hens must be culled and there's a 3 km protection zone. Mattilsynet, the food safety authority, says it's no risk to food safety.",
+        "sources": [
+          {
+            "label": "NRK Stor-Oslo",
+            "url": "https://www.nrk.no/stor-oslo/pavist-fugleinfluensa-i-akershus_-ma-avlive-13.000-dyr-1.18081821"
+          }
+        ]
+      },
+      {
+        "emoji": "⚖️",
+        "text": "UK prosecutors won't appeal the 20-year sentence given to a Norwegian 19-year-old for conspiracy to murder. He won't appeal either and will apply to serve it in Norway.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/mMRQA1/dropper-anke-mot-norsk-19-aaring"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🗳️",
+        "text": "Oslo Venstre picked Hallstein Bjercke and Marit Vea to top its list for next year's local election. Several candidates with minority backgrounds dropped out in protest over the list.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/bjercke-og-vea-pa-topp-for-oslo-venstre-1533006"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "💨",
+        "text": "There's a yellow gale warning on the outer Oslofjord coast until about 17:00, plus heavy drifting snow in parts of the southern mountains this morning.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/nb/farevarsler"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: The Frank Znort Quartet plays a free concert at Blå at 16:30, a classic Sunday jazz hang by the Akerselva.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/whats-on/events/concerts"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "Jul i Vinterland at Spikersuppa is open 10:00–20:00, with stalls, free concerts and a Ferris wheel.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/jul-i-vinterland-christmas-market-in-spikersuppa"
+          }
+        ]
+      },
+      {
+        "emoji": "📚",
+        "text": "It's the last day of the Kunstbok Oslo art book fair at the National Library, 11:00–18:00, with free entry.",
+        "sources": [
+          {
+            "label": "Kunstbok Oslo",
+            "url": "https://www.kunstbokoslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎶",
+        "text": "Sentralen has Icelandic choirs and Greenlandic drum dancing at 12:00, and Deichman Bjørvika has a family concert at 13:00. Both are free.",
+        "sources": [
+          {
+            "label": "Live Klassisk",
+            "url": "https://liveklassisk.com/en/no/concerts/202611151200_musikk_fra_oyene_i_nord_en_barnekonsert"
+          }
+        ]
+      },
+      {
+        "emoji": "🛍️",
+        "text": "There are school flea markets at Høyenhall (10:00) and Årvoll (11:00), plus the Birkelunden market from 12:00.",
+        "sources": [
+          {
+            "label": "Locl",
+            "url": "https://locl.no/en/oslo/free/this-weekend"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "Today is your last chance for \"Sprayboksen 100 år\" at Teknisk Museum. It's ticketed, not free.",
+        "sources": [
+          {
+            "label": "Street Art Oslo",
+            "url": "https://streetartoslo.no/projects/sprayboksen-100-ar/"
+          }
+        ]
+      }
+    ]
+  }
+}

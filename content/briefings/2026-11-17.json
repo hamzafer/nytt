@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-17",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "☢️",
+        "text": "Norway and 28 EU countries warn that the risk of a serious nuclear accident in Europe is the highest in 40 years, because of Russia's attacks on Ukraine's nuclear plants and power grid.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/regjeringen-advarer-storste-risiko-for-atomulykke-pa-40-ar-1.18082757"
+          }
+        ]
+      },
+      {
+        "emoji": "✈️",
+        "text": "Five EU countries, including Denmark and Germany, agreed on a centre in Rwanda for rejected asylum seekers. The justice minister isn't ruling out Norway joining, and Frp wants in right away.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/pMLd4V/eu-land-enige-om-migrantsenter-i-rwanda-norge-aapner-for-liknende-loesning"
+          }
+        ]
+      },
+      {
+        "emoji": "🚫",
+        "text": "Professional Russian and Belarusian athletes and their staff will now be refused entry to Norway, starting with this weekend's ski jumping World Cup in Lillehammer.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/sport/i/dJOv71/innreisenekt-for-russiske-idrettsutoevere-trer-i-kraft-umiddelbart"
+          }
+        ]
+      },
+      {
+        "emoji": "🐔",
+        "text": "The bird flu outbreak is now Norway's biggest ever, with seven farms infected. Landbruksdirektoratet, the agriculture directorate, says there's little reason to worry about egg and chicken supply before Christmas, so there's no need to stock up.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/mattilsynet-fugleinfluensa-kan-fore-til-mangel-pa-egg-og-kylling-1533086"
+          },
+          {
+            "label": "Landbruksdirektoratet",
+            "url": "https://www.landbruksdirektoratet.no/nb/nyhetsrom/nyhetsarkiv/forelopig-liten-grunn-til-bekymring-for-tilgangen-pa-egg-og-kylling"
+          }
+        ]
+      },
+      {
+        "emoji": "👑",
+        "text": "The royal flag flew over the Palace in Oslo by mistake last night, while the King and Queen were actually in Trondheim.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/rampelys/i/0vnLgE/slottet-kongeparet-er-paa-besoek-til-trondheim"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚨",
+        "text": "The T-bane shutdown starts Thursday and runs through Sunday, and there's no metro east of Frøen during that time.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/ez12Vg/nesten-hele-t-banen-stenges-19-22-november"
+          }
+        ]
+      },
+      {
+        "emoji": "🗳️",
+        "text": "Oslo Høyre's group leader, Merete Agerbak-Jensen, missed the top 10 of the party's 2027 list after a vote over Groruddalen.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/hoyres-bystyresjef-vraket-etter-groruddalsoppgjor-1533186"
+          }
+        ]
+      },
+      {
+        "emoji": "🍺",
+        "text": "In the city budget talks, Frp wants restaurants to use street space for free, for example in Grønland, to make the city feel safer.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/mer-utepils-skal-gi-tryggere-by-1532937"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "💳",
+        "text": "DNB had big problems yesterday afternoon with ATMs, cards, card terminals and mobile banking, and Vipps was hit for a while too. That includes DNB cards. Everything works again, and there's no sign of a cyberattack.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/dnbs-it-problemer-1.18082819"
+          }
+        ]
+      },
+      {
+        "emoji": "🧊",
+        "text": "It'll be a cold, sunny week, and roads can get slippery even without snow, so take it easy on the roads.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/ostfold/vaervarsel_-sol-i-sor-og-kulde-i-vente-_-men-pass-pa-glatta-1.18076479"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: OperaBonanza is a free opera party in Universitetets aula on Karl Johan on Thursday at 19:00, and no ticket is needed. It clashes with your Thursday class, though.",
+        "sources": [
+          {
+            "label": "Opera til folket",
+            "url": "https://operatilfolket.no/konserter/operabonanza/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎶",
+        "text": "Åges Danseband plays a free party-band birthday show at Proud Mary on Wednesday at 21:30 (age 20+).",
+        "sources": [
+          {
+            "label": "Oslo Nå",
+            "url": "https://oslonaa.no/kategori/konsert/2026/11"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "Jul i Vinterland in Spikersuppa is free to wander, with food stalls, rides and a Ferris wheel.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/jul-i-vinterland-christmas-market-in-spikersuppa"
+          }
+        ]
+      },
+      {
+        "emoji": "🌿",
+        "text": "On Saturday, Nov 21 there's a free Christmas market at Botanisk hage from 11:00, and Bondens marked at Vinkelplassen from 10:00.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-15",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "💰",
+        "text": "Finance Minister Jens Stoltenberg gets a report today on the oil fund's ethical rules, including how to handle companies tied to nuclear weapons.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/okonomi/i/jvp6dL/stoltenberg-faar-rapport-om-oljefondets-etiske-rammeverk"
+          }
+        ]
+      },
+      {
+        "emoji": "🇺🇦",
+        "text": "Norway is giving Ukraine an extra 750 million kroner in crisis support.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/verden/i/X9EAOr/vg-norge-gir-750-millioner-i-krisestoette-til-ukraina"
+          }
+        ]
+      },
+      {
+        "emoji": "👑",
+        "text": "King Haakon VIII will go door to door collecting money for this year's TV-aksjonen, the big national TV fundraiser.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tvaksjonen/kong-haakon-viii-blir-bosseberar-for-tv-aksjonen-2026-1.18042171"
+          }
+        ]
+      },
+      {
+        "emoji": "⚽",
+        "text": "Bodø/Glimt beat Borussia Dortmund in the Champions League, a day after Viking's big night against Bayern.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sport/nytt-bodo_glimt-mirakel-i-mesterligaen-_-slo-borussia-dortmund-pa-aspmyra-1.18055114"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🛂",
+        "text": "A new police system for booking passport, ID and immigration appointments launches in November. It'll text you when your passport or ID has six months left, so book as soon as you get that text.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sorlandet/bestilling-av-pass_-nytt-system-kan-fa-ned-ventetiden-1.18054718"
+          }
+        ]
+      },
+      {
+        "emoji": "🏦",
+        "text": "DNB is cutting free withdrawals from its high-interest savings accounts, and savings rates are lagging, so it's worth checking yours.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/boers-og-finans/i/BM6qjQ/dnb-kutter-i-gebyrfrie-uttak-det-gaar-i-feil-retning"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚧",
+        "text": "Almost the whole T-bane network closes Nov 19–22. There will be extra buses and trams, but no regular buses replacing the metro.",
+        "sources": [
+          {
+            "label": "Nordstrands Blad",
+            "url": "https://www.noblad.no/buss-for-bane-igjen/s/80-56-19096"
+          }
+        ]
+      },
+      {
+        "emoji": "🌲",
+        "text": "Sognsvann station is still closed, so take the T-bane to Kringsjå and walk about 350 meters.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/aktuelt/drift-og-endringer/sognsvann-stasjon-stengt"
+          }
+        ]
+      },
+      {
+        "emoji": "🚗",
+        "text": "Only one lane of the E18 out of Oslo will be open at Høvik from 21:00 Friday to 13:00 Sunday. Roadworks at Fornebukrysset follow, with big delays expected Oct 23–25.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/Jr3wXP/varsler-nye-arbeider-i-fornebukrysset-det-forventes-store-forsinkelser"
+          }
+        ]
+      },
+      {
+        "emoji": "🏚️",
+        "text": "The city wants to sell the old Lokomotivverkstedet in Middelalderparken, and a Berlin-style club is one of the ideas floated.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/VgjxaV/byraadet-vil-kvitte-seg-med-lokomotivverkstedet-i-middelalderparken"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🚆",
+        "text": "The train strike goes to compulsory mediation tomorrow. Until then there are heavy cancellations: over 72% of RE10 departures are cancelled today, and every R14 departure is cancelled on Saturday.",
+        "sources": [
+          {
+            "label": "DRM24",
+            "url": "https://www.drm24.no/tvungen-mekling-i-togstreiken-fortsatt-store-innstillinger-pa-drammen-linjene/374887"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Barnas verdensdager is a free kids' festival at Grønland this Saturday and Sunday, 11:30–16:30, with music, dance and a food bazaar.",
+        "sources": [
+          {
+            "label": "Oslo World",
+            "url": "https://osloworld.no/festival/arrangement/barnas-verdensdager-oslo-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "Art fest at Bærums Verk is free, 12:00–18:00 daily from Oct 17 to 21.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/art-fest-2026-at-b-rums-verk"
+          }
+        ]
+      },
+      {
+        "emoji": "🎶",
+        "text": "Grorud church has a free autumn choir concert on Sunday at 18:00.",
+        "sources": [
+          {
+            "label": "Somo",
+            "url": "https://somo.social/e/autumn-concert-in-grorud-church-18-oktober-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "🍪",
+        "text": "There's already a gingerbread (pepperkaker) price war in the shops, if you want cheap Christmas snacks early.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sorlandet/priskrig-pa-pepperkaker-i-oktober-1.18053403"
+          }
+        ]
+      }
+    ]
+  }
+}

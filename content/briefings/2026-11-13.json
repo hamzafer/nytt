@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-13",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "💸",
+        "text": "Høyre's alternative 2027 budget cuts about 25 billion kr in taxes and fees. That includes a work deduction worth about 7,700 kr less tax for everyone with a job, plus a lower wealth tax. It's an opposition proposal, not law.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/hogre-med-25-milliardar-i-skattekutt-ny-retning-for-landet-1532719"
+          }
+        ]
+      },
+      {
+        "emoji": "🕵️",
+        "text": "PST, the security police, expects Russian intelligence to try sabotage in Norway in the coming year, possibly including attacks that could cost lives.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/pst_-skjerpet-sabotasjetrussel-i-norge-1.18079926"
+          }
+        ]
+      },
+      {
+        "emoji": "🔓",
+        "text": "The Amadeus leak exposed data on 144,249 Norwegian and Widerøe passengers. If you've flown with either, watch for phishing.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/over-144.000-norwegian-og-wideroe-passasjerer-rammet-av-datainnbrudd-1.18080740"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "💉",
+        "text": "Flu and COVID cases are rising, and FHI (the public health institute) says it's getting urgent to get vaccinated if you're eligible.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/buskerud/okende-smitte_-_-det-begynner-a-haste-1.18080337"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚆",
+        "text": "Oslo S is a mess this morning. A goods train derailed last night and blocked tracks 1–5, and then an electrical fault shut the station completely just after 06:00. Some trains were running again around 07:00 and some routes have replacement buses, so check the Vy or Flytoget app.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/4Eqqdq/flere-forsinkelser-og-innstillinger-etter-jordfeil-og-avsporing-paa-oslo-s"
+          }
+        ]
+      },
+      {
+        "emoji": "🚌",
+        "text": "Yesterday's snow stopped every inner-city bus in the morning. Ruter says the T-bane is the safest bet while the roads are bad.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/sno-pa-ostlandet-skaper-busskaos-1532828"
+          }
+        ]
+      },
+      {
+        "emoji": "🏊",
+        "text": "A heated year-round sea pool for about 35–40 people is coming to Sukkerbiten on a 36 m barge. If all goes to plan, it opens in about a year.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/bade-ute-hele-vinteren-slik-blir-oslos-nye-sjobad-1532733"
+          }
+        ]
+      },
+      {
+        "emoji": "🚴",
+        "text": "The city has finally funded the Maridalen bike path after a 45-year wait.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/byradet-setter-av-penger-til-sykkelvei-i-maridalen-1.18079248"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🧊",
+        "text": "The snow warning is over and today looks mostly sunny, but roads can still be icy, so allow extra time on the road.",
+        "sources": [
+          {
+            "label": "Dagbladet",
+            "url": "https://www.dagbladet.no/nyheter/advarer-mot-glatte-veier-beregn-ekstra-god-tid/85414710"
+          }
+        ]
+      },
+      {
+        "emoji": "💻",
+        "text": "Outlook, Teams and other Microsoft services had problems overnight, and Microsoft is working on a fix. That's worth knowing if Teams acts up today.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/microsoft-trobbel-rammer-tusenvis-av-brukere-1.18080878"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: The Kunstbok Oslo art book fair is at the National Library (Solli plass) on Saturday and Sunday from 11:00 to 18:00. It has 100 exhibitors and talks, Iceland is the guest country, and entry is free.",
+        "sources": [
+          {
+            "label": "Kunstbok Oslo",
+            "url": "https://www.kunstbokoslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🏃",
+        "text": "Ekebergsletta parkrun is a free 5 km on Saturday at 09:30.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🛼",
+        "text": "Sentralen has a free Roller Disco on Saturday at 15:00.",
+        "sources": [
+          {
+            "label": "Locl",
+            "url": "https://locl.no/en/oslo/free/this-weekend"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "*Support Structures* opens at Kunstnernes Hus tonight at 19:00, with free entry.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎶",
+        "text": "Navaranaaq is music and literature on Sunday at 15:00, with free tickets.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      }
+    ]
+  }
+}

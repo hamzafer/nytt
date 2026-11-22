@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-04",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🧊",
+        "text": "Norway may have its first case of the freezer hacks that have hit hundreds of food shops across Europe. Someone apparently got into the freezer system at the Havaristen discount warehouse in Enebakk overnight on Tuesday and turned up the temperature. That set off the sprinklers and ruined a lot of food.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/mulig-hackerangrep-mot-norsk-varehus_-_-skade-av-betydelig-omfang-1.18072469"
+          }
+        ]
+      },
+      {
+        "emoji": "🏛️",
+        "text": "MDG, the Green party, now wants the justice or business minister to tell parliament how the government will protect grocery stores from attacks like this.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/mdg-krever-svar-etter-cyberangrep-mot-frysedisker-1.18072865"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "💉",
+        "text": "The public flu vaccine arrived about three weeks late, but GPs and municipal clinics should get their supplies in early November. You can also pay for one at a pharmacy any time.",
+        "sources": [
+          {
+            "label": "The Local",
+            "url": "https://www.thelocal.no/20261029/key-points-everything-that-changes-about-life-in-norway-in-november-2026"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🎨",
+        "text": "Something to look forward to: Nasjonalmuseet will host a huge Frida Kahlo exhibition, with about 400 works and objects, from June 19 to Nov 7, 2027.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/klart-for-stor-frida-kahlo-utstilling-1531607"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "✈️",
+        "text": "The SAS Link cabin crew strike is still on, with no end date. SAS says the impact is limited so far, but if you're flying SAS home on Saturday, check the app before you go.",
+        "sources": [
+          {
+            "label": "Oslo Airports",
+            "url": "http://www.osloairports.com/p/streik.html"
+          }
+        ]
+      },
+      {
+        "emoji": "🔐",
+        "text": "Norway's national cyber risk level is still \"high\", the second-highest level. The freezer hack is a good reason to keep your devices updated and use two-factor logins.",
+        "sources": [
+          {
+            "label": "NSM",
+            "url": "https://nsm.no/aktuelt/nsm-hever-det-nasjonale-cyberrisikonivaet-til-hoyt"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: James Turrell's underground light installations at Ekebergparken are free to visit on Sunday, Nov 8. Tours leave every half hour from 11:00 to 16:00, and you book on the spot.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/sondagsvisninger-i-ganzfeld-skyspace-2026-11-08"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "Jul i Vinterland, Oslo's biggest Christmas market, opens near Karl Johan on Saturday, Nov 7.",
+        "sources": [
+          {
+            "label": "The Local",
+            "url": "https://www.thelocal.no/20261029/key-points-everything-that-changes-about-life-in-norway-in-november-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "text": "Fjord Oslo's last nights are Saturday and Sunday, from 18:00 to 23:00 along the waterfront.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/fjord-oslo-2026"
+          }
+        ]
+      }
+    ]
+  }
+}

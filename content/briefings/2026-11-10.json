@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-10",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🔐",
+        "text": "ID-porten is down after overnight maintenance, so for now you can't log in to Helsenorge, Altinn, Skatteetaten, Lånekassen or lots of other public sites. The Digitalisation Agency says it's working on a fix.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/id-porten-er-nede-1532570"
+          }
+        ]
+      },
+      {
+        "emoji": "✈️",
+        "text": "There's more on the Amadeus leak. SAS says booking data for 350,164 passengers in Norway, Sweden, Denmark and Spain was exposed, mostly old booking references and flight details. It won't contact the people affected, so the advice to watch for scams still stands.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/informasjon-om-350000-sas-passasjerer-lekket-1532532"
+          }
+        ]
+      },
+      {
+        "emoji": "🖥️",
+        "text": "This one touches your field: Statnett has paused new grid-capacity reservations for data centres, probably until August 2027 at the latest. The government also plans a licensing scheme for them, and crypto mining won't count as useful to society.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/strammer-grepet-vil-lage-nye-regler-for-datasentre-1532476"
+          }
+        ]
+      },
+      {
+        "emoji": "🏟️",
+        "text": "Police have opened a criminal case over the stand collapse in Tromsø, and the club has closed that stand for the rest of the season.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tromsogfinnmark/politiet-undersoker-tribunekollapsen-pa-romssa-arena-1.18077457"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "⚡",
+        "text": "Power in southern Norway costs more today than on any other day this year, about 2.69 kr/kWh on average in the Oslo area before grid fees. On Norgespris you just pay the fixed price. Without it, keep heavy use away from the 9–10 am peak.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/8Pwdnr/aarets-dyreste-stroem-i-morgen"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚨",
+        "text": "The big T-bane shutdown is nine days away. From Thu Nov 19 to Sun Nov 22, 63 of 101 stations close, including every station in the city centre. Replacement buses and trams will run.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://www.mynewsdesk.com/no/ruter/pressreleases/om-en-maaned-stenger-t-banen-vurder-om-du-trenger-aa-reise-3473878"
+          }
+        ]
+      },
+      {
+        "emoji": "⛷️",
+        "text": "The ski federation is changing the Holmenkollen fan festival after last winter's drunken chaos. Fans will stay on one side of the jump, and there will be more guards and police plus more family activities.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sport/tar-grep-etter-skrekkbilda-i-holmenkollen_-slik-skal-dei-endre-folkefesten-1.18073479"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌫️",
+        "text": "Yesterday's freezing-fog warning has expired, so there are no weather warnings for Oslo this morning.",
+        "sources": []
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Caritas Norsktrening is free drop-in Norwegian practice with volunteers, on Wed Nov 11 at 17:00.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🏃",
+        "text": "Ekebergsletta parkrun is a free 5 km you can walk, jog or run, on Sat Nov 14 at 09:30. You register once.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "The opening of *Support Structures* at Kunstnernes Hus is on Fri Nov 13 at 19:00, with free entry and a performance by Éva Mag.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎶",
+        "text": "Navaranaaq brings music and literature from Greenlandic, Icelandic and Norwegian traditions on Sun Nov 15 at 15:00. Tickets are free.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-18",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🤝",
+        "text": "Norway signed a free trade deal with Vietnam along with the other EFTA countries. Salmon will become duty-free, and over 98% of Norwegian exports will be duty-free within seven years.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/w3JApn/norge-har-undertegnet-frihandelsavtale-med-vietnam"
+          }
+        ]
+      },
+      {
+        "emoji": "🚪",
+        "text": "Norway's delegates walked out at the IMF meetings in Bangkok while Russia's finance minister spoke, together with Sweden, Denmark, Finland and others.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/delegater-forlot-salen-da-russland-talte-1.18057401"
+          }
+        ]
+      },
+      {
+        "emoji": "🚆",
+        "text": "One more detail on the train strike deal: the drivers get a 36,000 kr raise.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/vy-og-spekter-togstreiken-over-1530392"
+          }
+        ]
+      },
+      {
+        "emoji": "🚨",
+        "text": "A person was found dead at a cabin in Åmli, in Agder, and one person has been charged.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/norge/dod-person-funnet-pa-hytte-i-agder-_-person-siktet-1.18057737"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "📦",
+        "text": "Temu and Shein orders could get pricier. The Green Party (MDG) wants a fee of at least 20 kr on every cheap parcel from outside the EEA from 2027. It's only a demand in the budget talks for now.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/naeringsliv/i/KrbLjG/krever-temu-gebyr"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🕷️",
+        "text": "A new, much bigger tick species (Hyalomma) has been found on a child in Oslo. Unlike regular ticks, it actively chases its host, so check yourself after walks in the woods.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sorlandet/nasjonalt-senter-for-flatt-fryktar-invasjon-av-nye-typar-flatt-1.18053686"
+          }
+        ]
+      },
+      {
+        "emoji": "🌤️",
+        "text": "Today's a crisp, sunny Sunday in Oslo, around 3°C this morning and about 10°C this afternoon, with no weather warnings.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/en/forecast/daily-table/1-72837/Norway/Oslo/Oslo/Oslo"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Children's World Days is on today from 11:30 to 16:30 at the Intercultural Museum at Grønland, with music, dance and a world food bazaar.",
+        "sources": [
+          {
+            "label": "Oslo Museum",
+            "url": "https://www.oslomuseum.no/en/whats-on/childrens-world-days/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎺",
+        "text": "Høststorm is a free wind concert by Barratt Due students on Tuesday at 18:00. You need to grab a free ticket first.",
+        "sources": [
+          {
+            "label": "Barratt Due",
+            "url": "https://barrattdue.no/arrangement/hoststorm-2026/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎤",
+        "text": "Asbjørn Ribe plays a free concert with his band at the Oslo Concert Hall on Saturday, Oct 24 at 20:00.",
+        "sources": [
+          {
+            "label": "Somo",
+            "url": "https://somo.social/e/asbjorn-ribe-with-band-24-oktober-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "Oslo Creative Festival is free at Deichman Bjørvika on Saturday, Oct 24 from 11:00.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/en/whats-on/festivals/festival-calendar/"
+          }
+        ]
+      }
+    ]
+  }
+}
