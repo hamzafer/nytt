@@ -1,74 +1,88 @@
 @import 'tailwindcss';
+@source '../../public/scripts';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@theme {
-  --font-sans: 'DM Sans', system-ui, sans-serif;
-  --font-display: 'Fraunces', Georgia, serif;
-  --color-fjord-50: #f0f7fa;
-  --color-fjord-100: #dceef5;
-  --color-fjord-200: #b9dde9;
-  --color-fjord-400: #4a9bb5;
-  --color-fjord-600: #2a6f85;
-  --color-fjord-800: #1e4f60;
-  --color-fjord-950: #102a34;
-  --color-coral-500: #e86f4a;
-  --color-coral-600: #c9522f;
-  --color-mint-500: #3d9b7a;
-  --color-amber-500: #d4962a;
-  --color-rust-500: #b84a3a;
-  --color-snow: #fafcf9;
-  --color-ink: #1a2428;
+/* Winter-morning palette: snow, fjord ink, flag red for warnings only. */
+:root {
+  --bg: #f4f6f8;
+  --ink: #12233a;
+  --muted: #536276;
+  --rule: #d3dae3;
+  --accent: #b5122e;
+  --focus: #1f5fbf;
+}
+
+html.dark {
+  --bg: #0c1626;
+  --ink: #e8edf3;
+  --muted: #9babbf;
+  --rule: #243650;
+  --accent: #ff7f8f;
+  --focus: #8ab4ff;
+}
+
+@theme inline {
+  --font-sans: 'Schibsted Grotesk', system-ui, sans-serif;
+  --color-bg: var(--bg);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-focus: var(--focus);
 }
 
 html {
-  color-scheme: light dark;
+  color-scheme: light;
+  font-feature-settings: 'ss01';
+}
+
+html.dark {
+  color-scheme: dark;
 }
 
 body {
-  @apply font-sans bg-[var(--color-snow)] text-[var(--color-ink)] antialiased;
-  background-image: radial-gradient(
-      ellipse 120% 80% at 100% -20%,
-      color-mix(in oklab, var(--color-fjord-200) 35%, transparent),
-      transparent
-    ),
-    radial-gradient(
-      ellipse 80% 50% at -10% 100%,
-      color-mix(in oklab, var(--color-coral-500) 8%, transparent),
-      transparent
-    );
+  @apply bg-bg font-sans text-ink antialiased;
 }
 
-html.dark body {
-  --color-snow: #0f1418;
-  --color-ink: #e8edf0;
-  background-image: radial-gradient(
-      ellipse 100% 60% at 100% 0%,
-      color-mix(in oklab, var(--color-fjord-800) 50%, transparent),
-      transparent
-    );
+a,
+button,
+input,
+.glossary-term {
+  outline-offset: 3px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  border-radius: 2px;
+}
+
+.prose-link {
+  @apply underline decoration-rule decoration-2 underline-offset-[3px] transition-colors hover:decoration-ink;
 }
 
 .glossary-term {
-  @apply border-b border-dotted border-fjord-400 cursor-help font-medium;
-  text-decoration-thickness: 1px;
+  @apply cursor-help underline decoration-muted decoration-dotted decoration-1 underline-offset-[3px];
+  text-decoration-line: underline;
 }
 
-.glossary-term:focus-visible {
-  @apply outline-2 outline-offset-2 outline-fjord-400 rounded-sm;
-}
-
-@keyframes fade-up {
+/* One orchestrated moment: the day name settles in on load. */
+@keyframes settle {
   from {
     opacity: 0;
-    transform: translateY(8px);
+    letter-spacing: 0.02em;
   }
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
-.animate-fade-up {
-  animation: fade-up 0.45s ease-out both;
+.day-mark {
+  animation: settle 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .day-mark {
+    animation: none;
+  }
 }

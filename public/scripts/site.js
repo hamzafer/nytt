@@ -1,24 +1,21 @@
 (function () {
   const storageKey = 'nytt-theme';
 
-  function applyTheme(mode) {
+  function initTheme() {
     const root = document.documentElement;
-    if (mode === 'dark') root.classList.add('dark');
-    else root.classList.remove('dark');
-    const icon = document.querySelector('[data-theme-icon]');
-    if (icon) icon.textContent = mode === 'dark' ? '🌙' : '☀️';
+    const button = document.getElementById('theme-toggle');
+    if (!button) return;
+    const sync = () => button.setAttribute('aria-pressed', String(root.classList.contains('dark')));
+    sync();
+    button.addEventListener('click', () => {
+      const dark = root.classList.toggle('dark');
+      localStorage.setItem(storageKey, dark ? 'dark' : 'light');
+      sync();
+    });
   }
 
-  function initTheme() {
-    const saved = localStorage.getItem(storageKey);
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const mode = saved === 'dark' || saved === 'light' ? saved : prefersDark ? 'dark' : 'light';
-    applyTheme(mode);
-    document.getElementById('theme-toggle')?.addEventListener('click', () => {
-      const next = document.documentElement.classList.contains('dark') ? 'light' : 'dark';
-      localStorage.setItem(storageKey, next);
-      applyTheme(next);
-    });
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
   }
 
   function escapeRegExp(s) {
@@ -65,7 +62,7 @@
       const res = await fetch(window.__NYTT_SEARCH_INDEX_URL__);
       index = await res.json();
     } catch {
-      if (status) status.textContent = 'Could not load search index.';
+      if (status) status.textContent = 'Search couldn’t load. Reload the page to try again.';
       return;
     }
 
@@ -75,19 +72,23 @@
     function render(matches) {
       results.innerHTML = '';
       if (!matches.length) {
-        status.textContent = 'No matches. Try another word like “T-bane” or “Norgespris”.';
+        status.textContent = 'No stories match. Try a broader word, like “T-bane” or “Norgespris”.';
         return;
       }
-      status.textContent = `${matches.length} result${matches.length === 1 ? '' : 's'}`;
+      status.textContent = `${matches.length} ${matches.length === 1 ? 'story' : 'stories'}`;
       for (const row of matches) {
         const li = document.createElement('li');
-        li.className = 'rounded-2xl border border-fjord-200 bg-white/80 p-4 dark:border-fjord-800 dark:bg-fjord-950/40';
-        const dayUrl = `${base}day/${row.date}/`.replace(/\/+/g, '/').replace(':/', '://');
+        li.className = 'grid grid-cols-[1.75rem_minmax(0,1fr)] gap-x-3 py-5';
+        const dayUrl = `${base}day/${row.date}/`.replace(/\/+/g, '/');
+        const label = new Date(`${row.date}T12:00:00Z`).toLocaleDateString('en-GB', {
+          weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC',
+        }).replace(',', '');
         li.innerHTML = `
-          <p class="text-xs font-semibold uppercase tracking-wide text-coral-600">${row.categoryLabel} · ${row.date}</p>
-          <p class="mt-1 text-lg">${row.emoji} ${row.text}</p>
-          <a class="mt-2 inline-block text-sm font-medium text-fjord-700 underline dark:text-fjord-200" href="${dayUrl}">Open briefing</a>
-        `;
+          <span class="pt-1 text-xl leading-none" aria-hidden="true">${escapeHtml(row.emoji)}</span>
+          <div class="min-w-0 max-w-[64ch]">
+            <p class="text-sm text-muted">${escapeHtml(row.categoryLabel)}, <a class="prose-link font-medium" href="${dayUrl}">${label}</a></p>
+            <p class="mt-1 text-[1.0625rem] leading-relaxed">${escapeHtml(row.text)}</p>
+          </div>`;
         results.appendChild(li);
       }
     }
@@ -117,17 +118,10 @@
     }
   }
 
-  function initCategoryFilter() {
-    const list = document.getElementById('category-items');
-    if (!list) return;
-    const items = list.querySelectorAll('[data-category-item]');
-    if (!items.length) return;
-  }
 
   document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     initGlossary();
     initSearchPage();
-    initCategoryFilter();
   });
 })();
