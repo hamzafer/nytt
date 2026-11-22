@@ -1,0 +1,46 @@
+---
+import type { Briefing } from '../lib/types';
+import { CATEGORIES } from '../lib/types';
+import { formatBriefingDate } from '../lib/briefings';
+import SectionBlock from './SectionBlock.astro';
+import KeyDatesPanel from './KeyDatesPanel.astro';
+
+interface Props {
+  briefing: Briefing;
+  showDateBadge?: boolean;
+}
+
+const { briefing, showDateBadge = true } = Astro.props;
+---
+
+<div class="mx-auto max-w-6xl px-4 py-8">
+  <div class="grid gap-8 lg:grid-cols-[1fr_280px]">
+    <div class="min-w-0 space-y-8">
+      <header class="space-y-2 border-b border-fjord-200/80 pb-6 dark:border-fjord-800">
+        {
+          showDateBadge && (
+            <time datetime={briefing.date} class="text-sm font-semibold uppercase tracking-wide text-coral-600">
+              {formatBriefingDate(briefing.date)}
+            </time>
+          )
+        }
+        <h1 class="font-display text-3xl font-bold tracking-tight text-fjord-950 dark:text-fjord-50 sm:text-4xl">
+          {briefing.title ?? `Morning briefing`}
+        </h1>
+        {briefing.intro && <p class="text-lg text-fjord-700 dark:text-fjord-200">{briefing.intro}</p>}
+      </header>
+      <div class="space-y-10">
+        {
+          CATEGORIES.map((cat) => {
+            const items = briefing.sections[cat.id];
+            if (!items?.length) return null;
+            return <SectionBlock categoryId={cat.id} items={items} />;
+          })
+        }
+      </div>
+    </div>
+    <div class="space-y-4 lg:sticky lg:top-28 lg:self-start">
+      <KeyDatesPanel todayIso={briefing.date} />
+    </div>
+  </div>
+</div>

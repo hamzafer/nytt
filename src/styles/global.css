@@ -1,0 +1,74 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+  --color-fjord-50: #f0f7fa;
+  --color-fjord-100: #dceef5;
+  --color-fjord-200: #b9dde9;
+  --color-fjord-400: #4a9bb5;
+  --color-fjord-600: #2a6f85;
+  --color-fjord-800: #1e4f60;
+  --color-fjord-950: #102a34;
+  --color-coral-500: #e86f4a;
+  --color-coral-600: #c9522f;
+  --color-mint-500: #3d9b7a;
+  --color-amber-500: #d4962a;
+  --color-rust-500: #b84a3a;
+  --color-snow: #fafcf9;
+  --color-ink: #1a2428;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  @apply font-sans bg-[var(--color-snow)] text-[var(--color-ink)] antialiased;
+  background-image: radial-gradient(
+      ellipse 120% 80% at 100% -20%,
+      color-mix(in oklab, var(--color-fjord-200) 35%, transparent),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 80% 50% at -10% 100%,
+      color-mix(in oklab, var(--color-coral-500) 8%, transparent),
+      transparent
+    );
+}
+
+html.dark body {
+  --color-snow: #0f1418;
+  --color-ink: #e8edf0;
+  background-image: radial-gradient(
+      ellipse 100% 60% at 100% 0%,
+      color-mix(in oklab, var(--color-fjord-800) 50%, transparent),
+      transparent
+    );
+}
+
+.glossary-term {
+  @apply border-b border-dotted border-fjord-400 cursor-help font-medium;
+  text-decoration-thickness: 1px;
+}
+
+.glossary-term:focus-visible {
+  @apply outline-2 outline-offset-2 outline-fjord-400 rounded-sm;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.45s ease-out both;
+}

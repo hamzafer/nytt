@@ -1,0 +1,59 @@
+---
+import '../styles/global.css';
+import { nyttConfig } from '../../nytt.config';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getGlossary } from '../lib/data';
+import { withBase } from '../lib/data';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = nyttConfig.tagline } = Astro.props;
+const pageTitle = title ? `${title} · ${nyttConfig.name}` : `${nyttConfig.name} — ${nyttConfig.tagline}`;
+const glossary = getGlossary();
+const base = import.meta.env.BASE_URL;
+const searchIndexUrl = withBase('/search-index.json', base);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${nyttConfig.name} RSS`} href={withBase('/feed.xml', base)} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>{pageTitle}</title>
+    {
+      nyttConfig.analytics.enabled && nyttConfig.analytics.scriptUrl && (
+        <script defer data-domain={nyttConfig.analytics.domain} src={nyttConfig.analytics.scriptUrl} />
+      )
+    }
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-fjord-800 focus:px-4 focus:py-2 focus:text-white">
+      Skip to content
+    </a>
+    <Header />
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+    <script type="application/json" id="glossary-data" set:html={JSON.stringify(glossary)} />
+    <script type="application/json" id="site-base" set:html={JSON.stringify(base)} />
+    <script is:inline src={`${base}scripts/site.js`}></script>
+    <script define:vars={{ searchIndexUrl }}>
+      window.__NYTT_SEARCH_INDEX_URL__ = searchIndexUrl;
+    </script>
+  </body>
+</html>

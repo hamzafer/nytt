@@ -1,0 +1,50 @@
+---
+import { nyttConfig } from '../../nytt.config';
+import { CATEGORIES } from '../lib/types';
+import { withBase } from '../lib/data';
+
+const base = import.meta.env.BASE_URL;
+const home = withBase('/', base);
+const archive = withBase('/archive/', base);
+const search = withBase('/search/', base);
+const feed = withBase('/feed.xml', base);
+---
+
+<header class="sticky top-0 z-50 border-b border-fjord-200/60 bg-[var(--color-snow)]/90 backdrop-blur-md dark:border-fjord-800">
+  <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3">
+    <a href={home} class="group flex min-w-0 flex-col">
+      <span class="font-display text-2xl font-bold tracking-tight text-fjord-800 group-hover:text-coral-600 dark:text-fjord-100">
+        {nyttConfig.name}
+      </span>
+      <span class="truncate text-xs text-fjord-600 dark:text-fjord-300">{nyttConfig.tagline}</span>
+    </a>
+    <nav class="flex flex-wrap items-center gap-1 text-sm" aria-label="Main">
+      <a class="rounded-lg px-3 py-2 font-medium text-fjord-700 transition hover:bg-fjord-100 hover:text-fjord-950 dark:text-fjord-200 dark:hover:bg-fjord-800" href={archive}>Archive</a>
+      <a class="rounded-lg px-3 py-2 font-medium text-fjord-700 transition hover:bg-fjord-100 hover:text-fjord-950 dark:text-fjord-200 dark:hover:bg-fjord-800" href={search}>Search</a>
+      <a class="hidden rounded-lg px-3 py-2 font-medium text-fjord-700 transition hover:bg-fjord-100 hover:text-fjord-950 sm:inline-flex dark:text-fjord-200 dark:hover:bg-fjord-800" href={feed}>RSS</a>
+      <button
+        type="button"
+        id="theme-toggle"
+        class="ml-1 inline-flex items-center gap-1 rounded-lg px-3 py-2 font-medium text-fjord-700 transition hover:bg-fjord-100 hover:text-fjord-950 dark:text-fjord-200 dark:hover:bg-fjord-800"
+        aria-label="Toggle light and dark mode"
+      >
+        <span data-theme-icon>🌓</span>
+      </button>
+    </nav>
+  </div>
+  <div class="mx-auto max-w-6xl overflow-x-auto px-4 pb-3">
+    <div class="flex gap-2" role="navigation" aria-label="Categories">
+      {
+        CATEGORIES.map((c) => (
+          <a
+            href={withBase(`/category/${c.id}/`, base)}
+            class="whitespace-nowrap rounded-full border border-fjord-200 bg-white/80 px-3 py-1 text-xs font-medium text-fjord-800 transition hover:border-fjord-400 dark:border-fjord-700 dark:bg-fjord-950/60 dark:text-fjord-100"
+          >
+            <span aria-hidden="true" class="mr-1">{c.emoji}</span>
+            {c.label}
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</header>

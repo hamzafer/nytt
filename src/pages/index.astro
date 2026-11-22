@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import BriefingView from '../components/BriefingView.astro';
+import DayNav from '../components/DayNav.astro';
+import { getLatestBriefing } from '../lib/briefings';
+
+const briefing = getLatestBriefing();
+---
+
+<Layout title={`Today — ${briefing.date}`} description={briefing.intro ?? briefing.title}>
+  <BriefingView briefing={briefing} />
+  <DayNav date={briefing.date} />
+</Layout>

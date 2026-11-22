@@ -1,0 +1,40 @@
+---
+import { getAdjacentDates } from '../lib/briefings';
+import { formatBriefingDate } from '../lib/briefings';
+import { withBase } from '../lib/data';
+
+interface Props {
+  date: string;
+}
+
+const { date } = Astro.props;
+const { prev, next } = getAdjacentDates(date);
+const base = import.meta.env.BASE_URL;
+---
+
+<nav class="mx-auto flex max-w-6xl flex-wrap justify-between gap-3 border-t border-fjord-200/80 px-4 py-6 text-sm dark:border-fjord-800" aria-label="Briefing days">
+  {
+    prev ? (
+      <a
+        href={withBase(`/day/${prev}/`, base)}
+        class="rounded-xl border border-fjord-200 px-4 py-2 font-medium transition hover:border-fjord-400 dark:border-fjord-700"
+      >
+        ← {formatBriefingDate(prev)}
+      </a>
+    ) : (
+      <span />
+    )
+  }
+  {
+    next ? (
+      <a
+        href={withBase(`/day/${next}/`, base)}
+        class="rounded-xl border border-fjord-200 px-4 py-2 font-medium transition hover:border-fjord-400 dark:border-fjord-700"
+      >
+        {formatBriefingDate(next)} →
+      </a>
+    ) : (
+      <span />
+    )
+  }
+</nav>

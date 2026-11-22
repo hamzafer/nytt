@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-20",
+  "title": "Friday: budget deadline day and T-bane day two",
+  "intro": "Government parties face their self-imposed budget deadline while the metro shutdown continues through Sunday.",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🏛️",
+        "text": "Today was the target date for the government and its allies to agree the 2027 state budget. Norgespris at 40 vs 45 øre/kWh is a sticking point — the deal may slip to Monday or later.",
+        "sources": [
+          { "label": "Altinget", "url": "https://www.altinget.no/artikkel/soendag-maa-de-vaere-enige-flytter-ikke-fristen-for-budsjettforhandlingene" }
+        ]
+      },
+      {
+        "emoji": "💻",
+        "text": "Equinor's cyberattack enters day three. Friday morning the company said it had stopped the attack; NSM says it targeted Microsoft Azure API Management and also hit Skagerak Energi.",
+        "sources": [
+          { "label": "NRK — stopped", "url": "https://www.nrk.no/nyheter/cyberangrepet-mot-equinor-er-stanset-1.18085592" },
+          { "label": "NRK — NSM", "url": "https://www.nrk.no/nyheter/nsm_-equinor-angrep-var-rettet-mot-microsoft-tjeneste-1.18086099" }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "💳",
+        "text": "Norwegian (the airline) asked roughly 5,000 customers to block their payment cards after suspicious transactions — a precaution after fraud attempts linked to the carrier.",
+        "sources": [
+          { "label": "NRK", "url": "https://www.nrk.no/nyheter/norwegian-ber-5000-kundar-sperre-bankkortet-etter-datainnbrot-1.18085456" },
+          { "label": "NRK — article", "url": "https://www.nrk.no/artikkel/norwegian-ber-5000-kundar-sperre-bankkortet-1533516" }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚇",
+        "text": "T-bane shutdown day two of four. Same pattern as Thursday: no metro through the centre, limited service on western ends of lines 1–3 only.",
+        "sources": [
+          { "label": "NRK", "url": "https://www.nrk.no/artikkel/t-banestopp-i-hovedstaden-1533340" }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌤️",
+        "text": "Clear, dry and cold weekend ahead in the capital — good for walking, but frosty mornings can make pavements slippery.",
+        "sources": [
+          { "label": "YR", "url": "https://www.yr.no/en/forecast/daily-table/2-3143244/Norway/Oslo%20municipality/Oslo" }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⛸️",
+        "text": "Top pick: Jul i Vinterland at Spikersuppa — rink, lights and market atmosphere in the heart of the city.",
+        "sources": [
+          { "label": "Visit Oslo", "url": "https://www.visitoslo.com/" }
+        ]
+      }
+    ]
+  }
+}

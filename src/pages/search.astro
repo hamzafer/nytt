@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Search" description="Search across all briefing items">
+  <div class="mx-auto max-w-3xl px-4 py-10">
+    <h1 class="font-display text-3xl font-bold">Search</h1>
+    <p class="mt-2 text-fjord-700 dark:text-fjord-200">Find items across every published day (client-side, no tracking).</p>
+    <label class="mt-6 block">
+      <span class="sr-only">Search query</span>
+      <input
+        id="search-input"
+        type="search"
+        name="q"
+        autocomplete="off"
+        placeholder="e.g. Norgespris, T-bane, Equinor…"
+        class="w-full rounded-2xl border border-fjord-300 bg-white px-4 py-3 text-lg shadow-sm outline-none focus:border-fjord-500 focus:ring-2 focus:ring-fjord-200 dark:border-fjord-700 dark:bg-fjord-950"
+      />
+    </label>
+    <p id="search-status" class="mt-3 min-h-[1.25rem] text-sm text-fjord-600 dark:text-fjord-300" role="status" />
+    <ul id="search-results" class="mt-4 space-y-3" />
+  </div>
+</Layout>

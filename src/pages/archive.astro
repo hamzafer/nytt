@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getAllBriefings, formatBriefingDate } from '../lib/briefings';
+import { withBase } from '../lib/data';
+
+const briefings = [...getAllBriefings()].reverse();
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="Archive" description="All daily briefings by date">
+  <div class="mx-auto max-w-3xl px-4 py-10">
+    <h1 class="font-display text-3xl font-bold text-fjord-950 dark:text-fjord-50">Archive</h1>
+    <p class="mt-2 text-fjord-700 dark:text-fjord-200">Every morning briefing, newest first.</p>
+    <ol class="mt-8 divide-y divide-fjord-200 dark:divide-fjord-800">
+      {
+        briefings.map((b) => (
+          <li class="py-4">
+            <a
+              href={withBase(`/day/${b.date}/`, base)}
+              class="group flex flex-col gap-1 rounded-xl px-2 py-2 transition hover:bg-fjord-100/60 dark:hover:bg-fjord-900/40"
+            >
+              <time datetime={b.date} class="text-sm font-semibold text-coral-600">
+                {formatBriefingDate(b.date)}
+              </time>
+              <span class="font-display text-xl font-semibold group-hover:text-coral-600">
+                {b.title ?? 'Morning briefing'}
+              </span>
+              {b.intro && <span class="text-sm text-fjord-600 dark:text-fjord-300">{b.intro}</span>}
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</Layout>

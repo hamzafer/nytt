@@ -1,0 +1,39 @@
+---
+import type { BriefingItem, CategoryId } from '../lib/types';
+import { getCategoryMeta } from '../lib/briefings';
+import ItemCard from './ItemCard.astro';
+
+interface Props {
+  categoryId: CategoryId;
+  items: BriefingItem[];
+}
+
+const { categoryId, items } = Astro.props;
+const meta = getCategoryMeta(categoryId);
+
+const accent: Record<string, string> = {
+  coral: 'border-coral-500',
+  amber: 'border-amber-500',
+  fjord: 'border-fjord-400',
+  rust: 'border-rust-500',
+  mint: 'border-mint-500',
+};
+---
+
+<section
+  id={categoryId}
+  class={`animate-fade-up scroll-mt-24 rounded-2xl border-l-4 ${accent[meta.color] ?? 'border-fjord-400'} space-y-4`}
+  aria-labelledby={`heading-${categoryId}`}
+>
+  <header class="flex items-center gap-2 px-1">
+    <span class="text-xl" aria-hidden="true">{meta.emoji}</span>
+    <h2 id={`heading-${categoryId}`} class="font-display text-xl font-semibold tracking-tight">
+      {meta.label}
+    </h2>
+  </header>
+  <div class="grid gap-3">
+  {items.map((item) => (
+      <ItemCard item={item} categoryId={categoryId} />
+    ))}
+  </div>
+</section>

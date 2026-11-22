@@ -1,0 +1,37 @@
+---
+import { getUpcomingKeyDates } from '../lib/data';
+import { formatBriefingDate } from '../lib/briefings';
+
+interface Props {
+  todayIso: string;
+}
+
+const { todayIso } = Astro.props;
+const dates = getUpcomingKeyDates(todayIso).slice(0, 6);
+---
+
+<aside
+  class="rounded-2xl border border-fjord-200/80 bg-white/90 p-4 shadow-sm dark:border-fjord-800 dark:bg-fjord-950/60"
+  aria-labelledby="key-dates-heading"
+>
+  <h2 id="key-dates-heading" class="font-display text-lg font-semibold text-fjord-800 dark:text-fjord-100">
+    Key dates
+  </h2>
+  {
+    dates.length === 0 ? (
+      <p class="mt-2 text-sm text-fjord-600 dark:text-fjord-300">Nothing urgent on the calendar right now.</p>
+    ) : (
+      <ul class="mt-3 space-y-3">
+        {dates.map((d) => (
+          <li class="border-b border-fjord-100 pb-3 last:border-0 last:pb-0 dark:border-fjord-800">
+            <time datetime={d.date} class="block text-xs font-semibold uppercase tracking-wide text-coral-600">
+              {formatBriefingDate(d.date).replace(/,.*$/, '').split(' ').slice(-2).join(' ')}
+            </time>
+            <p class="mt-0.5 text-sm font-medium leading-snug">{d.label}</p>
+            {d.detail && <p class="mt-1 text-xs text-fjord-600 dark:text-fjord-300">{d.detail}</p>}
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</aside>

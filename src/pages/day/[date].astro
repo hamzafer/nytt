@@ -1,0 +1,21 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import BriefingView from '../../components/BriefingView.astro';
+import DayNav from '../../components/DayNav.astro';
+import { getAllBriefings, getBriefingByDate } from '../../lib/briefings';
+
+export function getStaticPaths() {
+  return getAllBriefings().map((b) => ({ params: { date: b.date } }));
+}
+
+const { date } = Astro.params;
+const briefing = getBriefingByDate(date!);
+if (!briefing) {
+  throw new Error(`No briefing for ${date}`);
+}
+---
+
+<Layout title={briefing.title ?? briefing.date} description={briefing.intro}>
+  <BriefingView briefing={briefing} />
+  <DayNav date={briefing.date} />
+</Layout>

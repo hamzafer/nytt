@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-22",
+  "title": "Sunday: last day of the T-bane shutdown",
+  "intro": "Metro reopens tomorrow morning. Budget negotiators meet again at 09:00.",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "🏛️",
+        "text": "Budget negotiations resume this morning at 09:00 after Friday's deadline passed without a deal. Parties still aim for an agreement today, but nothing is guaranteed.",
+        "sources": [
+          { "label": "NRK", "url": "https://www.nrk.no/nyheter/budsjettforhandlingene-gjenopptas-na-1.18086570" }
+        ]
+      },
+      {
+        "emoji": "🌍",
+        "text": "COP31 talks in Antalya continue into Sunday morning after a draft text dropped explicit mention of fossil fuels. Norway wants stronger language on energy transition.",
+        "sources": [
+          { "label": "NRK", "url": "https://www.nrk.no/artikkel/klimaforhandlingene-star-i-stampe-1533656" }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🚇",
+        "text": "Last day of the signalling-system test shutdown. Normal T-bane service is scheduled from Monday 23 November.",
+        "sources": [
+          { "label": "Sporveien", "url": "https://www.sporveien.no/nyheter-og-media/alle-nyheter-og-pressemeldinger/en-maned-til-t-banen-stenger/" }
+        ],
+        "takeaway": "Double-check Monday's commute on ruter.no — first morning back can still be bumpy."
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🔥",
+        "text": "Police investigate three car fires in Oslo (Galgeberg and Rodeløkka). They have not ruled out arson and have charged a man in his 40s after the latest fire.",
+        "sources": [
+          { "label": "NRK", "url": "https://www.nrk.no/nyheter/tre-bilbranner-i-oslo-_-kan-vaere-pasatt-1.18086540" }
+        ]
+      }
+    ],
+    "be-aware": [],
+    "fun-and-free": [
+      {
+        "emoji": "👶",
+        "text": "Another chance for Barnas Verksted at Sentralen (free, 11:00–16:00) if you're entertaining kids without the metro.",
+        "sources": [
+          { "label": "Capitol Oslo", "url": "https://capitol.no/her-er-fem-ting-du-kan-finne-pa-i-oslo-denne-helgen-21-22-november-2026-med-noe-for-enhver-smak/" }
+        ]
+      },
+      {
+        "emoji": "⛸️",
+        "text": "Jul i Vinterland still running at Spikersuppa — easy to reach on foot from much of the centre while the tunnel is shut.",
+        "sources": [
+          { "label": "Visit Oslo", "url": "https://www.visitoslo.com/" }
+        ]
+      }
+    ]
+  }
+}
