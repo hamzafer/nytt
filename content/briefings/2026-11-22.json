@@ -1,57 +1,123 @@
 {
   "date": "2026-11-22",
-  "title": "Sunday: last day of the T-bane shutdown",
-  "intro": "Metro reopens tomorrow morning. Budget negotiators meet again at 09:00.",
   "sections": {
     "big-news": [
       {
-        "emoji": "🏛️",
-        "text": "Budget negotiations resume this morning at 09:00 after Friday's deadline passed without a deal. Parties still aim for an agreement today, but nothing is guaranteed.",
+        "emoji": "💰",
+        "text": "Budget talks still stuck; must reach Stortinget by Nov 30. Rødt looks set to win on dental care for older people.",
         "sources": [
-          { "label": "NRK", "url": "https://www.nrk.no/nyheter/budsjettforhandlingene-gjenopptas-na-1.18086570" }
-        ]
-      },
-      {
-        "emoji": "🌍",
-        "text": "COP31 talks in Antalya continue into Sunday morning after a draft text dropped explicit mention of fossil fuels. Norway wants stronger language on energy transition.",
-        "sources": [
-          { "label": "NRK", "url": "https://www.nrk.no/artikkel/klimaforhandlingene-star-i-stampe-1533656" }
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/xJPW5R/budsjettforhandlingene-roedt-faar-gjennomslag-paa-tannhelse-men-floken-staar-uloest"
+          }
         ]
       }
     ],
     "whats-changing": [
       {
-        "emoji": "🚇",
-        "text": "Last day of the signalling-system test shutdown. Normal T-bane service is scheduled from Monday 23 November.",
+        "emoji": "✈️",
+        "text": "Air passenger tax within Europe up to 126 kr per trip from 61 kr. SAS drops direct Trondheim–Bodø–Tromsø from mid-December.",
         "sources": [
-          { "label": "Sporveien", "url": "https://www.sporveien.no/nyheter-og-media/alle-nyheter-og-pressemeldinger/en-maned-til-t-banen-stenger/" }
-        ],
-        "takeaway": "Double-check Monday's commute on ruter.no — first morning back can still be bumpy."
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tromsogfinnmark/hoge-flyplassavgifter-i-nord_-ap-opnar-dora-pa-glott-om-taxfree-kvoten-1.18086222"
+          }
+        ]
+      },
+      {
+        "emoji": "🍺",
+        "text": "Beer in the park still illegal; no proposal date.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/flertall-til-tross-parkpilsen-lar-vente-pa-seg-1533463"
+          }
+        ]
       }
     ],
     "oslo": [
       {
-        "emoji": "🔥",
-        "text": "Police investigate three car fires in Oslo (Galgeberg and Rodeløkka). They have not ruled out arson and have charged a man in his 40s after the latest fire.",
+        "emoji": "🚇",
+        "text": "Last day of the T-bane shutdown; normal service Monday.",
         "sources": [
-          { "label": "NRK", "url": "https://www.nrk.no/nyheter/tre-bilbranner-i-oslo-_-kan-vaere-pasatt-1.18086540" }
-        ]
-      }
-    ],
-    "be-aware": [],
-    "fun-and-free": [
-      {
-        "emoji": "👶",
-        "text": "Another chance for Barnas Verksted at Sentralen (free, 11:00–16:00) if you're entertaining kids without the metro.",
-        "sources": [
-          { "label": "Capitol Oslo", "url": "https://capitol.no/her-er-fem-ting-du-kan-finne-pa-i-oslo-denne-helgen-21-22-november-2026-med-noe-for-enhver-smak/" }
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/det-store-t-baneloftet"
+          }
         ]
       },
       {
-        "emoji": "⛸️",
-        "text": "Jul i Vinterland still running at Spikersuppa — easy to reach on foot from much of the centre while the tunnel is shut.",
+        "emoji": "🔥",
+        "text": "Car fires at Galgeberg and Rodeløkka; man in his 40s charged.",
         "sources": [
-          { "label": "Visit Oslo", "url": "https://www.visitoslo.com/" }
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/politiet-etterforsker-bilbranner-i-oslo-1.18086537"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "Oslo's Christmas tree for London cut in Sørkedalen; lit on Trafalgar Square Dec 3.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/oslos-julegave-til-london-hogget-i-sorkedalen-1533494"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🧊",
+        "text": "Vegvesen black ice warning.",
+        "sources": [
+          {
+            "label": "Vegvesen",
+            "url": "https://www.vegvesen.no/om-oss/presse/aktuelt/2026/11/fra-bart-til-glatt-pa-et-oyeblikk/"
+          }
+        ]
+      },
+      {
+        "emoji": "🚆",
+        "text": "Vy Østlandet trains crowded/cancelled after brake problems.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/ostfold/togproblemer-pa-ostlandet_-_-vi-er-kjempelei-oss-1.18084713"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "⭐",
+        "text": "Top pick: Jul i Vinterland, today 10–20, free entry (rides 199 kr).",
+        "sources": [
+          {
+            "label": "Jul i Vinterland",
+            "url": "https://www.julivinterland.no/en/info/opening-hours-of-jul-i-vinterland"
+          }
+        ]
+      },
+      {
+        "emoji": "🧁",
+        "text": "Christmas market Vestre Aker menighetshus, 12:00–15:30, free.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/christmas-market-in-vestre-aker-parish-hall"
+          }
+        ]
+      },
+      {
+        "emoji": "🎶",
+        "text": "Christmas tree lighting Universitetsplassen, Sun Nov 29 17–19, free.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/christmas-tree-lighting-at-the-university-square"
+          }
         ]
       }
     ]

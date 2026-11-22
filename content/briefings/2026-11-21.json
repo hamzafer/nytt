@@ -1,63 +1,103 @@
 {
   "date": "2026-11-21",
-  "title": "Saturday: budget overtime and COP31 finale",
-  "intro": "Metro still shut through tomorrow evening; politicians keep talking budgets and climate negotiators run into overtime in Turkey.",
   "sections": {
     "big-news": [
       {
-        "emoji": "🏛️",
-        "text": "Budget talks missed Friday's self-imposed deadline and continue on overtime. Disagreements include fuel taxes, climate spending, municipal funding and Norgespris.",
+        "emoji": "💰",
+        "text": "Budget talks ran past Friday's deadline; negotiating through the weekend. Sp fuel tax vs MDG/SV climate demands.",
         "sources": [
-          { "label": "ABC Nyheter", "url": "https://www.abcnyheter.no/nyheter/dette-skjer-i-dag/1740484" }
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/g371Qq/opplysninger-til-vg-bryter-budsjettfristen"
+          }
         ]
       },
       {
-        "emoji": "🌍",
-        "text": "COP31 in Antalya was due to end yesterday but negotiations continue. Norway joined France and Panama in pushing for stronger language on moving away from fossil fuels in the final text.",
+        "emoji": "🦷",
+        "text": "Government close to deal with SV and Rødt to extend subsidised dental care first to elderly and most in need.",
         "sources": [
-          { "label": "NRK", "url": "https://www.nrk.no/artikkel/klimaforhandlingene-star-i-stampe-1533656" }
+          {
+            "label": "Dagbladet",
+            "url": "https://www.dagbladet.no/nyheter/uenighetene-blir-tydeligere/85450185"
+          }
+        ]
+      },
+      {
+        "emoji": "🛡️",
+        "text": "NSM: Equinor/Skagerak attack targeted Azure API Management. Fire shuts Visund field until January.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/okonomi/i/nLaPQJ/nsm-equinor-angrep-var-rettet-mot-microsoft-tjeneste"
+          },
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/rogaland/equinor-brann-stenger-visund-feltet-i-nordsjoen-ut-aret-1.18085802"
+          }
         ]
       }
     ],
-    "whats-changing": [],
     "oslo": [
       {
-        "emoji": "🚇",
-        "text": "T-bane shutdown day three of four. Check Ruter before heading out — buses and trams remain crowded.",
+        "emoji": "🚫",
+        "text": "Most of the T-bane still closed today and tomorrow.",
         "sources": [
-          { "label": "NRK", "url": "https://www.nrk.no/artikkel/na-skjer-det-storste-t-banestenging-noensinne-1533111" }
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/na-skjer-det-storste-t-banestenging-noensinne-1533111"
+          }
         ]
       },
       {
-        "emoji": "🗳️",
-        "text": "Oslo Labour holds weekend meetings to adopt a new municipal programme and nominate mayoral candidates (Mushtaq vs Skarstein).",
+        "emoji": "⚽",
+        "text": "Next closure (Mar 26–29) clashes with Norway vs England at Ullevaal, Mar 27 18:00.",
         "sources": [
-          { "label": "ABC Nyheter", "url": "https://www.abcnyheter.no/nyheter/dette-skjer-i-dag/1740484" }
-        ]
-      }
-    ],
-    "be-aware": [
-      {
-        "emoji": "🏅",
-        "text": "Norway was named \"Fossil of the Day\" at COP31 by climate activists — symbolic criticism of Norway's oil and gas policy, not a government award.",
-        "sources": [
-          { "label": "ABC Nyheter", "url": "https://www.abcnyheter.no/nyheter/dette-skjer-i-dag/1740484" }
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/stenger-t-banen-under-norge-england-1533591"
+          }
         ]
       }
     ],
     "fun-and-free": [
       {
-        "emoji": "🎨",
-        "text": "Barnas Verksted at Sentralen — free drop-in art workshop for young kids, Sat–Sun 11:00–16:00 in Vinterhagen.",
+        "emoji": "⭐",
+        "text": "Top pick: Jul i Bjørvika, today 11–17, free.",
         "sources": [
-          { "label": "Capitol Oslo", "url": "https://capitol.no/her-er-fem-ting-du-kan-finne-pa-i-oslo-denne-helgen-21-22-november-2026-med-noe-for-enhver-smak/" }
+          {
+            "label": "Barnas Guide",
+            "url": "https://www.barnasnorge.no/barnas-guide/hva-skjer-i-oslo-for-barn-denne-helgen"
+          }
         ]
       },
       {
-        "emoji": "🎸",
-        "text": "CC Cowboys at Sentrum Scene tonight at 19:00 — veteran Norwegian rock if you want a warm venue after a cold walk.",
+        "emoji": "🎄",
+        "text": "Botanisk hage Christmas market, free, from 11:00.",
         "sources": [
-          { "label": "Capitol Oslo", "url": "https://capitol.no/her-er-fem-ting-du-kan-finne-pa-i-oslo-denne-helgen-21-22-november-2026-med-noe-for-enhver-smak/" }
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🥕",
+        "text": "Bondens marked, Vinkelplassen, from 10:00.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🎤",
+        "text": "Free standup: The Star 19:00, Barcode Standup at Vesper 20:00.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
         ]
       }
     ]

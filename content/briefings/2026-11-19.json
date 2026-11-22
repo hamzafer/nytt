@@ -1,75 +1,99 @@
 {
   "date": "2026-11-19",
-  "title": "Thursday: the biggest T-bane shutdown starts today",
-  "intro": "63 of 101 metro stations close until Sunday night. Plan extra time if you must travel.",
   "sections": {
-    "big-news": [
-      {
-        "emoji": "🚇",
-        "text": "Oslo's largest-ever T-bane shutdown is underway until Sunday night: 63 of 101 stations are closed, nothing runs through the city centre, and lines 4 and 5 are fully shut. Only short western stretches of lines 1, 2 and 3 still operate.",
-        "sources": [
-          { "label": "NRK", "url": "https://www.nrk.no/artikkel/na-skjer-det-storste-t-banestenging-noensinne-1533111" },
-          { "label": "NRK — day one", "url": "https://www.nrk.no/artikkel/t-banestopp-i-hovedstaden-1533340" }
-        ]
-      },
-      {
-        "emoji": "💻",
-        "text": "Equinor is still fighting a cyberattack that began Tuesday evening. Production is unaffected so far, and the company says there are no signs that data was stolen.",
-        "sources": [
-          { "label": "NRK", "url": "https://www.nrk.no/artikkel/equinor-pagaende-cyberangrep-mot-it-systemer-1533278" },
-          { "label": "NRK — Thursday update", "url": "https://www.nrk.no/nyheter/cyberangrep-mot-equinor-og-skagerak-energi-pagar-fremdeles-1.18085191" }
-        ]
-      }
-    ],
-    "whats-changing": [
-      {
-        "emoji": "⚡",
-        "text": "Southern Norway may face one of its priciest power winters in years — spot prices near 2 kr/kWh before grid fees. Households on Norgespris are largely shielded; others still rely on strømstøtte.",
-        "sources": [
-          { "label": "Energi og Klima", "url": "https://www.energiogklima.no/nyhet/revidert-budsjett-dette-er-klima-og-energisakene" }
-        ]
-      }
-    ],
     "oslo": [
       {
-        "emoji": "🚌",
-        "text": "Replacement buses 2B, 3B and 25B run to Majorstuen; tram 19x continues into the centre. Ruter urges you not to travel unless you must — buses were already crowded by 08:00.",
+        "emoji": "🚨",
+        "text": "Biggest T-bane shutdown ever starts today, through Sunday night. 63 of 101 stations closed, nothing through the centre, lines 4 and 5 fully shut. Only short western stretches: line 1 Frognerseteren–Frøen, line 2 Østerås–Makrellbekken, line 3 Kolsås–Ullernåsen.",
         "sources": [
-          { "label": "Sporveien", "url": "https://www.sporveien.no/nyheter-og-media/alle-nyheter-og-pressemeldinger/en-maned-til-t-banen-stenger/" },
-          { "label": "NRK", "url": "https://www.nrk.no/stor-oslo/t-banen_-stenges-fire-dager-i-november-1.18062411" }
-        ],
-        "takeaway": "Working from home or walking/cycling beats sitting in a packed bus this week."
+          {
+            "label": "Ruter",
+            "url": "https://ruter.no/om-oss/prosjekter-og-innovasjon/det-store-t-baneloftet"
+          }
+        ]
       },
       {
-        "emoji": "🚕",
-        "text": "Oslo Taxi reports far more bookings than a normal Thursday. Pre-booking slots for Thursday and Friday mornings were already full early today.",
+        "emoji": "🚌",
+        "text": "Replacement buses 2B, 3B and 25B run to Majorstuen, tram 19x Majorstuen–centre, extra departures on 70E, 71, 76. Walk, cycle or work from home if you can.",
         "sources": [
-          { "label": "NRK", "url": "https://www.nrk.no/artikkel/t-banestopp-i-hovedstaden-1533340" }
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/t-banestopp-i-hovedstaden-1533340"
+          }
+        ]
+      },
+      {
+        "emoji": "📅",
+        "text": "Next 4-day closures: Feb 25–28, Mar 26–29, May 4–7, Jul 1–4, Aug 12–15 2027, plus one in Sep/Oct not dated.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/na-skjer-det-storste-t-banestenging-noensinne-1533111"
+          }
+        ]
+      },
+      {
+        "emoji": "💸",
+        "text": "Fornebubanen overrun of 7.3 bn kr would normally be covered through Oslopakke 3, usually meaning higher bompenger (road tolls). Nothing decided; city debates it in December.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/fornebubane-sprekk-kan-gi-hoyere-bompenger-1533333"
+          }
         ]
       }
     ],
     "be-aware": [
       {
-        "emoji": "🛡️",
-        "text": "PST says a terror attempt in Norway in the coming year is likely; the national threat level stays at 3 of 5 (elevated).",
+        "emoji": "🌤️",
+        "text": "No weather warnings for Oslo or Østlandet today.",
         "sources": [
-          { "label": "NRK", "url": "https://www.nrk.no/artikkel/pst-advarer-forsok-pa-terrorangrep-i-norge-er-sannsynlig-1533113" }
-        ]
-      },
-      {
-        "emoji": "🚗",
-        "text": "Statens vegvesen expects heavier car traffic and queues. If you must drive, avoid rush hours.",
-        "sources": [
-          { "label": "NRK", "url": "https://www.nrk.no/artikkel/na-skjer-det-storste-t-banestenging-noensinne-1533111" }
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/nb/farevarsler"
+          }
         ]
       }
     ],
     "fun-and-free": [
       {
-        "emoji": "❄️",
-        "text": "Jul i Vinterland continues at Spikersuppa — ice rink, Christmas market stalls and lights in the centre (paid skating; browsing is free).",
+        "emoji": "⭐",
+        "text": "Top pick: Høstfest at Arkitekturmuseet (Bankplassen), Fri Nov 20, 17:00–23:30, free, no sign-up.",
         "sources": [
-          { "label": "Visit Oslo", "url": "https://www.visitoslo.com/" }
+          {
+            "label": "Nasjonalmuseet",
+            "url": "https://www.nasjonalmuseet.no/utstillinger-og-arrangementer/nasjonalmuseet-arkitektur/arrangementer/2026/11/hostfest-pa-arkitekturmuseet/"
+          }
+        ]
+      },
+      {
+        "emoji": "🗣️",
+        "text": "Together Oslo Norwegian speaking practice, today 16:30, Deichman Majorstuen.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "💡",
+        "text": "James Turrell's Ganzfeld & Skyspace, Ekebergparken, Sun 11:00–16:00, free guided visits.",
+        "sources": [
+          {
+            "label": "Utgang",
+            "url": "https://utgang.no/arrangement/sondagsvisninger-i-ganzfeld-skyspace-2026-11-22"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "Jul i Vinterland at Spikersuppa, free.",
+        "sources": [
+          {
+            "label": "Jul i Vinterland",
+            "url": "https://www.julivinterland.no/info/hva-er-apningstidene-pa-jul-i-vinterland"
+          }
         ]
       }
     ]
