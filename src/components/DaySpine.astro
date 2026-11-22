@@ -27,13 +27,13 @@ const week = weekOf(date).map((iso) => ({
       {
         week.map((d) =>
           d.state === 'today' ? (
-            <span aria-current="date" aria-label={d.label} class="block py-[0.2rem] font-extrabold">{d.name}</span>
+            <span aria-current="date" class="block py-[0.2rem] font-extrabold"><span aria-hidden="true">{d.name}</span><span class="sr-only">{d.label}</span></span>
           ) : d.state === 'linked' ? (
-            <a href={withBase(`/day/${d.iso}/`, base)} aria-label={d.label} class="block py-[0.2rem] font-medium text-muted hover:text-ink hover:underline hover:underline-offset-[3px]">
-              {d.name}
+            <a href={withBase(`/day/${d.iso}/`, base)} class="block py-[0.2rem] font-medium text-muted hover:text-ink hover:underline hover:underline-offset-[3px]">
+              <span aria-hidden="true">{d.name}</span><span class="sr-only">{d.label}</span>
             </a>
           ) : (
-            <span aria-label={d.label} class:list={['block py-[0.2rem] font-medium text-muted', d.future && 'opacity-45']}>{d.name}</span>
+            <span class:list={['block py-[0.2rem] font-medium text-muted', d.future && 'opacity-45']}><span aria-hidden="true">{d.name}</span><span class="sr-only">{d.label}</span></span>
           ),
         )
       }
