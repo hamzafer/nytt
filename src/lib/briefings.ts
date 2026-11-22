@@ -73,16 +73,14 @@ export function getItemsByCategory(category: CategoryId): SearchIndexEntry[] {
   return buildSearchIndex().filter((e) => e.category === category);
 }
 
-export function formatBriefingDate(iso: string): string {
-  return new Date(`${iso}T12:00:00`).toLocaleDateString('en-GB', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'Europe/Oslo',
-  });
-}
 
 export function getCategoryMeta(id: CategoryId) {
   return CATEGORIES.find((c) => c.id === id)!;
+}
+/** Categories that have items in this briefing, in display order. */
+export function getFilledSections(briefing: Briefing) {
+  return CATEGORIES.flatMap((cat) => {
+    const items = briefing.sections[cat.id];
+    return items?.length ? [{ category: cat, items }] : [];
+  });
 }

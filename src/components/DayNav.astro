@@ -1,6 +1,6 @@
 ---
 import { getAdjacentDates } from '../lib/briefings';
-import { formatBriefingDate } from '../lib/briefings';
+import { formatLongDate } from '../lib/dates';
 import { withBase } from '../lib/data';
 
 interface Props {
@@ -10,31 +10,23 @@ interface Props {
 const { date } = Astro.props;
 const { prev, next } = getAdjacentDates(date);
 const base = import.meta.env.BASE_URL;
+const links = [
+  prev && { iso: prev, label: 'Previous day', align: '' },
+  next && { iso: next, label: 'Next day', align: 'sm:text-right sm:col-start-2' },
+].filter(Boolean) as { iso: string; label: string; align: string }[];
 ---
 
-<nav class="mx-auto flex max-w-6xl flex-wrap justify-between gap-3 border-t border-fjord-200/80 px-4 py-6 text-sm dark:border-fjord-800" aria-label="Briefing days">
-  {
-    prev ? (
-      <a
-        href={withBase(`/day/${prev}/`, base)}
-        class="rounded-xl border border-fjord-200 px-4 py-2 font-medium transition hover:border-fjord-400 dark:border-fjord-700"
-      >
-        ← {formatBriefingDate(prev)}
-      </a>
-    ) : (
-      <span />
-    )
-  }
-  {
-    next ? (
-      <a
-        href={withBase(`/day/${next}/`, base)}
-        class="rounded-xl border border-fjord-200 px-4 py-2 font-medium transition hover:border-fjord-400 dark:border-fjord-700"
-      >
-        {formatBriefingDate(next)} →
-      </a>
-    ) : (
-      <span />
-    )
-  }
+<nav class="mx-auto mt-16 max-w-5xl px-5" aria-label="Briefing days">
+  <div class="grid gap-6 border-t border-rule pt-6 sm:grid-cols-2">
+    {
+      links.map((l) => (
+        <a href={withBase(`/day/${l.iso}/`, base)} class:list={['group block', l.align]}>
+          <span class="block text-sm text-muted">{l.label}</span>
+          <span class="mt-0.5 block text-lg font-semibold group-hover:underline group-hover:decoration-2 group-hover:underline-offset-4">
+            {formatLongDate(l.iso)}
+          </span>
+        </a>
+      ))
+    }
+  </div>
 </nav>

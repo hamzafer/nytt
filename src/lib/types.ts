@@ -1,9 +1,9 @@
 export const CATEGORIES = [
-  { id: 'big-news', label: 'Big news', emoji: '📰', color: 'coral' },
-  { id: 'whats-changing', label: "What's changing", emoji: '🔄', color: 'amber' },
-  { id: 'oslo', label: 'Oslo', emoji: '🏙️', color: 'fjord' },
-  { id: 'be-aware', label: 'Be aware', emoji: '⚠️', color: 'rust' },
-  { id: 'fun-and-free', label: 'Fun and free', emoji: '🎉', color: 'mint' },
+  { id: 'big-news', label: 'Big news', tone: 'default' },
+  { id: 'whats-changing', label: "What's changing", tone: 'default' },
+  { id: 'oslo', label: 'Oslo', tone: 'default' },
+  { id: 'be-aware', label: 'Be aware', tone: 'warning' },
+  { id: 'fun-and-free', label: 'Fun and free', tone: 'default' },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];

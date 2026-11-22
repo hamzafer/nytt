@@ -1,46 +1,57 @@
 ---
 import type { Briefing } from '../lib/types';
-import { CATEGORIES } from '../lib/types';
-import { formatBriefingDate } from '../lib/briefings';
+import { getFilledSections } from '../lib/briefings';
+import { formatLongDate, norwegianWeekday } from '../lib/dates';
 import SectionBlock from './SectionBlock.astro';
 import KeyDatesPanel from './KeyDatesPanel.astro';
 
 interface Props {
   briefing: Briefing;
-  showDateBadge?: boolean;
 }
 
-const { briefing, showDateBadge = true } = Astro.props;
+const { briefing } = Astro.props;
+const sections = getFilledSections(briefing);
+const itemCount = sections.reduce((n, s) => n + s.items.length, 0);
 ---
 
-<div class="mx-auto max-w-6xl px-4 py-8">
-  <div class="grid gap-8 lg:grid-cols-[1fr_280px]">
-    <div class="min-w-0 space-y-8">
-      <header class="space-y-2 border-b border-fjord-200/80 pb-6 dark:border-fjord-800">
+<article class="mx-auto max-w-5xl px-5">
+  <header class="pb-10 pt-10 sm:pt-14">
+    <h1>
+      <span
+        lang="nb"
+        class="day-mark block text-[clamp(4rem,17vw,9.5rem)] font-black leading-[0.82] tracking-[-0.055em]"
+      >
+        {norwegianWeekday(briefing.date)}
+      </span>
+      <time datetime={briefing.date} class="mt-4 block text-lg font-medium text-muted sm:text-xl">
+        {formatLongDate(briefing.date)}
+      </time>
+    </h1>
+    {briefing.title && <p class="mt-6 max-w-[30ch] text-2xl font-bold leading-tight tracking-[-0.02em]">{briefing.title}</p>}
+    {briefing.intro && <p class="mt-4 max-w-[58ch] text-lg leading-relaxed">{briefing.intro}</p>}
+    <nav aria-label="Sections in this briefing" class="mt-8 text-[0.9375rem]">
+      <p class="text-muted">{itemCount} {itemCount === 1 ? 'story' : 'stories'} this morning</p>
+      <ul class="mt-2 flex flex-wrap gap-x-5 gap-y-1.5">
         {
-          showDateBadge && (
-            <time datetime={briefing.date} class="text-sm font-semibold uppercase tracking-wide text-coral-600">
-              {formatBriefingDate(briefing.date)}
-            </time>
-          )
+          sections.map(({ category, items }) => (
+            <li>
+              <a href={`#${category.id}`} class="prose-link font-medium">
+                {category.label}
+              </a>{' '}
+              <span class="tabular-nums text-muted">{items.length}</span>
+            </li>
+          ))
         }
-        <h1 class="font-display text-3xl font-bold tracking-tight text-fjord-950 dark:text-fjord-50 sm:text-4xl">
-          {briefing.title ?? `Morning briefing`}
-        </h1>
-        {briefing.intro && <p class="text-lg text-fjord-700 dark:text-fjord-200">{briefing.intro}</p>}
-      </header>
-      <div class="space-y-10">
-        {
-          CATEGORIES.map((cat) => {
-            const items = briefing.sections[cat.id];
-            if (!items?.length) return null;
-            return <SectionBlock categoryId={cat.id} items={items} />;
-          })
-        }
-      </div>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="grid gap-14 lg:grid-cols-[minmax(0,1fr)_16.5rem] lg:gap-16">
+    <div class="min-w-0 space-y-12">
+      {sections.map(({ category, items }, i) => <SectionBlock category={category} items={items} leadFirst={i === 0} />)}
     </div>
-    <div class="space-y-4 lg:sticky lg:top-28 lg:self-start">
+    <div class="lg:sticky lg:top-8 lg:self-start">
       <KeyDatesPanel todayIso={briefing.date} />
     </div>
   </div>
-</div>
+</article>

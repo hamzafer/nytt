@@ -4,31 +4,18 @@ import { withBase } from '../lib/data';
 
 const base = import.meta.env.BASE_URL;
 const error = nyttConfig.reportError;
+const external = error.type === 'github' ? { target: '_blank', rel: 'noopener noreferrer' } : {};
 ---
 
-<footer class="mt-16 border-t border-fjord-200/80 bg-white/50 py-10 dark:border-fjord-800 dark:bg-fjord-950/30">
-  <div class="mx-auto flex max-w-6xl flex-col gap-4 px-4 text-sm text-fjord-700 dark:text-fjord-300">
-    <p class="max-w-2xl leading-relaxed">
-      Unofficial summaries written in our own words for internationals in Norway. Not affiliated with NRK, VG, or
-      other publishers — always read the original source before you act on anything here.
+<footer class="mt-24 border-t border-rule">
+  <div class="mx-auto grid max-w-5xl gap-4 px-5 py-10 text-sm text-muted">
+    <p class="max-w-[60ch] leading-relaxed">
+      {nyttConfig.name} is an unofficial daily summary for internationals in Norway, written in our own words. It isn't
+      affiliated with NRK, VG or any other publisher. Read the original source before you act on anything here.
     </p>
-    <p>
-      <a
-        href={error.href}
-        class="font-medium text-coral-600 underline-offset-2 hover:underline"
-        {...(error.type === 'github' ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-      >
-        {error.label}
-      </a>
-    </p>
-    {
-      !nyttConfig.analytics.enabled && (
-        <p class="text-xs opacity-70">Analytics: off (configure in nytt.config.ts).</p>
-      )
-    }
-    <p class="text-xs">
-      <a href={withBase('/feed.xml', base)} class="hover:text-coral-600">RSS / Atom feed</a>
-      · Made with care in Oslo
+    <p class="flex flex-wrap gap-x-6 gap-y-2">
+      <a href={error.href} class="prose-link text-ink" {...external}>{error.label}</a>
+      <a href={withBase('/feed.xml', base)} class="prose-link text-ink">RSS feed</a>
     </p>
   </div>
 </footer>

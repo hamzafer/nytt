@@ -1,6 +1,6 @@
 ---
 import { getUpcomingKeyDates } from '../lib/data';
-import { formatBriefingDate } from '../lib/briefings';
+import { dayOfMonth, shortMonth, relativeDays } from '../lib/dates';
 
 interface Props {
   todayIso: string;
@@ -10,28 +10,29 @@ const { todayIso } = Astro.props;
 const dates = getUpcomingKeyDates(todayIso).slice(0, 6);
 ---
 
-<aside
-  class="rounded-2xl border border-fjord-200/80 bg-white/90 p-4 shadow-sm dark:border-fjord-800 dark:bg-fjord-950/60"
-  aria-labelledby="key-dates-heading"
->
-  <h2 id="key-dates-heading" class="font-display text-lg font-semibold text-fjord-800 dark:text-fjord-100">
-    Key dates
-  </h2>
+<aside aria-labelledby="key-dates-heading" class="border-t-[3px] border-ink pt-3">
+  <h2 id="key-dates-heading" class="text-base font-bold">Coming up</h2>
   {
     dates.length === 0 ? (
-      <p class="mt-2 text-sm text-fjord-600 dark:text-fjord-300">Nothing urgent on the calendar right now.</p>
+      <p class="mt-3 text-sm text-muted">No deadlines on the calendar right now.</p>
     ) : (
-      <ul class="mt-3 space-y-3">
+      <ol class="divide-y divide-rule">
         {dates.map((d) => (
-          <li class="border-b border-fjord-100 pb-3 last:border-0 last:pb-0 dark:border-fjord-800">
-            <time datetime={d.date} class="block text-xs font-semibold uppercase tracking-wide text-coral-600">
-              {formatBriefingDate(d.date).replace(/,.*$/, '').split(' ').slice(-2).join(' ')}
+          <li class="grid grid-cols-[2.75rem_minmax(0,1fr)] gap-x-3 py-3.5">
+            <time datetime={d.date} class="text-center leading-none">
+              <span class="block text-[1.75rem] font-extrabold tabular-nums tracking-[-0.03em]">{dayOfMonth(d.date)}</span>
+              <span class="mt-1 block text-xs font-medium text-muted">{shortMonth(d.date)}</span>
             </time>
-            <p class="mt-0.5 text-sm font-medium leading-snug">{d.label}</p>
-            {d.detail && <p class="mt-1 text-xs text-fjord-600 dark:text-fjord-300">{d.detail}</p>}
+            <div class="min-w-0">
+              <p class="font-medium leading-snug">{d.label}</p>
+              <p class="mt-0.5 text-sm text-muted">
+                {relativeDays(todayIso, d.date)}
+                {d.detail && <>. {d.detail}</>}
+              </p>
+            </div>
           </li>
         ))}
-      </ul>
+      </ol>
     )
   }
 </aside>

@@ -1,0 +1,233 @@
+- generic [active] [ref=f14e1]:
+  - link "Skip to content" [ref=f14e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f14e3]:
+    - generic [ref=f14e4]:
+      - link "nytt Norway news for internationals, every morning" [ref=f14e5] [cursor=pointer]:
+        - /url: /nytt/
+        - generic [ref=f14e6]: nytt
+        - generic [ref=f14e7]: Norway news for internationals, every morning
+      - navigation "Main" [ref=f14e8]:
+        - link "Today" [ref=f14e9] [cursor=pointer]:
+          - /url: /nytt/
+        - link "Archive" [ref=f14e10] [cursor=pointer]:
+          - /url: /nytt/archive/
+        - link "Search" [ref=f14e11] [cursor=pointer]:
+          - /url: /nytt/search/
+        - button "Dark mode" [ref=f14e12]
+  - main [ref=f14e16]:
+    - article [ref=f14e17]:
+      - generic [ref=f14e18]:
+        - heading "fredag Friday 20 November 2026" [level=1] [ref=f14e19]:
+          - generic [ref=f14e20]: fredag
+          - time [ref=f14e21]: Friday 20 November 2026
+        - navigation "Sections in this briefing" [ref=f14e22]:
+          - paragraph [ref=f14e23]: 13 stories this morning
+          - list [ref=f14e24]:
+            - listitem [ref=f14e25]:
+              - link "Big news" [ref=f14e26] [cursor=pointer]:
+                - /url: "#big-news"
+              - text: "4"
+            - listitem [ref=f14e27]:
+              - link "What's changing" [ref=f14e28] [cursor=pointer]:
+                - /url: "#whats-changing"
+              - text: "2"
+            - listitem [ref=f14e29]:
+              - link "Oslo" [ref=f14e30] [cursor=pointer]:
+                - /url: "#oslo"
+              - text: "1"
+            - listitem [ref=f14e31]:
+              - link "Be aware" [ref=f14e32] [cursor=pointer]:
+                - /url: "#be-aware"
+              - text: "2"
+            - listitem [ref=f14e33]:
+              - link "Fun and free" [ref=f14e34] [cursor=pointer]:
+                - /url: "#fun-and-free"
+              - text: "4"
+      - generic [ref=f14e35]:
+        - generic [ref=f14e36]:
+          - region "Big news 4" [ref=f14e37]:
+            - heading "Big news 4" [level=2] [ref=f14e38]:
+              - text: Big news
+              - generic [ref=f14e39]: "4"
+            - list [ref=f14e40]:
+              - listitem [ref=f14e41]:
+                - generic [aria-hidden] [ref=f14e42]: 💰
+                - generic [ref=f14e43]:
+                  - paragraph [ref=f14e44]: "Deadline today for the 2027 budget deal. Ap needs Sp, SV, Rødt, MDG. Sticking points: Norgespris (40 to 45 øre/kWh), tax cuts for high earners, fuel taxes."
+                  - paragraph [ref=f14e45]:
+                    - text: "Source:"
+                    - link "VG" [ref=f14e46] [cursor=pointer]:
+                      - /url: https://www.vg.no/nyheter/i/7P0Jr9/siste-frist-i-dag-dette-er-stridstemaene-i-budsjettforhandlingene
+              - listitem [ref=f14e47]:
+                - generic [aria-hidden] [ref=f14e48]: ⚖️
+                - generic [ref=f14e49]:
+                  - paragraph [ref=f14e50]: ECHR rejected complaint from three victims of the 2019 Nav scandal.
+                  - paragraph [ref=f14e51]:
+                    - text: "Source:"
+                    - link "NRK" [ref=f14e52] [cursor=pointer]:
+                      - /url: https://www.nrk.no/nyheter/1.18085490
+              - listitem [ref=f14e53]:
+                - generic [aria-hidden] [ref=f14e54]: 🛡️
+                - generic [ref=f14e55]:
+                  - paragraph [ref=f14e56]: PST warns of "nihilistic" extremism among Norwegian children and teens.
+                  - paragraph [ref=f14e57]:
+                    - text: "Source:"
+                    - link "NRK" [ref=f14e58] [cursor=pointer]:
+                      - /url: https://www.nrk.no/rogaland/pst-slar-alarm-om-nihilistisk-ekstremisme-blant-norske-barn-1.18084966
+              - listitem [ref=f14e59]:
+                - generic [aria-hidden] [ref=f14e60]: 💻
+                - generic [ref=f14e61]:
+                  - paragraph [ref=f14e62]: Equinor cyberattack enters third day.
+                  - paragraph [ref=f14e63]:
+                    - text: "Source:"
+                    - link "NRK" [ref=f14e64] [cursor=pointer]:
+                      - /url: https://www.nrk.no/rogaland/dag-tre-med-pagaende-dataangrep-mot-equinor-_-forsker-reagerer-1.18085015
+          - region "What's changing 2" [ref=f14e65]:
+            - heading "What's changing 2" [level=2] [ref=f14e66]:
+              - text: What's changing
+              - generic [ref=f14e67]: "2"
+            - list [ref=f14e68]:
+              - listitem [ref=f14e69]:
+                - generic [aria-hidden] [ref=f14e70]: 📈
+                - generic [ref=f14e71]:
+                  - paragraph [ref=f14e72]: "Norges Bank survey: people and businesses expect much higher inflation than the bank forecasts."
+                  - paragraph [ref=f14e73]:
+                    - text: "Source:"
+                    - link "NRK" [ref=f14e74] [cursor=pointer]:
+                      - /url: https://www.nrk.no/rogaland/norges-bank-med-ny-forventningsundersokelse_-stangeland-maskin-frykter-inflasjonen-ikke-vil-bremse-1.18084262
+              - listitem [ref=f14e75]:
+                - generic [aria-hidden] [ref=f14e76]: 📊
+                - generic [ref=f14e77]:
+                  - paragraph [ref=f14e78]: Storebrand cut index fund prices after DNB launched one at half price.
+                  - paragraph [ref=f14e79]:
+                    - text: "Source:"
+                    - link "E24" [ref=f14e80] [cursor=pointer]:
+                      - /url: https://e24.no/privatoekonomi/i/bk5jQB/storebrand-svarer-dnb-med-priskutt-paa-indeksfond
+          - region "Oslo 1" [ref=f14e81]:
+            - heading "Oslo 1" [level=2] [ref=f14e82]:
+              - text: Oslo
+              - generic [ref=f14e83]: "1"
+            - list [ref=f14e84]:
+              - listitem [ref=f14e85]:
+                - generic [aria-hidden] [ref=f14e86]: 🚫
+                - generic [ref=f14e87]:
+                  - paragraph [ref=f14e88]: Day two of the T-bane shutdown, through Sunday.
+                  - paragraph [ref=f14e89]:
+                    - text: "Source:"
+                    - link "NRK" [ref=f14e90] [cursor=pointer]:
+                      - /url: https://www.nrk.no/artikkel/t-banestopp-i-hovedstaden-1533340
+          - region "Be aware 2" [ref=f14e91]:
+            - heading "Be aware 2" [level=2] [ref=f14e92]:
+              - text: Be aware
+              - generic [ref=f14e93]: "2"
+            - list [ref=f14e94]:
+              - listitem [ref=f14e95]:
+                - generic [aria-hidden] [ref=f14e96]: 💳
+                - generic [ref=f14e97]:
+                  - paragraph [ref=f14e98]: Norwegian asked ~5,000 customers to block bank cards after malicious code on a supplier's site.
+                  - paragraph [ref=f14e99]:
+                    - text: "Source:"
+                    - link "NRK" [ref=f14e100] [cursor=pointer]:
+                      - /url: https://www.nrk.no/nyheter/norwegian-ber-5000-kundar-sperre-bankkortet-etter-datainnbrot-1.18085456
+              - listitem [ref=f14e101]:
+                - generic [aria-hidden] [ref=f14e102]: 🥶
+                - generic [ref=f14e103]:
+                  - paragraph [ref=f14e104]: No warnings for Oslo; clear, cold weekend, -1 to 4°C.
+                  - paragraph [ref=f14e105]:
+                    - text: "Source:"
+                    - link "Yr" [ref=f14e106] [cursor=pointer]:
+                      - /url: https://www.yr.no/nb/farevarsler
+          - region "Fun and free 4" [ref=f14e107]:
+            - heading "Fun and free 4" [level=2] [ref=f14e108]:
+              - text: Fun and free
+              - generic [ref=f14e109]: "4"
+            - list [ref=f14e110]:
+              - listitem [ref=f14e111]:
+                - generic [aria-hidden] [ref=f14e112]: ⭐
+                - generic [ref=f14e113]:
+                  - paragraph [ref=f14e114]: "Top pick: Jul i Vinterland, free entry."
+                  - paragraph [ref=f14e115]:
+                    - text: "Source:"
+                    - link "VisitOSLO" [ref=f14e116] [cursor=pointer]:
+                      - /url: https://www.visitoslo.com/no/event/jul-i-vinterland
+              - listitem [ref=f14e117]:
+                - generic [aria-hidden] [ref=f14e118]: 🎄
+                - generic [ref=f14e119]:
+                  - paragraph [ref=f14e120]: Grand Christmas Market at Gamle Logen, Sun 12–17, from 75 kr (ticketed).
+                  - paragraph [ref=f14e121]:
+                    - text: "Source:"
+                    - link "VisitOSLO" [ref=f14e122] [cursor=pointer]:
+                      - /url: https://www.visitoslo.com/no/event/the-grand-christmas-market-gamle-logen-2026
+              - listitem [ref=f14e123]:
+                - generic [aria-hidden] [ref=f14e124]: 🕯️
+                - generic [ref=f14e125]:
+                  - paragraph [ref=f14e126]: Jul med LJOST, Majorstuen kirke, Sun 18:30, 300 kr (ticketed).
+                  - paragraph [ref=f14e127]:
+                    - text: "Source:"
+                    - link "VisitOSLO" [ref=f14e128] [cursor=pointer]:
+                      - /url: https://www.visitoslo.com/no/event/christmas-with-ljost
+              - listitem [ref=f14e129]:
+                - generic [aria-hidden] [ref=f14e130]: 🎶
+                - generic [ref=f14e131]:
+                  - paragraph [ref=f14e132]: Westlife at Oslo Spektrum, Sat 20:00, from 655 kr (ticketed).
+                  - paragraph [ref=f14e133]:
+                    - text: "Source:"
+                    - link "Oslo Spektrum" [ref=f14e134] [cursor=pointer]:
+                      - /url: https://oslospektrum.no/arrangementer/westlife/
+        - complementary "Coming up" [ref=f14e136]:
+          - heading "Coming up" [level=2] [ref=f14e137]
+          - list [ref=f14e138]:
+            - listitem [ref=f14e139]:
+              - time [ref=f14e140]:
+                - generic [ref=f14e141]: "29"
+                - generic [ref=f14e142]: Nov
+              - generic [ref=f14e143]:
+                - paragraph [ref=f14e144]: Christmas tree lighting at Universitetsplassen
+                - paragraph [ref=f14e145]: In 9 days. Sun 17:00–19:00
+            - listitem [ref=f14e146]:
+              - time [ref=f14e147]:
+                - generic [ref=f14e148]: "17"
+                - generic [ref=f14e149]: Dec
+              - generic [ref=f14e150]:
+                - paragraph [ref=f14e151]: Norges Bank rate decision
+                - paragraph [ref=f14e152]: In 27 days
+            - listitem [ref=f14e153]:
+              - time [ref=f14e154]:
+                - generic [ref=f14e155]: "31"
+                - generic [ref=f14e156]: Dec
+              - generic [ref=f14e157]:
+                - paragraph [ref=f14e158]: Norgespris ends
+                - paragraph [ref=f14e159]: In 41 days. Orders reopen 5 Jan.
+            - listitem [ref=f14e160]:
+              - time [ref=f14e161]:
+                - generic [ref=f14e162]: "5"
+                - generic [ref=f14e163]: Jan
+              - generic [ref=f14e164]:
+                - paragraph [ref=f14e165]: Norgespris orders reopen
+                - paragraph [ref=f14e166]: In 46 days
+            - listitem [ref=f14e167]:
+              - time [ref=f14e168]:
+                - generic [ref=f14e169]: "25"
+                - generic [ref=f14e170]: Feb
+              - generic [ref=f14e171]:
+                - paragraph [ref=f14e172]: Next T-bane 4-day closure
+                - paragraph [ref=f14e173]: In 97 days. Feb 25–28; also Mar 26–29, May 4–7, Jul 1–4, Aug 12–15 2027.
+    - navigation "Briefing days" [ref=f14e174]:
+      - generic [ref=f14e175]:
+        - link "Previous day Thursday 19 November 2026" [ref=f14e176] [cursor=pointer]:
+          - /url: /nytt/day/2026-11-19/
+          - generic [ref=f14e177]: Previous day
+          - generic [ref=f14e178]: Thursday 19 November 2026
+        - link "Next day Saturday 21 November 2026" [ref=f14e179] [cursor=pointer]:
+          - /url: /nytt/day/2026-11-21/
+          - generic [ref=f14e180]: Next day
+          - generic [ref=f14e181]: Saturday 21 November 2026
+  - contentinfo [ref=f14e182]:
+    - generic [ref=f14e183]:
+      - paragraph [ref=f14e184]: nytt is an unofficial daily summary for internationals in Norway, written in our own words. It isn't affiliated with NRK, VG or any other publisher. Read the original source before you act on anything here.
+      - paragraph [ref=f14e185]:
+        - link "Report an error" [ref=f14e186] [cursor=pointer]:
+          - /url: https://github.com/hamzafer/nytt/issues/new?labels=correction&title=Briefing%20correction
+        - link "RSS feed" [ref=f14e187] [cursor=pointer]:
+          - /url: /nytt/feed.xml

@@ -1,39 +1,28 @@
 ---
-import type { BriefingItem, CategoryId } from '../lib/types';
-import { getCategoryMeta } from '../lib/briefings';
+import type { BriefingItem, CATEGORIES } from '../lib/types';
 import ItemCard from './ItemCard.astro';
 
 interface Props {
-  categoryId: CategoryId;
+  category: (typeof CATEGORIES)[number];
   items: BriefingItem[];
+  /** Set the first item as the day's lede. */
+  leadFirst?: boolean;
 }
 
-const { categoryId, items } = Astro.props;
-const meta = getCategoryMeta(categoryId);
-
-const accent: Record<string, string> = {
-  coral: 'border-coral-500',
-  amber: 'border-amber-500',
-  fjord: 'border-fjord-400',
-  rust: 'border-rust-500',
-  mint: 'border-mint-500',
-};
+const { category, items, leadFirst = false } = Astro.props;
+const warning = category.tone === 'warning';
 ---
 
 <section
-  id={categoryId}
-  class={`animate-fade-up scroll-mt-24 rounded-2xl border-l-4 ${accent[meta.color] ?? 'border-fjord-400'} space-y-4`}
-  aria-labelledby={`heading-${categoryId}`}
+  id={category.id}
+  class:list={['scroll-mt-6 border-t-[3px] pt-3', warning ? 'border-accent' : 'border-ink']}
+  aria-labelledby={`heading-${category.id}`}
 >
-  <header class="flex items-center gap-2 px-1">
-    <span class="text-xl" aria-hidden="true">{meta.emoji}</span>
-    <h2 id={`heading-${categoryId}`} class="font-display text-xl font-semibold tracking-tight">
-      {meta.label}
-    </h2>
-  </header>
-  <div class="grid gap-3">
-  {items.map((item) => (
-      <ItemCard item={item} categoryId={categoryId} />
-    ))}
-  </div>
+  <h2 id={`heading-${category.id}`} class:list={['flex items-baseline gap-2 text-base font-bold', warning && 'text-accent']}>
+    {category.label}
+    <span class="font-normal tabular-nums text-muted">{items.length}</span>
+  </h2>
+  <ol class="divide-y divide-rule">
+    {items.map((item, i) => <ItemCard item={item} lead={leadFirst && i === 0} />)}
+  </ol>
 </section>

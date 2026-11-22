@@ -13,7 +13,7 @@ export const nyttConfig = {
     /** `mailto` or `github` */
     type: 'github' as const,
     href: 'https://github.com/hamzafer/nytt/issues/new?labels=correction&title=Briefing%20correction',
-    label: 'Spotted an error?',
+    label: 'Report an error',
   },
   analytics: {
     enabled: false,

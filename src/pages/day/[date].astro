@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import BriefingView from '../../components/BriefingView.astro';
 import DayNav from '../../components/DayNav.astro';
 import { getAllBriefings, getBriefingByDate } from '../../lib/briefings';
+import { formatLongDate } from '../../lib/dates';
 
 export function getStaticPaths() {
   return getAllBriefings().map((b) => ({ params: { date: b.date } }));
@@ -15,7 +16,7 @@ if (!briefing) {
 }
 ---
 
-<Layout title={briefing.title ?? briefing.date} description={briefing.intro}>
+<Layout title={briefing.title ?? formatLongDate(briefing.date)} description={briefing.intro}>
   <BriefingView briefing={briefing} />
   <DayNav date={briefing.date} />
 </Layout>
