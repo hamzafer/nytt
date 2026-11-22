@@ -94,6 +94,9 @@
       const r = button.getBoundingClientRect();
       const gap = 6;
       const margin = 12;
+      // Measure at the left edge, so the previous position doesn't squeeze the width.
+      pop.style.left = '0px';
+      pop.style.top = '0px';
       const w = pop.offsetWidth;
       const h = pop.offsetHeight;
       const left = Math.min(Math.max(margin, r.left), window.innerWidth - w - margin);
@@ -105,17 +108,24 @@
 
     function show(button, pin) {
       const term = button.dataset.term;
-      pop.innerHTML = `<strong lang="nb">${escapeHtml(term)}</strong> ${escapeHtml(glossary[term] || '')}`;
-      if (current && current !== button) current.setAttribute('aria-expanded', 'false');
+      if (current && current !== button) collapse(current);
       current = button;
       pinned = pin;
       button.setAttribute('aria-expanded', 'true');
+      button.setAttribute('aria-describedby', pop.id);
+      // Open first, then fill: a live region that is hidden when its text changes isn't announced.
       if (!pop.matches(':popover-open')) pop.showPopover();
+      pop.innerHTML = `<strong lang="nb">${escapeHtml(term)}</strong> ${escapeHtml(glossary[term] || '')}`;
       place(button);
     }
 
+    function collapse(button) {
+      button.setAttribute('aria-expanded', 'false');
+      button.removeAttribute('aria-describedby');
+    }
+
     function hide() {
-      if (current) current.setAttribute('aria-expanded', 'false');
+      if (current) collapse(current);
       current = null;
       pinned = false;
       if (pop.matches(':popover-open')) pop.hidePopover();
@@ -128,8 +138,10 @@
     document.addEventListener('keydown', (e) => {
       if (e.key !== 'Escape' || !current) return;
       const button = current;
+      const opened = pinned;
       hide();
-      button.focus();
+      // Only return focus when the term was opened by click, tap or keyboard, not by hover.
+      if (opened) button.focus();
     });
 
     buttons.forEach((button) => {
