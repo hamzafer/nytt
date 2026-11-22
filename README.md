@@ -1,6 +1,12 @@
 # nytt
 
-**Norway news for internationals, every morning** — a static site for daily English briefings. Built for [GitHub Pages](https://hamzafer.github.io/nytt/) at `https://hamzafer.github.io/nytt/`.
+Norway news in English for people who moved here. A new briefing goes up every morning at [hamzafer.github.io/nytt](https://hamzafer.github.io/nytt/).
+
+Each briefing is a short list of stories sorted into five sections (big news, what's changing, Oslo, be aware, fun and free). Every story links to its Norwegian sources, and some add a line on what it means for you. The site also has an archive, a page per section, search, upcoming deadlines and an RSS feed.
+
+## How a day gets published
+
+A scheduled job writes one JSON file per morning to `content/briefings/YYYY-MM-DD.json` and pushes it to `main`. The push triggers `.github/workflows/deploy-github-pages.yml`, which builds the site and publishes it to GitHub Pages in under a minute. Nothing else needs to change, so you can also add a day by hand the same way.
 
 ## Run locally
 
@@ -9,21 +15,14 @@ npm ci
 npm run dev
 ```
 
-Open the URL Astro prints (default port). For production-like paths:
+To check the production build with the same `/nytt/` base path as GitHub Pages:
 
 ```bash
 npm run build
 npm run preview
 ```
 
-Preview uses the same `/nytt/` base path as GitHub Pages.
-
-## Add a daily briefing (one file per day)
-
-1. Create **`content/briefings/YYYY-MM-DD.json`** (one new file per day — nothing else required).
-2. Commit and push to `main`. The GitHub Actions workflow rebuilds and deploys the site.
-
-### JSON format
+## Briefing format
 
 ```json
 {
@@ -40,17 +39,17 @@ Preview uses the same `/nytt/` base path as GitHub Pages.
 }
 ```
 
-**Section keys** (use only the ones that have items; omit empty sections or leave them as `[]`):
+Leave a section out, or as `[]`, when it has no stories. The keys map to these headings:
 
-| Key | Category |
-|-----|----------|
+| Key | Heading |
+|-----|---------|
 | `big-news` | Big news |
 | `whats-changing` | What's changing |
 | `oslo` | Oslo |
 | `be-aware` | Be aware |
 | `fun-and-free` | Fun and free |
 
-**Each item:**
+Each story looks like this:
 
 ```json
 {
@@ -64,33 +63,26 @@ Preview uses the same `/nytt/` base path as GitHub Pages.
 }
 ```
 
-Rules for automated writers:
+Rules for anything that writes these files:
 
-- Keep `date` equal to the filename stem (`2026-11-23.json` → `"date": "2026-11-23"`).
-- Every item needs at least one `sources` entry with a full `https://` URL.
-- Write summaries in English; do not copy paywalled article body text.
-- `takeaway` and `correction` are optional strings (omit the keys if unused).
+- `date` must match the filename (`2026-11-23.json` has `"date": "2026-11-23"`).
+- Every story needs at least one source with a full `https://` URL.
+- Write the summaries in English and in your own words. Don't copy paywalled article text.
+- `takeaway` and `correction` are optional. Leave the keys out when you don't use them.
 
-### Other data files
+## Other files you might edit
 
-- **`data/key-dates.json`** — upcoming deadlines (past dates are hidden automatically on each briefing page).
-- **`data/glossary.json`** — Norwegian terms explained on first occurrence per item (hover/tap via `<abbr title="…">`).
-- **`nytt.config.ts`** — site name, tagline, base URL, error-report link, analytics placeholder.
+- `data/key-dates.json` holds upcoming deadlines for the "Coming up" panel. Dates that have passed are hidden on each briefing.
+- `data/glossary.json` holds Norwegian terms. The first mention in each story gets a dotted underline and shows the meaning on hover or tap.
+- `nytt.config.ts` sets the site name, tagline, URLs, the "Report an error" link and optional analytics (off by default).
 
-## Deploy on GitHub Pages
+## Deploying
 
-1. Create a GitHub repo (e.g. `hamzafer/nytt`) and push this project to `main`.
-2. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. On each push to `main`, `.github/workflows/deploy-github-pages.yml` runs `npm ci`, `npm run build`, and publishes the `dist/` folder.
-
-Live URL: **`https://<user>.github.io/<repo>/`** (for this project: `https://hamzafer.github.io/nytt/`).
-
-If the repo name changes, update `basePath` and `siteUrl` in **`nytt.config.ts`** (and keep `astro.config.mjs` in sync).
-
-First deploy may take a few minutes. Use **GitHub Actions** as the Pages source, not “Deploy from branch”.
+GitHub Pages must use **GitHub Actions** as its source (Settings, Pages, Build and deployment), not "Deploy from branch". If the repo is renamed, update `basePath` and `siteUrl` in `nytt.config.ts`. `astro.config.mjs` reads both from there.
 
 ## Stack
 
-- [Astro](https://astro.build/) static output, TypeScript, Tailwind CSS v4
-- Client-side search (`/search-index.json` generated at build)
+- [Astro](https://astro.build/) (static output), TypeScript and Tailwind CSS v4
+- Schibsted Grotesk for all type
+- Search runs in the browser from `/search-index.json`, built with the site
 - RSS at `/feed.xml`
