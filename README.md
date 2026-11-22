@@ -72,13 +72,13 @@ Rules for anything that writes these files:
 
 ## Other files you might edit
 
-- `data/key-dates.json` holds upcoming deadlines for the "Coming up" panel. Dates that have passed are hidden on each briefing.
-- `data/glossary.json` holds Norwegian terms. The first mention in each story gets a dotted underline and shows the meaning on hover or tap.
+- `data/key-dates.json` holds upcoming deadlines for the "Coming up" panel. Each briefing shows up to six, counting from its own date, so an old briefing still lists the deadlines that were ahead of it then.
+- `data/glossary.json` holds Norwegian terms. The first mention in each story gets a dotted underline, and hovering over it shows the meaning (a native tooltip, so most phones won't show it on tap).
 - `nytt.config.ts` sets the site name, tagline, URLs, the "Report an error" link and optional analytics (off by default).
 
 ## Deploying
 
-GitHub Pages must use **GitHub Actions** as its source (Settings, Pages, Build and deployment), not "Deploy from branch". If the repo is renamed, update `basePath` and `siteUrl` in `nytt.config.ts`. `astro.config.mjs` reads both from there.
+GitHub Pages must use **GitHub Actions** as its source (Settings, Pages, Build and deployment), not "Deploy from branch". If the repo is renamed, update `basePath` and the `reportError` link in `nytt.config.ts`. `astro.config.mjs` reads the base path from there.
 
 ## Stack
 
