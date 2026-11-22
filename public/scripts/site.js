@@ -56,14 +56,102 @@
           html += escapeHtml(text);
         } else {
           used.add(key);
-          const def = glossary[byLower.get(key)];
-          html += `<abbr class="glossary-term" tabindex="0" title="${escapeHtml(def)}">${escapeHtml(text)}</abbr>`;
+          html += `<button type="button" class="glossary-term" lang="nb" data-term="${escapeHtml(byLower.get(key))}">${escapeHtml(text)}</button>`;
         }
         last = match.index + text.length;
       }
       if (!used.size) return;
       host.innerHTML = html + escapeHtml(raw.slice(last));
     });
+
+    initGlossaryPopover(glossary);
+  }
+
+  // Tap or click a term to show its meaning under it. Hovering shows it too on devices
+  // with a mouse. Escape or a tap anywhere else closes it.
+  function initGlossaryPopover(glossary) {
+    const buttons = document.querySelectorAll('button.glossary-term');
+    if (!buttons.length) return;
+
+    if (!('showPopover' in HTMLElement.prototype)) {
+      // Older browsers: fall back to the native tooltip.
+      buttons.forEach((b) => (b.title = glossary[b.dataset.term] || ''));
+      return;
+    }
+
+    const pop = document.createElement('div');
+    pop.id = 'glossary-pop';
+    pop.className = 'glossary-pop';
+    pop.setAttribute('popover', 'manual');
+    pop.setAttribute('aria-live', 'polite');
+    document.body.appendChild(pop);
+
+    const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    let current = null;
+    let pinned = false;
+
+    function place(button) {
+      const r = button.getBoundingClientRect();
+      const gap = 6;
+      const margin = 12;
+      const w = pop.offsetWidth;
+      const h = pop.offsetHeight;
+      const left = Math.min(Math.max(margin, r.left), window.innerWidth - w - margin);
+      const below = r.bottom + gap;
+      const top = below + h > window.innerHeight - margin && r.top - gap - h > margin ? r.top - gap - h : below;
+      pop.style.left = `${left}px`;
+      pop.style.top = `${top}px`;
+    }
+
+    function show(button, pin) {
+      const term = button.dataset.term;
+      pop.innerHTML = `<strong lang="nb">${escapeHtml(term)}</strong> ${escapeHtml(glossary[term] || '')}`;
+      if (current && current !== button) current.setAttribute('aria-expanded', 'false');
+      current = button;
+      pinned = pin;
+      button.setAttribute('aria-expanded', 'true');
+      if (!pop.matches(':popover-open')) pop.showPopover();
+      place(button);
+    }
+
+    function hide() {
+      if (current) current.setAttribute('aria-expanded', 'false');
+      current = null;
+      pinned = false;
+      if (pop.matches(':popover-open')) pop.hidePopover();
+    }
+
+    document.addEventListener('pointerdown', (e) => {
+      if (!current || pop.contains(e.target) || e.target.closest?.('button.glossary-term')) return;
+      hide();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape' || !current) return;
+      const button = current;
+      hide();
+      button.focus();
+    });
+
+    buttons.forEach((button) => {
+      button.setAttribute('aria-expanded', 'false');
+      button.setAttribute('aria-controls', pop.id);
+      button.addEventListener('click', () => {
+        if (current === button && pinned) hide();
+        else show(button, true);
+      });
+      if (canHover) {
+        button.addEventListener('mouseenter', () => {
+          if (!pinned) show(button, false);
+        });
+        button.addEventListener('mouseleave', () => {
+          if (!pinned && current === button) hide();
+        });
+      }
+    });
+
+    // The popover is fixed to the viewport, so close it rather than let it drift on scroll.
+    window.addEventListener('scroll', () => current && hide(), { passive: true });
+    window.addEventListener('resize', () => current && hide());
   }
 
   async function initSearchPage() {
