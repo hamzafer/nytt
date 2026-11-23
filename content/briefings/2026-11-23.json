@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-23",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "💰",
+        "text": "Still no budget deal. Ap gave Sp, SV, Rødt and MDG a new offer with a bigger spending frame on Sunday night, but they didn't agree, and talks start again today at 09:00. The main fight is still Sp's demand for lower fuel taxes against MDG and SV's push for real climate cuts in 2027.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/qOLd0o/statsbudsjettet-ap-la-fram-tilbud-ingen-avtale-soendag-kveld"
+          }
+        ]
+      },
+      {
+        "emoji": "🗓️",
+        "text": "The deadlines: the finance committee has to deliver its budget recommendation on Nov 30, and Stortinget debates and votes on Dec 7.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/statsbudsjettet-skisse-fra-ap-planlegger-nye-moter-mandag-1533707"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "✅",
+        "text": "The four-day T-bane shutdown for testing the new signal system ended Sunday, so the metro should be running as normal again this week.",
+        "sources": [
+          {
+            "label": "Sporveien",
+            "url": "https://www.sporveien.no/nyheter-og-media/alle-nyheter-og-pressemeldinger/stenger-t-banen-under-cbtc-testing/"
+          }
+        ]
+      },
+      {
+        "emoji": "⚽",
+        "text": "The next T-bane shutdown, Mar 26–29 over Easter, clashes with Norway vs England at Ullevaal on Mar 27. Ruter, Sporveien and the football association are talking about it, but there's no fix yet.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/stenger-t-banen-under-norge-england-1533591"
+          }
+        ]
+      },
+      {
+        "emoji": "🗳️",
+        "text": "Oslo Ap picked Usman Mushtaq as its candidate for city government leader and Birgit Skarstein for mayor ahead of next autumn's local election. They'll take on Høyre's Eirik Lae Solberg and Anne Lindboe.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/mushtaq-til-topps-kan-bli-oslos-forste-muslimske-byradsleder-1533602"
+          }
+        ]
+      },
+      {
+        "emoji": "🏫",
+        "text": "Mushtaq is promising free school meals, 10,000 youth jobs and a \"moderate\" property tax that would exempt ordinary homes.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/4EqQPg/her-er-aps-nye-maktduo-i-oslo"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🚆",
+        "text": "Vy still has many trains out of service on Østlandet after safety checks and brake repairs, so expect cancellations and fewer carriages at rush hour. There's no date yet for when it gets better, so check the Vy app before you travel.",
+        "sources": [
+          {
+            "label": "Vy",
+            "url": "https://www.vy.no/vygruppen/presse-og-nyheter/2026/3479236"
+          }
+        ]
+      },
+      {
+        "emoji": "🥶",
+        "text": "Cold and clear in Oslo this week, about +1 to -5°C today and down to around -6°C by Wednesday night. There are no weather warnings for Oslo, but watch out for icy pavements.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/nb/innhold/1-72837/table.html"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "🎄",
+        "text": "Jul i Vinterland at Spikersuppa is free to enter and open 12:00–20:00 on weekdays (rides cost extra).",
+        "sources": [
+          {
+            "label": "Jul i Vinterland",
+            "url": "https://www.julivinterland.no/en/info/opening-hours-of-jul-i-vinterland"
+          }
+        ]
+      },
+      {
+        "emoji": "🧁",
+        "text": "There's a free Christmas market at Nordberg kirke on Fri Nov 27 (16:30–19:00), Sat Nov 28 (11:30–15:00) and Sun Nov 29 (12:00–14:30), with homemade gifts, a café and a raffle.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/christmas-market-in-nordberg"
+          }
+        ]
+      },
+      {
+        "emoji": "🕯️",
+        "text": "The big Steiner Christmas market at Hovseter is on Sat Nov 28 (11–17) and Sun Nov 29 (12–16), with crafts, concerts, food and candle-dipping for kids.",
+        "sources": [
+          {
+            "label": "Steinerjulemarkedet",
+            "url": "https://www.steinerjulemarkedet.no/"
+          }
+        ]
+      }
+    ]
+  }
+}
