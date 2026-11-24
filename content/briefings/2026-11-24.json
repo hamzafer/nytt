@@ -1,6 +1,48 @@
 {
   "date": "2026-11-24",
   "sections": {
+    "big-news": [
+      {
+        "emoji": "💰",
+        "text": "The state budget talks are still running on overtime: Ap and its four red-green partners (Sp, SV, MDG, Rødt) still hadn't reached a deal Monday night, with fuel taxes vs. climate cuts as the big sticking point. The final deadline for new policy is Wednesday at 10:00.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/8PmMLw/eriksen-soereide-angriper-stoere-om-budsjettforhandlingene"
+          }
+        ]
+      },
+      {
+        "emoji": "⛽",
+        "text": "Equinor has signed an 18-year deal to supply natural gas to German energy company VNG until the end of 2044, its longest gas deal in about 40 years.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/rogaland/equinor-med-gigantisk-gassavtale-med-tyske-vng-_-lengste-avtalen-siden-1986-1.18086945"
+          }
+        ]
+      },
+      {
+        "emoji": "🗂️",
+        "text": "After \"secret\" Oslo Accords papers turned up in Terje Rød-Larsen's basement storage, the National Archives (Nasjonalarkivet) will audit the Foreign Ministry's record-keeping in 2027.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/Xog12m/nasjonalarkivet-aapner-tilsyn-mot-ud-etter-roed-larsen-dokumentene"
+          }
+        ]
+      },
+      {
+        "emoji": "🇺🇦",
+        "text": "Ukraine's defence minister Jevhenij Khmara is visiting Norway and is meeting Defence Minister Tore O. Sandvik.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/2vG72x/ukrainas-forsvarsminister-jevhenij-khmara-er-i-norge"
+          }
+        ]
+      }
+    ],
     "whats-changing": [
       {
         "emoji": "🎒",
