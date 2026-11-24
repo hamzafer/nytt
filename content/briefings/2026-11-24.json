@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-24",
+  "sections": {
+    "whats-changing": [
+      {
+        "emoji": "🎒",
+        "text": "A Stortinget majority (Frp, MDG, Høyre, KrF) looks set to vote today to make delayed school start (utsatt skolestart) easier to get. The government would then have to come back with an actual proposal, so nothing changes for families just yet.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/helse/i/8PmM6E/frp-forslag-om-utsatt-skolestart-faar-flertall-paa-stortinget"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚇",
+        "text": "The next big four-day T-bane shutdowns are planned for 25–28 Feb, 26–29 Mar, 4–7 May, 1–4 Jul and 12–15 Aug 2027. The Easter one clashes with Norway vs. England at Ullevaal on 27 March, and Ruter is in talks about what to do.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/stenger-t-banen-under-norge-england-1533591"
+          }
+        ]
+      },
+      {
+        "emoji": "⛵",
+        "text": "The opening of the new Viking Age Museum (Vikingtidsmuseet) on Bygdøy has been pushed back again, from 2027 to 2028, so the old building can be fully restored. No exact date has been set yet.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/apningen-av-vikingtidsmuseet-utsatt-igjen-1533586"
+          }
+        ]
+      },
+      {
+        "emoji": "🔥",
+        "text": "Several cars burned overnight Sunday at Galgeberg and Rodeløkka. A man in his 40s has been charged, and police are investigating whether the fires are linked.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/stor-oslo/politiet-etterforsker-bilbranner-i-oslo-1.18086537"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🧊",
+        "text": "There's a yellow ice warning for parts of Nordland and southern Troms from today at 15:00 to Wednesday at 13:00, with freezing rain on roads. There are no warnings for Oslo right now.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/nb/farevarsler"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "🎶",
+        "text": "There's a free lunch concert today at 11:30, \"Skyggens sang\" (oud, double bass, percussion and clarinet), in the OsloMet Festsalen at Pilestredet 52.",
+        "sources": [
+          {
+            "label": "OsloMet",
+            "url": "https://www.oslomet.no/om/arrangement/konsert-skyggens-sang"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "The free Jul i Vinterland Christmas market at Spikersuppa is open daily (Mon–Thu 12–20, Fri 12–21) and runs until 3 January.",
+        "sources": [
+          {
+            "label": "Jul i Vinterland",
+            "url": "https://www.julivinterland.no/info/hva-er-apningstidene-pa-jul-i-vinterland"
+          }
+        ]
+      },
+      {
+        "emoji": "🚋",
+        "text": "The Christmas tram (juletrikken) gets lit at Stortorvet on Friday at 16:00, and the free Spikersuppa skating rink opens Saturday at 17:00.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "✨",
+        "text": "On Sunday there's a Sámi Christmas market at the Opera from 12:00, a Christmas tree lighting with a free workshop in Ekebergparken from 12:00, and a free folk music concert at 15:00 in MusikkRom.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          },
+          {
+            "label": "Oslo-filharmonien",
+            "url": "https://ofo.no/no/konserter/2026-11-29/tradisjon-i-bevegelse-ii"
+          }
+        ]
+      }
+    ]
+  }
+}
