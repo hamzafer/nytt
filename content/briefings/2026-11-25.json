@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-25",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "💰",
+        "text": "The state budget is at a breaking point: MDG has turned down what it says is Ap's final offer, angry that Sp's ultimatum on cheaper diesel won out over climate cuts. Ap still wants to wrap up by 10:00 today, and options range from a deal without MDG to a vote of confidence that could bring down the government.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/XogVgn/mdg-avviser-tilbudet-fra-ap-om-statsbudsjettet"
+          }
+        ]
+      },
+      {
+        "emoji": "🧾",
+        "text": "Frp's alternative 2027 budget would halve the VAT on food, cut fuel taxes and keep Norgespris (the fixed power price) at today's level. It would pay for this with 63 billion kr in cuts, including foreign aid, climate measures and NRK.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/"
+          }
+        ]
+      },
+      {
+        "emoji": "🐔",
+        "text": "The bird flu outbreak, already Norway's biggest ever, is getting worse: Mattilsynet has ordered 225,000 hens put down at a Rogaland egg producer. The risk to humans is very low, but report sick or dead birds and don't touch them.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sorlandet/fugleinfluensa-utbruddet_-mattilsynet-har-vedtatt-avliving-av-225.000-honer-1.18088031"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "💉",
+        "text": "Flu vaccination is way down: only 38% of people over 65 had their flu shot by Nov 15, compared with 58% last year. FHI warns the flu peak may come before Christmas, so GPs are urging anyone in a risk group to get vaccinated now.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/dJOA3B/influensa-faerre-vaksinerte-enn-i-fjor"
+          }
+        ]
+      },
+      {
+        "emoji": "🏠",
+        "text": "Housing construction has dropped sharply, and E24's experts say this could push prices up faster in several Norwegian cities.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/privatoekonomi/i/xJPdyR/lav-boligbygging-kan-gi-hoeyere-boligpriser-i-flere-norske-byer"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚇",
+        "text": "Fornebubanen was supposed to cost 4.5 billion kr and open in 2021, and the latest estimate is now 34.8 billion. The transport minister says the state won't add another krone, so the overrun has to be covered by Oslopakke 3, which could mean higher tolls or cut projects.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/2013-4-5-milliarder-kroner-2026-34-8-milliarder-1533841"
+          }
+        ]
+      },
+      {
+        "emoji": "🚆",
+        "text": "New T-bane trains arrive in 2027, with doors 10 cm wider (1.4 m), more room for prams and wheelchairs, and fewer seats.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/oslo/i/oMpbrg/bredere-doerer-og-faerre-sitteplasser-i-2027-kommer-de-nye-t-banevognene"
+          }
+        ]
+      },
+      {
+        "emoji": "🎟️",
+        "text": "SV in Akershus wants public transport to be free for everyone under 16. The ruling parties won't go that far, but from next year a \"kommunebillett\" means you only pay for one zone on trips within the same municipality.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/gratis-manedskort-for-unge-kan-droppe-smarttelefon-1533550"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "Thorsten Sadowsky is the new director of the Munch Museum.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/thorsten-sadowsky-er-ny-direktor-for-munch-museet-1533868"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🚧",
+        "text": "The Gjøvikbanen line is closed between Roa and Gjøvik until Sunday because of an unstable signalling system after a software update, so expect buses instead of trains.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/gjovikbanen-stengt-fram-til-sondag-1533886"
+          }
+        ]
+      },
+      {
+        "emoji": "🌤️",
+        "text": "There are no weather warnings for Oslo. The current warnings (ice and gale) are all in Nordland, Troms and Finnmark.",
+        "sources": [
+          {
+            "label": "MET",
+            "url": "https://api.met.no/weatherapi/metalerts/2.0/current.json"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "🎶",
+        "text": "There's a free lunch concert today at 12:00 with Erling With Aasgård in the Castle Church (Slottskirken) at Akershus Fortress, and a free open improv workshop in English at Chateau Neuf at 18:00.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🚋",
+        "text": "On Friday, Bondens marked (a farmers' market) is at Vinkelplassen from 11:00 and the Christmas tram (juletrikken) gets lit at Stortorvet at 16:00, both free.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "⛸️",
+        "text": "This weekend, the free Spikersuppa skating rink opens Saturday at 17:00, and there's a free Christmas market at Sentralen from 12:00. On Sunday you can choose between the Sámi Christmas market at the Opera (12:00), the tree lighting at Ekebergparken (12:00) or the one at Universitetsplassen (17:00).",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      }
+    ]
+  }
+}
