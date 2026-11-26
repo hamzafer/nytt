@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-26",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "💰",
+        "text": "Ap, SV, Sp and Rødt agreed on the 2027 state budget on Wednesday, but they don't have a majority without MDG. MDG says it hasn't broken off talks and will never back Sylvi Listhaug as PM, but wants more climate policy, and Støre says \"we'll stay in contact and see what the options are.\"",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/politikk/i/ez89dR/mdg-fortsetter-budsjettforhandlingene-med-stoere"
+          }
+        ]
+      },
+      {
+        "emoji": "✈️",
+        "text": "Norse Atlantic says its finances are critical: the stock fell 85% on Wednesday, and Luftfartstilsynet has fined it for not paying passengers what they're owed. Several flights were cancelled Wednesday and Thursday, and PIA says Norse stopped operating without warning, so if you have a Norse ticket, check its status now.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/forbruker/i/j3dR9z/norse-fly-kansellert-etter-krisevarsel"
+          }
+        ]
+      },
+      {
+        "emoji": "🕵️",
+        "text": "An NRK analysis found 118 companies in Norway owned from Russia, China or Iran, and owners in China control 96 of them.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tromsogfinnmark/118-selskaper-i-norge-er-eid-fra-russland_-kina-og-iran-1.18087656"
+          }
+        ]
+      },
+      {
+        "emoji": "👑",
+        "text": "Queen Mette-Marit joined King Haakon and Queen Sonja at Wednesday's thank-you concert in Trefoldighetskirken, after a last-minute change to the royal calendar.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/dronning-mette-marit-kommer-pa-takkekonserten-i-trefoldighetskirken-1.18088528"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "🎟️",
+        "text": "The budget deal adds 1.3 billion kr so monthly transit passes can cost 499 kr on average nationwide from spring 2027, and kids up to 13 ride free in Oslo. Diesel also gets cheaper, while the planned income tax cuts get smaller.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/sikrer-enda-billigere-manedskort-1533741"
+          },
+          {
+            "label": "E24",
+            "url": "https://e24.no/norsk-oekonomi/i/vkQokX/dette-betyr-budsjettavtalen-for-deg"
+          }
+        ]
+      },
+      {
+        "emoji": "📱",
+        "text": "From Monday, Nov 30, about 3.5 million members of faith or life-stance communities will get an SMS from the state asking them to log in to Altinn and check which community they're registered in. It's real, not a scam, and a good chance to fix a membership you never signed up for.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/oMp5Xm/regjeringen-sender-sms-til-35-millioner-nordmenn"
+          }
+        ]
+      },
+      {
+        "emoji": "🏠",
+        "text": "The government wants to let municipalities ban or limit short-term rentals like Airbnb, and the budget parties want the bill ready by September 2027.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/tromsogfinnmark/regjeringen-vil-gi-kommunene-lov-til-a-forby-eller-begrense-korttidsutleie-1.18088234"
+          }
+        ]
+      },
+      {
+        "emoji": "🛍️",
+        "text": "Before you buy in Black Week: Forbrukerrådet checked 57 popular products (including iPhones, AirPods, PlayStation and Hoka shoes), and three out of four were cheaper after last year's Black Week.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/okonomi/i/M5ROa0/tre-av-fire-produkter-ble-billigere-etter-black-week"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🐖",
+        "text": "Mattilsynet has fined Fatland slakteri in Oslo 200,000 kr over fears that a pig was boiled alive.",
+        "sources": [
+          {
+            "label": "Aftenposten",
+            "url": "https://www.aftenposten.no/norge/i/oMp5zj/slakteri-faar-bot-av-mattilsynet-frykter-gris-ble-kokt-levende"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "⚡",
+        "text": "E24 reports this is the most expensive electricity of the year, and businesses are already taking steps, so it's worth keeping an eye on your usage.",
+        "sources": [
+          {
+            "label": "E24",
+            "url": "https://e24.no/energi-og-klima/i/bk5xme/aarets-dyreste-stroem-blir-bare-verre"
+          }
+        ]
+      },
+      {
+        "emoji": "🚧",
+        "text": "The Gjøvikbanen line is still closed between Roa and Gjøvik until Sunday morning. There are no weather warnings for Oslo, and today's gale warnings are all at sea or in Finnmark.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/gjovikbanen-stengt-fram-til-sondag-1533886"
+          },
+          {
+            "label": "MET",
+            "url": "https://api.met.no/weatherapi/metalerts/2.0/current.json"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "🧗",
+        "text": "Today: free used Christmas decorations at Haraldrud recycling station from 15:00, and free Thursday bouldering with DNT ung at Friluftshuset at 18:00 (sign up first).",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "🚋",
+        "text": "Friday: Bondens marked (a farmers' market) at Vinkelplassen from 11:00, the Christmas tram lighting at Stortorvet at 16:00, and GUT PUNCH! at Sentralen at 20:00 with a free ticket.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      },
+      {
+        "emoji": "⛸️",
+        "text": "Weekend: Saturday has the free Ekebergsletta parkrun (09:30), a Christmas market at Sentralen (12:00) and the Spikersuppa skating rink opening (17:00). On Sunday there's the Sámi Christmas market at the Opera and the tree lighting in Ekebergparken (both 12:00), then the tree lighting at Universitetsplassen at 17:00.",
+        "sources": [
+          {
+            "label": "Hei Oslo",
+            "url": "https://heioslo.no/"
+          }
+        ]
+      }
+    ]
+  }
+}
