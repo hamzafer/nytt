@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-27",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "✈️",
+        "text": "Norse Atlantic is fighting to avoid bankruptcy: staff haven't been paid, the board says it will file for bankruptcy if short-term funding isn't secured right away, and today's Oslo–Phuket flight is cancelled too. NRK's tips: check your flight before heading to the airport, don't book new Norse tickets now, and if you paid by credit card you can claim the money back from the card issuer.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sorlandet/kriserammede-norse-kansellerer-avganger-1.18088857"
+          },
+          {
+            "label": "ABC Nyheter",
+            "url": "https://www.abcnyheter.no/nyheter/dette-skjer-i-dag/1746291"
+          }
+        ]
+      },
+      {
+        "emoji": "👑",
+        "text": "Queen Sonja has a new art exhibition at the Khåk gallery in Ålesund, almost all of it made this year and never shown before. It opens to invited guests today and to everyone on Sunday.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/mr/dronning-sonja-stiller-ut-kunsten-sin-pa-galleriet-khak-i-alesund-1.18088170"
+          }
+        ]
+      },
+      {
+        "emoji": "📚",
+        "text": "Remi Skytterstad became the first debut author to win the Brage Prize for fiction, with «Elva som renner rundt livet», a novel about Sámi lives and Norwegianisation around the Tana river.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/sapmi/debutant-remi-skytterstad-vant-brageprisen_-_-historisk-1.18088898"
+          }
+        ]
+      },
+      {
+        "emoji": "🇸🇪",
+        "text": "Next door, Sweden looks set for a new centre-right government: the Centre Party backed Ulf Kristersson, and the Speaker puts him forward as PM again today.",
+        "sources": [
+          {
+            "label": "ABC Nyheter",
+            "url": "https://www.abcnyheter.no/nyheter/dette-skjer-i-dag/1746291"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "💉",
+        "text": "The winter flu outbreak has started and COVID is rising too, says FHI, with around 230–240 people already in hospital with flu. If you're in a recommended group (65+, chronic illness, pregnant in 2nd–3rd trimester), get vaccinated now; pharmacies offer drop-in.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/influensautbrotet-er-i-gang-ikkje-for-seint-a-bli-vaksinert-for-jul-1.18089314"
+          }
+        ]
+      },
+      {
+        "emoji": "🚆",
+        "text": "The full Vestfoldbanen opening is delayed another week. From Sunday, Nov 29 only the last three trains each way run; otherwise it's still bus-for-train between Stokke and Asker, and Vy has no plans to compensate.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/vestfoldogtelemark/apning-av-vestfoldbanen-utsettes-igjen-1.18087518"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🏢",
+        "text": "Public vote: the D-block of the new government quarter was named the year's ugliest new building by Arkitekturopprøret, beating a Grimstad hotel by just eight votes.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/folket-har-talt-d-blokka-karet-til-arets-styggeste-nybygg-1.18088198"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🌡️",
+        "text": "No weather warnings for Oslo on Yr: cold and grey through Saturday (around −2° to 2°), then milder with some rain from Sunday and up to 8° next week.",
+        "sources": [
+          {
+            "label": "Yr",
+            "url": "https://www.yr.no/nb/innhold/1-72837/table.html"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "🎶",
+        "text": "Today: free lunchtime Advent concert at Gamle Raadhus Scene (12:00), and Highasakite play Trefoldighetskirken at 18:00.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/hva-skjer"
+          }
+        ]
+      },
+      {
+        "emoji": "🎁",
+        "text": "Weekend Christmas markets, all free: Kirkeristen (Fri–Sat 11–18, Sun 12–17), Sentralen (Sat–Sun 12–17), Grafill's illustrator and design market in Møllergata (Sat–Sun 12–17) and Gamlebyen Loft (Sun 12–16).",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/kirkeristen-christmas-market"
+          },
+          {
+            "label": "Grafill",
+            "url": "https://www.grafill.no/grafillshus/kalender/grafills-julemarked-2026"
+          },
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/event/old-town-christmas-market"
+          }
+        ]
+      },
+      {
+        "emoji": "🎄",
+        "text": "Sunday is the first Sunday of Advent, so trees light up across the city for free: Ekebergparken at 15:10 (kids' workshop from 12:00), Grefsenkollen and Frognerparken at 16:00, and the big one at Universitetsplassen at 17:00.",
+        "sources": [
+          {
+            "label": "Ekebergparken",
+            "url": "https://ekebergparken.com/en/whats-on/julegrantenning"
+          },
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/christmas-tree-lighting-at-the-university-square"
+          }
+        ]
+      }
+    ]
+  }
+}
