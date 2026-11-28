@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-28",
+  "sections": {
+    "big-news": [
+      {
+        "emoji": "✈️",
+        "text": "It's over for Norse: the Norwegian operating company Norse Atlantic Airways AS filed for bankruptcy on Friday after its lessors cancelled the leases on all 12 planes. All Norse flights are cancelled and ticket sales are stopped; the listed parent and UK subsidiary are still trying to save what's left.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/norse-varsler-konkurs-1534158"
+          }
+        ]
+      },
+      {
+        "emoji": "🏛️",
+        "text": "The 2027 budget still has no majority: Ap's Tonje Brenna met MDG's Ingrid Liland on Friday and says \"the contact is good,\" but there's still distance. The finance committee delivers its recommendation on Monday and the final vote is Dec 7.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/nyheter/brenna-om-mdg-samtaler_-__kontakten-er-god-1.18089756"
+          }
+        ]
+      },
+      {
+        "emoji": "🚜",
+        "text": "Sp leader Vedum calls Frp's alternative budget, with 3.5 billion kr in farm-support cuts and an end to CO₂ compensation for fishers, \"a declaration of war on Norwegian food production,\" and says he won't switch sides.",
+        "sources": [
+          {
+            "label": "VG",
+            "url": "https://www.vg.no/nyheter/i/bk59re/trygve-slagsvold-vedum-dette-er-en-krigserklaering-mot-norsk-matproduksjon"
+          }
+        ]
+      }
+    ],
+    "whats-changing": [
+      {
+        "emoji": "⛽",
+        "text": "The budget deal between Ap, SV, Sp and Rødt cuts diesel by 1.25 kr per litre compared with the government's proposal and includes a national monthly public transport pass for 499 kr. Nothing is final until the Dec 7 vote.",
+        "sources": [
+          {
+            "label": "Dagbladet",
+            "url": "https://www.dagbladet.no/nyheter/moter-ap-til-nye-samtaler/85478832"
+          },
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/kilder-til-nrk-liland-og-brenna-motes-1534196"
+          }
+        ]
+      },
+      {
+        "emoji": "🥤",
+        "text": "The Monster Energy recall has grown to 17 variants: Normal is now recalling six 500 ml flavours (including Green, Ultra White Zero and Juiced Mango Loco) because they contain a substance not allowed in Norway. Don't drink them; bin them or return them to the shop for a refund.",
+        "sources": [
+          {
+            "label": "Mattilsynet",
+            "url": "https://www.mattilsynet.no/tilbakekallinger/tilbakekalling-av-monster-energy-utvides-normal-tilbakekaller-seks-varianter"
+          }
+        ]
+      },
+      {
+        "emoji": "💉",
+        "text": "Flu season is officially here and COVID is rising too, says FHI. People in the recommended groups (65+, chronic illness, pregnant in the 2nd–3rd trimester) should get vaccinated now; pharmacies offer drop-in.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/influensautbrotet-er-i-gang-ikkje-for-seint-a-bli-vaksinert-for-jul-1.18089314"
+          }
+        ]
+      }
+    ],
+    "oslo": [
+      {
+        "emoji": "🚇",
+        "text": "The T-bane is back to normal after the big Nov 19–22 shutdown, so no rail-replacement buses this weekend.",
+        "sources": [
+          {
+            "label": "Ruter",
+            "url": "https://www.mynewsdesk.com/no/ruter/pressreleases/slik-gikk-t-banestengningen-3483659"
+          }
+        ]
+      },
+      {
+        "emoji": "🏢",
+        "text": "The public voted the D-block in the new government quarter Norway's ugliest new building of the year, beating a Grimstad hotel by just eight votes.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/folket-har-talt-d-blokka-karet-til-arets-styggeste-nybygg-1.18088198"
+          }
+        ]
+      }
+    ],
+    "be-aware": [
+      {
+        "emoji": "🧊",
+        "text": "Slippery weekend ahead: snow showers today, then snow turning to sleet and rain on Sunday, with a risk of freezing rain in Eastern Norway. Mild weather around 6–7° arrives Monday. Wear good shoes or ice grips, and expect convoy driving over the mountains on Sunday because of a yellow warning for snowdrift.",
+        "sources": [
+          {
+            "label": "NRK",
+            "url": "https://www.nrk.no/artikkel/meteorologen-advarer-om-mildvar-det-blir-glatt-1534182"
+          },
+          {
+            "label": "Dagbladet",
+            "url": "https://www.dagbladet.no/nyheter/snur-over-hele-landet/85476827"
+          }
+        ]
+      }
+    ],
+    "fun-and-free": [
+      {
+        "emoji": "🎄",
+        "text": "Julemarked på Sentralen (Øvre Slottsgate 3): handmade, locally made gifts, Sat and Sun 12–17, free.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/christmas-market-at-sentralen"
+          }
+        ]
+      },
+      {
+        "emoji": "⭐",
+        "text": "Christmas market at Grünerhaven on Grünerløkka with local stalls, food and hot cocoa; the Christmas star is lit Saturday at 16:00. Sat 12–18, Sun 12–16, free.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/christmas-marked"
+          }
+        ]
+      },
+      {
+        "emoji": "🕯️",
+        "text": "The classic Steiner School Christmas market at Hovseter, with concerts, candle-dipping and a carousel for kids: Sat 11–17, Sun 12–16, free.",
+        "sources": [
+          {
+            "label": "VisitOSLO",
+            "url": "https://www.visitoslo.com/no/event/the-christmas-market-at-the-steiner-school"
+          }
+        ]
+      },
+      {
+        "emoji": "🎨",
+        "text": "Grafill's Christmas market (Møllergata 39): buy prints, comics and ceramics straight from illustrators and designers, Sat and Sun 12–17, free.",
+        "sources": [
+          {
+            "label": "Grafill",
+            "url": "https://www.grafill.no/grafillshus/kalender/grafills-julemarked-2026"
+          }
+        ]
+      },
+      {
+        "emoji": "🦌",
+        "text": "Sámi Christmas market in the Opera foyer on Sunday from 12:00, open to everyone (the evening concert is sold out).",
+        "sources": [
+          {
+            "label": "Operaen",
+            "url": "https://www.operaen.no/forestillinger/samisk-jul-med-kajsa-balto-og-frode-fjellheim-konsert/"
+          }
+        ]
+      }
+    ]
+  }
+}
